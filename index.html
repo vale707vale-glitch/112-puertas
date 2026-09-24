@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>112 Puertas - Meditaciones para volver al presente</title>
+<meta name="description" content="112 puertas de meditacion inspiradas en el Vigyan Bhairava Tantra. Practica diaria, cartas, temporizador y diario.">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2C3E50">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{
+  --azul:#2C3E50; --menta:#27AE60; --menta-d:#219653; --beige:#F5F5DC; --coral:#FF6B65;
+  --lavanda:#B39DDB; --ambar:#F39C12; --gris-c:#ECF0F1; --gris-m:#BDC3C7;
+  --bg:#FBFAF5; --card:#FFFFFF; --text:#2C3E50; --muted:#7F8C8D; --line:#ECF0F1;
+  --practice-bg:#1a252f; --shadow:0 2px 12px rgba(0,0,0,.06); --r:16px;
+}
+[data-theme="dark"]{
+  --bg:#14181d; --card:#1e252d; --text:#f2f4f4; --muted:#9aa5ad; --line:#2c3843;
+  --beige:#14181d; --shadow:0 4px 20px rgba(0,0,0,.4);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.poet{font-family:'Georgia','Times New Roman',serif;font-style:italic}
+.app{max-width:520px;margin:0 auto;min-height:100vh;background:var(--bg);position:relative;padding-bottom:86px}
+header.top{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:14px 16px;background:var(--bg);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px}
+.brand .door{width:36px;height:36px;border-radius:10px;background:var(--azul);color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px}
+[data-theme="dark"] .brand .door{background:var(--menta)}
+.hbtn{border:1px solid var(--line);background:var(--card);color:var(--text);width:40px;height:40px;border-radius:50%;font-size:18px;cursor:pointer}
+main{padding:16px 16px 24px}
+.screen{display:none;animation:fade .25s ease}
+.screen.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h1{font-size:28px;font-weight:300;line-height:1.2;margin:6px 0 8px}
+.sub{color:var(--muted);font-size:15px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:18px;margin-bottom:14px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:15px;border-radius:12px;border:none;font-size:16px;font-weight:600;cursor:pointer;margin-top:10px}
+.btn-p{background:var(--menta);color:#fff}.btn-p:hover{background:var(--menta-d)}
+.btn-s{background:transparent;color:var(--text);border:1px solid var(--gris-m)}
+.btn-coral{background:var(--coral);color:#fff;border:none}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.need{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:16px 10px;text-align:center;cursor:pointer;font-size:14px}
+.need:hover{border-color:var(--menta)}.need .e{font-size:26px;display:block;margin-bottom:6px}
+.need.on{border-color:var(--menta);background:rgba(39,174,96,.1)}
+input[type=search],input[type=time],select,textarea{width:100%;padding:13px;border-radius:10px;border:1px solid var(--gris-m);background:var(--card);color:var(--text);font-size:15px;margin-bottom:10px}
+@media(max-width:560px){input[type=search],input[type=time],select,textarea{font-size:16px}}
+textarea{min-height:80px;resize:vertical}
+.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:8px}
+.chip{white-space:nowrap;border:1px solid var(--line);background:var(--card);color:var(--text);padding:8px 14px;border-radius:20px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--azul);color:#fff;border-color:var(--azul)}
+[data-theme="dark"] .chip.on{background:var(--menta);border-color:var(--menta)}
+.tcard{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:14px;cursor:pointer}
+.tcard:hover{border-color:var(--menta)}
+.tnum{font-size:12px;color:var(--menta);font-weight:700}
+.tt{font-weight:600;font-size:15px;margin:4px 0 8px;line-height:1.35}
+.tag{font-size:11px;background:var(--gris-c);color:var(--azul);padding:3px 9px;border-radius:10px;margin-right:5px}
+[data-theme="dark"] .tag{background:#2c3843;color:#cfd8dc}
+.rowbits{display:flex;gap:8px;margin-top:8px}
+.mini{flex:1;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px;font-size:13px;cursor:pointer;color:var(--text)}
+.mini.fav-on{border-color:var(--coral);color:var(--coral)}
+.kv{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+ol.pasos{margin:8px 0 8px 20px;line-height:1.6;font-size:15px}ol.pasos li{margin-bottom:8px}
+.sect{font-weight:700;margin:18px 0 8px;color:var(--azul);font-size:15px}
+[data-theme="dark"] .sect{color:var(--menta)}
+.practice{background:var(--practice-bg);color:#fff;border-radius:20px;padding:28px 20px;text-align:center}
+.breath{width:170px;height:170px;border-radius:50%;margin:18px auto;border:2px solid var(--menta);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:200;animation:breathe 8s infinite ease-in-out;background:radial-gradient(circle,rgba(39,174,96,.25),transparent)}
+@keyframes breathe{0%,100%{transform:scale(.85);opacity:.75}50%{transform:scale(1.12);opacity:1}}
+.timer{font-size:52px;font-weight:200;letter-spacing:2px}
+.tctl{display:flex;gap:14px;justify-content:center;margin:18px 0}
+.tctl button{width:60px;height:60px;border-radius:50%;border:1px solid #ffffff55;background:#ffffff14;color:#fff;font-size:22px;cursor:pointer}
+.tctl .go{background:var(--menta);border:none}
+input[type=range]{width:100%}
+nav.tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,1fr);padding:8px 4px calc(8px + env(safe-area-inset-bottom));z-index:60}
+nav.tabs button{background:none;border:none;color:var(--muted);font-size:11px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px}
+nav.tabs button.on{color:var(--menta)}
+nav.tabs .ic{font-size:21px}
+.dots{display:grid;grid-template-columns:repeat(14,1fr);gap:6px;margin:12px 0}
+.dot{aspect-ratio:1;border-radius:50%;background:var(--gris-c);font-size:0;cursor:pointer;border:none}
+[data-theme="dark"] .dot{background:#2c3843}
+.dot.done{background:var(--menta)}
+.dot.today{outline:2px solid var(--coral);outline-offset:2px}
+.plant{font-size:64px;text-align:center;margin:10px 0}
+.fab{position:fixed;bottom:96px;right:calc(50% - 260px + 16px);width:56px;height:56px;border-radius:50%;background:var(--coral);color:#fff;border:none;font-size:24px;cursor:pointer;box-shadow:0 4px 12px rgba(255,107,101,.4);z-index:55}
+@media(max-width:560px){.fab{right:16px}}
+.note{background:rgba(179,157,219,.15);border-left:4px solid var(--lavanda);padding:12px;border-radius:0 10px 10px 0;font-size:13px;color:var(--muted);margin:12px 0}
+.block-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.block-card{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:16px;cursor:pointer;border-left:4px solid var(--menta)}
+.block-card:hover{border-color:var(--menta)}
+.block-card .br{font-size:11px;color:var(--muted)}
+.block-card .bt{font-weight:700;font-size:15px;margin:4px 0;line-height:1.3}
+.block-card .bd{font-size:12px;color:var(--muted);line-height:1.4}
+.block-card .bc{font-size:12px;color:var(--menta);font-weight:600;margin-top:6px}
+.slider-row{margin:12px 0}
+.slider-row .lab{display:flex;justify-content:space-between;font-size:14px;margin-bottom:4px}
+.onb-opt{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+#dim{position:fixed;inset:0;background:#000;z-index:200;display:none;flex-direction:column;align-items:center;justify-content:center;color:#fff;padding:24px;text-align:center}
+#dim.on{display:flex}
+#dim .timer{font-size:64px;font-weight:200}
+body.singoal .goalhide{display:none!important}
+.hidden{display:none!important}
+.diary-e{border-bottom:1px solid var(--line);padding:12px 0;font-size:14px}
+.diary-e small{color:var(--muted)}
+.esttag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;margin-left:6px}
+.est-nueva{background:var(--gris-c);color:var(--muted)}
+.est-probando{background:rgba(243,156,18,.18);color:var(--ambar)}
+.est-mia{background:rgba(39,174,96,.15);color:var(--menta-d)}
+details.faq{border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;background:var(--card)}
+details.faq summary{font-weight:600;cursor:pointer;font-size:15px}
+details.faq p{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.55}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+  <div class="brand"><span class="door">&#128682;</span> 112 Puertas</div>
+  <div><button class="hbtn" id="themeBtn" title="Claro / oscuro">&#127769;</button></div>
+</header>
+<main>
+<!-- HOY -->
+<section class="screen on" id="s-hoy">
+  <div id="onb" class="card hidden">
+    <div id="onbBody"></div>
+  </div>
+  <button class="btn btn-s hidden" id="restartOnb" style="margin-bottom:14px">&larr; Volver al inicio</button>
+  <h1 id="saludo">Hoy solo estas aqui.</h1>
+  <p class="sub poet" id="frase">"Cada instante puede convertirse en una puerta."</p>
+  <div class="card" id="puertaHoy"></div>
+  <div class="card">
+    <strong>&#128591; Necesito algo ahora</strong>
+    <p class="sub" style="margin:6px 0 12px">Elige como estas o escribelo. Te acerco 3 puertas.</p>
+    <div class="grid2" id="needs"></div>
+    <input type="search" id="preg" placeholder="Siento ansiedad, no puedo dormir... (opcional)" style="margin-top:10px">
+    <button class="btn btn-s" id="pregGo">Escuchar respuesta</button>
+    <div id="sug"></div>
+  </div>
+</section>
+<!-- EXPLORAR -->
+<section class="screen" id="s-exp">
+  <h1>Explorar puertas</h1>
+  <p class="sub">Por perfiles, familias o categorias.</p>
+  <div id="expBlocks">
+    <div class="sect" style="margin-top:0">Perfiles</div>
+    <div class="filters" id="perfRow"></div>
+    <div class="sect" style="margin-top:14px">Familias de Osho (mapa original)</div>
+    <div id="famGrid"></div>
+    <div class="sect" style="margin-top:14px">Categorias</div>
+    <div id="catGrid"></div>
+  </div>
+  <div id="expList" class="hidden">
+    <button class="btn btn-s" id="backBlocks">&larr; Explorar</button>
+    <div style="height:10px"></div>
+    <div id="listTitle" class="sub" style="margin:4px 0 10px"></div>
+    <input type="search" id="q" placeholder="Buscar: respiracion, sueno, mirada...">
+    <div class="filters" id="fcat"></div>
+    <div class="grid2" id="lista"></div>
+  </div>
+</section>
+<!-- DETALLE -->
+<section class="screen" id="s-det">
+  <button class="btn btn-s" id="backDet">&larr; Volver</button>
+  <div id="detalle" style="margin-top:12px"></div>
+</section>
+<!-- PRACTICA -->
+<section class="screen" id="s-pra">
+  <button class="btn btn-s" data-go="s-det">&larr; Salir</button>
+  <div class="practice" style="margin-top:12px">
+    <div style="font-size:13px;opacity:.8" id="praNum">Puerta 1</div>
+    <h2 id="praTit" style="font-weight:400;margin:6px 0">-</h2>
+    <div class="breath"><span class="timer" id="timer">05:00</span></div>
+    <p class="poet" id="praGuia" style="min-height:48px">Vuelve suavemente, una y otra vez.</p>
+    <div style="display:flex;gap:8px;justify-content:center;margin-bottom:8px;flex-wrap:wrap">
+      <select id="dur" style="width:auto;margin:0;background:#ffffff14;color:#fff;border:1px solid #ffffff44">
+        <option value="60">1 min</option><option value="300" selected>5 min</option>
+        <option value="600">10 min</option><option value="1200">20 min</option>
+      </select>
+      <button class="mini" id="vozBtn" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">&#128483; Guia por voz</button>
+    </div>
+    <div class="tctl">
+      <button id="tReset" title="Reiniciar">&#8635;</button>
+      <button id="tGo" class="go" title="Iniciar / pausar">&#9654;</button>
+      <button id="tEnd" title="Finalizar">&#10003;</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+      <button class="mini" id="intBtn" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">&#128276; Intervalos: on</button>
+      <button class="mini" id="dimBtn" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">&#127769; Sin pantalla</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:8px;flex-wrap:wrap">
+      <button class="mini" id="marBtn" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">&#127754; Mar: off</button>
+      <button class="mini" id="natBtn" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">&#127795; Naturaleza: off</button>
+    </div>
+  </div>
+</section>
+<!-- CARTAS -->
+<section class="screen" id="s-car">
+  <h1>Carta del dia</h1>
+  <p class="sub">Saca una puerta al azar. Colecciona las que practiques.</p>
+  <div class="card" id="carta" style="text-align:center"></div>
+  <button class="btn btn-s" id="otraCarta">&#127922; Sacar otra</button>
+</section>
+<!-- DIARIO -->
+<section class="screen" id="s-dia">
+  <h1>Diario interior</h1>
+  <p class="sub poet">No estas acumulando logros. Estas aprendiendo a regresar.</p>
+  <div class="card">
+    <div class="kv" id="antesBtns"></div>
+    <div class="slider-row"><div class="lab"><span>Calma</span><span id="vCalma">5/10</span></div><input type="range" id="rCalma" min="1" max="10" value="5"></div>
+    <div class="slider-row"><div class="lab"><span>Claridad</span><span id="vClar">5/10</span></div><input type="range" id="rClar" min="1" max="10" value="5"></div>
+    <div class="slider-row"><div class="lab"><span>Energia</span><span id="vEner">5/10</span></div><input type="range" id="rEner" min="1" max="10" value="5"></div>
+    <textarea id="nota" placeholder="Algo que destacar? (opcional)"></textarea>
+    <button class="btn btn-p" id="guardarDia">Guardar en mi diario</button>
+    <button class="btn btn-s" id="omitir">Omitir por ahora</button>
+  </div>
+  <div class="card"><strong>Estadisticas suaves</strong><div id="stats" class="sub" style="margin-top:8px"></div></div>
+  <div class="card"><strong>Entradas</strong><div id="entradas"></div></div>
+</section>
+<!-- PROGRAMA -->
+<section class="screen" id="s-pro">
+  <h1>112 dias, 112 puertas</h1>
+  <p class="sub">Un dia, una puerta. Sin rachas agresivas.</p>
+  <div class="card" style="text-align:center">
+    <div class="goalhide" style="font-size:26px;font-weight:700" id="progNum">0 / 112</div>
+    <div class="plant" id="planta">&#127793;</div>
+    <div class="sub" id="progTxt"></div>
+    <button class="btn btn-s" id="goalBtn">&#127769; Modo sin objetivo: off</button>
+  </div>
+  <div class="card goalhide"><strong>Mapa de puertas</strong><div class="dots" id="dots"></div></div>
+</section>
+<!-- MAS: que es esto + estados + faq -->
+<section class="screen" id="s-mas">
+  <h1>Qué es esto</h1>
+  <p class="sub poet">112 puertas de meditación inspiradas en el Vigyan Bhairava Tantra, un texto antiguo de 112 técnicas de conciencia.</p>
+  <div class="card">
+    <strong>&#128682; Cómo se usa</strong>
+    <p class="sub" style="margin:8px 0 0;line-height:1.6">1. Abre la puerta del día o elige según lo que necesites.<br>2. Practica con el temporizador, con voz o en silencio.<br>3. Registra en el diario y vuelve mañana.<br><br>Cada puerta se juega <strong>3 días</strong>: si hay afinidad pasa a <em>probando</em>. Quédate solo con ella <strong>3 meses</strong> hasta volverla <em>mi práctica</em>, como dice Osho.</p>
+  </div>
+    <div class="card">
+      <strong>&#127793; Mis estados</strong>
+      <div id="masEstados" class="sub" style="margin-top:8px"></div>
+      <div id="masMias" style="margin-top:8px"></div>
+    </div>
+    <div class="card">
+      <strong>&#128276; Recordatorio diario</strong>
+      <p class="sub" style="margin:8px 0 0">Te avisa tu puerta del día a la hora elegida. Suena al abrir la app pasada esa hora (sin servidor no puede sonar con la app cerrada).</p>
+      <div style="display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap">
+        <button class="mini" id="remBtn">Recordatorio: off</button>
+        <input type="time" id="remHora" value="08:00" style="width:auto">
+      </div>
+    </div>
+  <div class="card">
+    <strong>&#10067; Dudas frecuentes</strong>
+    <div style="height:10px"></div>
+    <details class="faq"><summary>¿Necesito experiencia previa?</summary><p>No. Empieza por la puerta del día o por "Necesito algo ahora". Si una puerta no te dice nada en 3 días, suéltala y prueba otra.</p></details>
+    <details class="faq"><summary>¿Cuánto tiempo practico?</summary><p>Entre 1 y 20 minutos. Un minuto consciente vale más que media hora forzada. El temporizador ofrece 1, 5, 10 y 20.</p></details>
+    <details class="faq"><summary>¿Qué puerta elijo?</summary><p>La del día o una de "Necesito algo ahora", donde puedes elegir una emoción o escribir cómo estás. No hay orden obligatorio.</p></details>
+    <details class="faq"><summary>¿Cuántos días pruebo cada puerta?</summary><p>Osho dice: juega con un método al menos tres días. Si sientes afinidad, si algo hace click, quédate solo con ese y olvida los demás por al menos tres meses. Por eso la app te marca "probando" a los 3 días: es la señal de afinidad, no la meta final.</p></details>
+    <details class="faq"><summary>¿Y si me distraigo todo el tiempo?</summary><p>Es lo normal. Distraerse y volver, eso es la práctica. Cada regreso cuenta.</p></details>
+    <details class="faq"><summary>¿Debo forzar la respiración?</summary><p>No. Nunca fuerces ni retengas más allá de lo cómodo. Si hay incomodidad, vuelve a lo natural.</p></details>
+    <details class="faq"><summary>¿Voz guiada o silencio?</summary><p>La voz lee la instrucción paso a paso. El silencio con campanas es para cuando ya conoces la puerta. Prueba ambos.</p></details>
+    <details class="faq"><summary>¿Qué es el modo sin objetivo?</summary><p>Oculta contadores y mapa para practicar sin medirte. Está en la pantalla Programa.</p></details>
+    <details class="faq"><summary>¿Estos textos son de Osho?</summary><p>No. Son paráfrasis e inspiraciones propias a partir de sus comentarios al Libro de los Secretos. Nada es cita literal.</p></details>
+    <details class="faq"><summary>¿Funciona sin internet?</summary><p>Sí. La app se instala y funciona offline una vez cargada la primera vez.</p></details>
+  </div>
+</section>
+</main>
+<button class="fab" id="pausa" title="Pausa sagrada (30 seg)">&#10074;&#10074;</button>
+<nav class="tabs">
+  <button data-go="s-hoy" class="on"><span class="ic">&#127780;</span>Hoy</button>
+  <button data-go="s-exp"><span class="ic">&#128269;</span>Explorar</button>
+  <button data-go="s-car"><span class="ic">&#127922;</span>Cartas</button>
+  <button data-go="s-dia"><span class="ic">&#128211;</span>Diario</button>
+  <button data-go="s-pro"><span class="ic">&#128682;</span>Programa</button>
+  <button data-go="s-mas"><span class="ic">&#10067;</span>Más</button>
+</nav>
+</div>
+<div id="dim"><div class="timer" id="dimTimer">05:00</div><p class="poet" id="dimGuia" style="margin:12px;opacity:.8"></p><button class="btn btn-s" id="dimOff" style="width:auto;padding:12px 28px">Volver</button></div>
+<script src="meditaciones.js"></script>
+<script>
+const M = window.MEDITACIONES || [];
+const store = Object.assign({favs:[],diario:[],done:{},estados:{},onb:false,theme:"light",perfil:null,intervalos:true,singoal:false}, JSON.parse(localStorage.getItem("puertas112") || '{}'));
+function save(){ localStorage.setItem("puertas112", JSON.stringify(store)); }
+document.documentElement.dataset.theme = store.theme || "light";
+if(store.singoal) document.body.classList.add("singoal");
+const ONB_STEPS=[
+ {k:"obj",t:"¿Qué buscas hoy?",opts:[["calma","&#129496;","Calma"],["claridad","&#128161;","Claridad"],["energia","&#9889;","Energia"],["dormir","&#128564;","Dormir"],["ansiedad","&#127758;","Ansiedad"],["amor","&#10084;","Amor"]]},
+ {k:"tiempo",t:"¿Cuánto tiempo tienes?",opts:[["60","1&#8242;","Un minuto"],["300","5&#8242;","Cinco"],["600","10&#8242;","Diez"],["1200","20&#8242;","Veinte"]]},
+ {k:"formato",t:"¿Cómo prefieres practicar?",opts:[["audio","&#128266;","Audio guiado"],["texto","&#128214;","Texto"],["silencio","&#129323;","Silencio"]]}];
+let onbIdx=0; const onbSel={};
+function renderOnb(){
+ const s=ONB_STEPS[onbIdx];
+ document.getElementById("onbBody").innerHTML='<div class="tnum">PASO '+(onbIdx+1)+' DE 3</div><h1 style="font-size:22px">'+s.t+'</h1><div class="onb-opt">'+s.opts.map(o=>'<div class="need" data-v="'+o[0]+'"><span class="e">'+o[1]+'</span>'+o[2]+'</div>').join("")+'</div>'+(onbIdx>0?'<button class="btn btn-s" id="onbBack">&larr; Atrás</button>':"");
+ document.querySelectorAll("#onbBody .need").forEach(d=>d.onclick=()=>{ onbSel[s.k]=d.dataset.v; if(onbIdx<2){ onbIdx++; renderOnb(); } else finishOnb(); });
+ const bb=document.getElementById("onbBack"); if(bb) bb.onclick=()=>{ onbIdx--; renderOnb(); };
+}
+function finishOnb(){
+  store.onb=true; store.perfil=onbSel; store.intervalos=(onbSel.formato!=="silencio"); save();
+  document.getElementById("onb").classList.add("hidden");
+  document.getElementById("restartOnb").classList.remove("hidden");
+  document.getElementById("dur").value=onbSel.tiempo;
+  document.getElementById("intBtn").innerHTML="&#128276; Intervalos: "+(store.intervalos?"on":"off");
+  const ni=NEEDS.findIndex(n=>n[0]===onbSel.obj);
+  if(ni>=0){ [...nd.children].forEach(c=>c.classList.remove("on")); nd.children[ni].classList.add("on"); curNeed=onbSel.obj; sug(); }
+  window.scrollTo(0,0);
+}
+if(!store.onb){ document.getElementById("onb").classList.remove("hidden"); renderOnb(); }
+else { document.getElementById("restartOnb").classList.remove("hidden"); }
+document.getElementById("restartOnb").onclick=()=>{ onbIdx=0; document.getElementById("onb").classList.remove("hidden"); document.getElementById("restartOnb").classList.add("hidden"); renderOnb(); window.scrollTo(0,0); };
+document.getElementById("themeBtn").onclick = ()=>{ store.theme = document.documentElement.dataset.theme==="light"?"dark":"light"; document.documentElement.dataset.theme=store.theme; save(); };
+// Estados por puerta: nueva -> probando (1-2 dias) -> mia (3+ dias, regla de 3 dias)
+const ESTL={nueva:["Nueva","est-nueva"],probando:["Probando","est-probando"],mia:["Mi práctica","est-mia"]};
+function estDe(n){ const e=(store.estados||{})[n]; return e&&e.estado?{dias:e.dias||0,estado:e.estado,inicio:e.inicio||null}:{dias:0,estado:"nueva",inicio:null}; }
+function regPractica(n){
+  store.estados=store.estados||{};
+  const e=estDe(n); e.dias=(e.dias||0)+1;
+  const h=new Date().toISOString().slice(0,10);
+  if(!e.inicio) e.inicio=h;
+  if(e.estado!=="mia"){
+    const tresMeses=(Date.parse(h)-Date.parse(e.inicio))/864e5>=90;
+    if(e.dias>=3&&tresMeses) e.estado="mia";
+    else if(e.dias>=1) e.estado="probando";
+    else e.estado="nueva";
+  }
+  store.estados[n]=e; save();
+}
+function setEstado(n,estado){
+  store.estados=store.estados||{};
+  const e=estDe(n); e.estado=estado;
+  if(estado==="nueva"){ e.dias=0; e.inicio=null; }
+  if(estado==="mia"&&(e.dias||0)<3) e.dias=3;
+  store.estados[n]=e; save();
+}
+function renderMas(){
+  const c={nueva:0,probando:0,mia:0}; M.forEach(m=>{c[estDe(m.num).estado]++;});
+  document.getElementById("masEstados").textContent="Nuevas: "+c.nueva+" · Probando: "+c.probando+" · Mi práctica: "+c.mia;
+  const mias=M.filter(m=>estDe(m.num).estado==="mia");
+  document.getElementById("masMias").innerHTML=mias.length?mias.map(m=>'<div class="tcard" data-mia="'+m.num+'" style="margin-top:8px"><div class="tnum">'+m.num+' · '+CATN[m.categoria]+'</div><div class="tt">'+m.titulo+'</div></div>').join(""):'<p class="sub">Aún ninguna. Practica una puerta 3 días y llega sola.</p>';
+  document.querySelectorAll("[data-mia]").forEach(t=>t.onclick=()=>openDet(M[+t.dataset.mia-1]));
+}
+function go(id){ try{ if(id!=="s-pra"&&"speechSynthesis" in window) speechSynthesis.cancel(); }catch(e){} try{ if(id!=="s-pra"){ marStop(); natStop(); } }catch(e){} hablando=false; const vb=document.getElementById("vozBtn"); if(vb) vb.innerHTML="&#128483; Guia por voz"; document.querySelectorAll(".screen").forEach(s=>s.classList.remove("on")); document.getElementById(id).classList.add("on"); document.querySelectorAll("nav.tabs button").forEach(b=>b.classList.toggle("on", b.dataset.go===id)); window.scrollTo(0,0); if(id==="s-exp") showBlocks(); if(id==="s-mas") renderMas(); }
+document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
+const CATN = {respiracion:"Respiracion",cuerpo:"Cuerpo",mente:"Mente",mirada:"Mirada",sonido:"Sonido",corazon:"Corazon",vacio:"Vacio",cotidiano:"Cotidiano",centramiento:"Centro"};
+const NEEDS = [["calma","&#129496;","Calma"],["claridad","&#128161;","Claridad"],["energia","&#9889;","Energia"],["dormir","&#128564;","Dormir"],["ansiedad","&#127758;","Ansiedad"],["amor","&#10084;","Amor"]];
+const NEEDMAP = {calma:["respiracion","vacio","sonido"],claridad:["mente","mirada"],energia:["cuerpo","centramiento"],dormir:["respiracion","vacio"],ansiedad:["respiracion","mente"],amor:["corazon","cotidiano"]};
+let cur = null, curNeed = null, hablando = false;
+// Puerta del dia
+function dayIdx(){ const n=new Date(); const s=new Date(n.getFullYear(),0,0); return Math.floor((n-s)/864e5); }
+const hoy = M[dayIdx()%M.length];
+document.getElementById("puertaHoy").innerHTML =
+  '<div class="tnum">PUERTA DEL DIA - N.'+hoy.num+'</div><div class="tt" style="font-size:19px">'+hoy.titulo+'</div>'+
+  '<p class="sub poet">'+hoy.esencial+'</p>'+
+   '<div class="kv"><span class="tag">'+CATN[hoy.categoria]+'</span><span class="tag">'+hoy.momento+'</span></div>'+
+  '<button class="btn btn-p" id="hoyGo">Abrir puerta de hoy</button>';
+document.getElementById("hoyGo").onclick = ()=>openDet(hoy);
+// Necesito ahora
+const nd = document.getElementById("needs");
+NEEDS.forEach(n=>{ const d=document.createElement("div"); d.className="need"; d.innerHTML='<span class="e">'+n[1]+'</span>'+n[2]; d.onclick=()=>{ curNeed=n[0]; [...nd.children].forEach(c=>c.classList.remove("on")); d.classList.add("on"); sug(false); }; nd.appendChild(d); });
+// Bloque unico: emocion (NEEDMAP) + texto opcional (SIN) -> 3 puertas
+function sug(hablar){
+  const q=(document.getElementById("preg").value||"").toLowerCase();
+  const words=q.split(/[^a-záéíóúñü]+/).filter(w=>w.length>3);
+  const boost=new Set();
+  (NEEDMAP[curNeed]||[]).forEach(c=>boost.add(c));
+  words.forEach(w=>{ Object.keys(SIN).forEach(k=>{ if(w.includes(k)||k.includes(w)) SIN[k].forEach(c=>boost.add(c)); }); });
+  const scored=M.map(m=>{ const t=(m.titulo+" "+m.esencial+" "+m.efecto+" "+m.intencion).toLowerCase(); let s=0; words.forEach(w=>{ if(t.includes(w)) s+=2; }); if(boost.has(m.categoria)) s+=3; return {m,s}; });
+  const topMax=Math.max(...scored.map(x=>x.s));
+  const dn=doneNums();
+  const wantBed=/dormir|sueño|insomnio|noche|dormirse/.test(q)||curNeed==="dormir";
+  const wantEn=/energia|energía|cansancio/.test(q)||curNeed==="energia";
+  const ordered=[...scored].sort((a,b)=>{
+    const an=!dn.has(a.m.num), bn=!dn.has(b.m.num);
+    if(an!==bn) return an?-1:1;
+    if(wantBed){ const ab=a.m.momento==="Al dormirse", bb=b.m.momento==="Al dormirse"; if(ab!==bb) return ab?-1:1; }
+    if(wantEn){ if(a.m.num===27) return -1; if(b.m.num===27) return 1; }
+    return b.s-a.s||a.m.num-b.m.num;
+  });
+  const pick=ordered.slice(0,3).map(x=>x.m);
+  const nn=(NEEDS.find(n=>n[0]===curNeed)||[])[2];
+  const partes=[];
+  if(nn) partes.push("buscas "+nn.toLowerCase());
+  if(topMax>0&&boost.size) partes.push("leo "+[...boost].map(c=>CATN[c].toLowerCase()).join(" y "));
+  const why=partes.length?("Porque "+partes.join(", ")+". Empieza por una no practicada; tu señal decide en 3 días."):"Elige una emoción o escribe cómo estás y te acerco 3 puertas no practicadas.";
+  document.getElementById("sug").innerHTML='<p class="sub" style="margin-top:10px">'+why+'</p>'+pick.map(m=>'<div class="tcard" data-n="'+m.num+'" style="margin-top:8px"><div class="tnum">'+m.num+' - '+CATN[m.categoria]+'</div><div class="tt">'+m.titulo+'</div></div>').join("");
+  document.querySelectorAll("#sug .tcard").forEach(t=>t.onclick=()=>openDet(M[t.dataset.n-1]));
+  if(hablar){ try{ if("speechSynthesis" in window){ speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance("Te acerco: "+pick.map(m=>"puerta "+m.num+", "+m.titulo).join(". ")); u.lang="es-ES"; u.rate=.9; speechSynthesis.speak(u); } }catch(e){} }
+}
+// Pregunta interior: texto libre -> puertas por palabras clave
+const SIN={dormir:["vacio","respiracion"],sueño:["vacio","respiracion"],insomnio:["vacio","respiracion"],noche:["vacio","respiracion"],ansiedad:["respiracion","mente"],ansioso:["respiracion","mente"],angustia:["respiracion","mente"],nervios:["respiracion","mente"],preocupa:["respiracion","mente"],calma:["respiracion","vacio"],tranquil:["respiracion","vacio"],amor:["corazon","cotidiano"],corazón:["corazon"],corazon:["corazon"],triste:["corazon","vacio"],tristeza:["corazon","vacio"],soledad:["corazon","vacio"],miedo:["respiracion","cuerpo"],temor:["respiracion","cuerpo"],ira:["cuerpo","mente"],enojo:["cuerpo","mente"],rabia:["cuerpo","mente"],dolor:["cuerpo","mente"],cuerpo:["cuerpo"],tenso:["cuerpo"],mente:["mente"],pensamientos:["mente"],cabeza:["mente"],claridad:["mente","mirada"],decidir:["mente"],trabajo:["cotidiano","mente"],reunión:["cotidiano","mente"],comer:["cotidiano"],comida:["cotidiano"],caminar:["cotidiano"],camino:["cotidiano"],pareja:["corazon","cotidiano"],deseo:["cotidiano","cuerpo"],ruido:["sonido"],escuchar:["sonido"],sonido:["sonido"],música:["sonido"],mirar:["mirada"],ojos:["mirada"],ver:["mirada"],respirar:["respiracion"],aire:["respiracion"],aliento:["respiracion"],crear:["mirada","vacio"],arte:["mirada","vacio"],mañana:["respiracion","cotidiano"],despertar:["respiracion","cotidiano"],energía:["cuerpo","centramiento"],energia:["cuerpo","centramiento"],cansancio:["cuerpo","vacio"],silencio:["vacio","sonido"],vacío:["vacio"],vacio:["vacio"],presencia:["respiracion","mente"],aquí:["respiracion","mente"],ahora:["respiracion","mente"]};
+document.getElementById("pregGo").onclick=()=>sug(true);
+// Explorar: perfiles, familias de Osho, categorias y filtros
+const PERFILES=[["noc","&#127769;","Al dormirse"],["dia","&#128694;","Vida diaria"],["fav","&#10084;","Favoritas"]];
+let fcat="todas", fmon="todas", fblock=null, favOnly=false, ffam=null, fperf=null;
+const R=(a,b)=>Array.from({length:b-a+1},(_,i)=>a+i);
+const FAM=[
+ {t:"Respiración",r:"1-9",nums:R(1,9)},
+ {t:"Atención y Percepción",r:"10-25",nums:R(10,25)},
+ {t:"Centramiento y Cuerpo",r:"26-45",nums:R(26,45)},
+ {t:"Sonido, Mantra y Vibración",r:"46-65",nums:R(46,65)},
+ {t:"Energía y Sexualidad",r:"66-80",nums:R(66,80)},
+ {t:"Luz, Oscuridad y Conciencia",r:"81-100",nums:R(81,100)},
+ {t:"Vacío y Realidad Última",r:"101-112",nums:R(101,112)}];
+function doneNums(){ return new Set(Object.keys(store.done).map(k=>+k.split("#")[1])); }
+function renderBlocks(){
+ const dn=doneNums();
+ document.getElementById("perfRow").innerHTML=PERFILES.map(p=>'<button class="chip" data-pf="'+p[0]+'">'+p[1]+' '+p[2]+'</button>').join("");
+  document.querySelectorAll("#perfRow .chip").forEach(b=>b.onclick=()=>enterPerfil(b.dataset.pf));
+  const counts={}; M.forEach(m=>counts[m.categoria]=(counts[m.categoria]||0)+1);
+ document.getElementById("catGrid").innerHTML='<div class="block-grid">'+Object.keys(counts).map(c=>'<div class="block-card" data-cc="'+c+'"><div class="bt">'+CATN[c]+'</div><div class="bc">'+counts[c]+' puertas</div></div>').join("")+'</div>';
+  document.querySelectorAll("#catGrid .block-card").forEach(x=>x.onclick=()=>{fcat=x.dataset.cc;fblock=null;ffam=null;fperf=null;showList();});
+ document.getElementById("famGrid").innerHTML='<div class="block-grid">'+FAM.map((f,i)=>{const u=[...new Set(f.nums)];let h=0;u.forEach(k=>{if(dn.has(k))h++;});return '<div class="block-card" data-fi="'+i+'"><div class="br">MAPA '+f.r+'</div><div class="bt">'+f.t+'</div><div class="bc">'+h+'/'+u.length+' visitadas</div></div>';}).join("")+'</div>';
+  document.querySelectorAll("#famGrid .block-card").forEach(c=>c.onclick=()=>{const f=FAM[+c.dataset.fi];ffam={t:f.t,nums:[...new Set(f.nums)]};fblock=null;fcat="todas";fperf=null;showList();});
+}
+function showBlocks(){ document.getElementById("expBlocks").classList.remove("hidden"); document.getElementById("expList").classList.add("hidden"); renderBlocks(); }
+function showList(){ document.getElementById("expBlocks").classList.add("hidden"); document.getElementById("expList").classList.remove("hidden"); buildChips(); render(); }
+document.getElementById("backBlocks").onclick=showBlocks;
+function enterPerfil(p){
+ fblock=null; ffam=null; fcat="todas"; fmon="todas"; favOnly=false; fperf=null;
+ if(p==="noc"){ fmon="Al dormirse"; fperf="Al dormirse"; }
+ if(p==="dia"){ fmon="Vida diaria"; fperf="Vida diaria"; }
+ if(p==="fav"){ favOnly=true; fperf="Tus favoritas"; }
+ showList();
+}
+function buildChips(){
+ const cats=["todas",...new Set(M.map(m=>m.categoria))];
+ document.getElementById("fcat").innerHTML=cats.map(c=>'<button class="chip'+(c===fcat?" on":"")+'" data-c="'+c+'">'+(c==="todas"?"Todas":CATN[c])+'</button>').join("");
+ document.querySelectorAll("#fcat .chip").forEach(b=>b.onclick=()=>{fcat=b.dataset.c;buildChips();render();});
+}
+document.getElementById("q").oninput = render;
+function render(){
+ const q=document.getElementById("q").value.toLowerCase();
+ let title="Todas las puertas";
+ if(ffam) title="Familia: "+ffam.t;
+ else if(fblock) title="Bloque: "+fblock.t+" ("+fblock.a+"-"+fblock.b+")";
+  else if(fperf) title=fperf+(fcat!=="todas"?" · "+CATN[fcat]:"");
+ else if(fcat!=="todas") title="Categoría: "+CATN[fcat];
+ document.getElementById("listTitle").textContent=title;
+ const L=M.filter(m=>(!fblock||(m.num>=fblock.a&&m.num<=fblock.b))&&(!ffam||ffam.nums.includes(m.num))&&(fcat==="todas"||m.categoria===fcat)&&(fmon==="todas"||m.momento===fmon)&&(!favOnly||store.favs.includes(m.num))&&(!q||(m.titulo+m.esencial+m.efecto).toLowerCase().includes(q)));
+   document.getElementById("lista").innerHTML=L.map(m=>{const e=estDe(m.num);return '<div class="tcard" data-open="'+m.num+'"><div class="tnum">'+m.num+' · '+CATN[m.categoria]+(e.estado!=="nueva"?'<span class="esttag '+ESTL[e.estado][1]+'">'+ESTL[e.estado][0]+'</span>':"")+'</div><div class="tt">'+m.titulo+'</div><div><span class="tag">'+m.momento+'</span></div><div class="rowbits"><button class="mini '+(store.favs.includes(m.num)?"fav-on":"")+'" data-f="'+m.num+'">'+(store.favs.includes(m.num)?"&#10084;":"&#9825;")+'</button><button class="mini" data-p="'+m.num+'">&#9654;</button></div></div>';}).join("")||'<p class="sub">Sin resultados. Prueba con otra palabra o quita filtros.</p>';
+ document.querySelectorAll("#lista .tcard").forEach(c=>c.onclick=()=>openDet(M[+c.dataset.open-1]));
+ document.querySelectorAll("[data-f]").forEach(b=>b.onclick=e=>{e.stopPropagation();const n=+b.dataset.f;const i=store.favs.indexOf(n);i>=0?store.favs.splice(i,1):store.favs.push(n);save();render();});
+ document.querySelectorAll("[data-p]").forEach(b=>b.onclick=e=>{e.stopPropagation();openDet(M[+b.dataset.p-1]);});
+}
+renderBlocks();
+// Detalle (vuelve a la pantalla de origen)
+let backTo="s-hoy";
+function openDet(m){
+  const here=(document.querySelector(".screen.on")||{}).id;
+  if(here&&here!=="s-det"&&here!=="s-pra") backTo=here;
+  cur = m;
+  const fav = store.favs.includes(m.num);
+  const es = estDe(m.num);
+  document.getElementById("detalle").innerHTML =
+    '<div class="tnum">PUERTA '+m.num+' - '+CATN[m.categoria].toUpperCase()+'<span class="esttag '+ESTL[es.estado][1]+'">'+ESTL[es.estado][0]+(es.estado==="probando"?" "+es.dias+"/3":"")+'</span></div><h1>'+m.titulo+'</h1>'+
+    '<p class="poet sub">'+m.esencial+'</p>'+
+    '<div class="kv"><span class="tag">'+m.momento+'</span><span class="tag">'+m.postura+'</span></div>'+
+    '<div class="sect">Intencion</div><p>'+m.intencion+'</p>'+
+    (m.sutra?'<div class="sect">Sutra</div><p class="poet">“'+m.sutra+'”</p>':"")+
+    (m.clave?'<div class="sect">Clave práctica</div><p>'+m.clave+'</p>':"")+
+    (m.senial?'<div class="sect">Señal de afinidad</div><p class="poet">'+m.senial+'</p>':"")+
+    '<div class="sect">Paso a paso</div><ol class="pasos">'+m.pasos.map(p=>"<li>"+p+"</li>").join("")+'</ol>'+
+    '<div class="sect">Frase guia</div><p class="poet">'+m.guia+'</p>'+
+    '<div class="sect">Integracion cotidiana</div><p>'+m.integracion+'</p>'+
+    '<div class="sect">Efecto observado</div><p>'+m.efecto+'</p>'+
+    '<div class="note">Practica suave: no fuerces la respiracion ni busques experiencias especiales. Si hay incomodidad, vuelve a lo natural.</div>'+
+    (m.cuidado?'<div class="note">&#9888; '+m.cuidado+'</div>':"")+
+    '<div class="sect">Reflexion posterior</div><p class="poet">'+m.reflexion+'</p>'+
+    '<div class="sect">Estado de esta puerta</div><div class="rowbits">'+
+    Object.keys(ESTL).map(k=>'<button class="mini" data-es="'+k+'" style="'+(es.estado===k?"border-color:var(--menta);font-weight:700":"")+'">'+ESTL[k][0]+'</button>').join("")+'</div>'+
+    '<p class="sub" style="margin-top:6px">3 días la marcan "probando". 3 meses con ella la vuelven "mi práctica".</p>'+
+    '<button class="btn btn-p" id="detGo">&#9654; Practicar esta puerta</button>'+
+    '<button class="btn btn-s" id="detFav">'+(fav?"&#10084; Quitar de favoritas":"&#9825; Guardar favorita")+'</button>';
+  document.getElementById("detGo").onclick = ()=>openPra(m);
+  document.querySelectorAll("[data-es]").forEach(b=>b.onclick=()=>{setEstado(m.num,b.dataset.es);openDet(m);render();});
+  document.getElementById("detFav").onclick = ()=>{const i=store.favs.indexOf(m.num);i>=0?store.favs.splice(i,1):store.favs.push(m.num);save();openDet(m);render();};
+  go("s-det");
+}
+document.getElementById("backDet").onclick=()=>go(backTo);
+// Practica + timer WebAudio
+let tLeft=300, tTotal=300, tInt=null, audioCtx=null;
+function updT(){ const s=fmt(Math.max(tLeft,0)); document.getElementById("timer").textContent=s; document.getElementById("dimTimer").textContent=s; }
+function bell(f, t){ try{ audioCtx = audioCtx||new (window.AudioContext||window.webkitAudioContext)(); const o=audioCtx.createOscillator(), g=audioCtx.createGain(); o.type="sine"; o.frequency.value=f||528; g.gain.setValueAtTime(.001,audioCtx.currentTime); g.gain.exponentialRampToValueAtTime(.4,audioCtx.currentTime+.05); g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+(t||2)); o.connect(g); g.connect(audioCtx.destination); o.start(); o.stop(audioCtx.currentTime+(t||2)); }catch(e){} }
+function fmt(s){ return String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0"); }
+function openPra(m){
+  cur = m||cur||hoy;
+  document.getElementById("praNum").textContent = "Puerta "+cur.num+" - "+CATN[cur.categoria];
+  document.getElementById("praTit").textContent = cur.titulo;
+  document.getElementById("praGuia").textContent = cur.guia;
+  document.getElementById("dimGuia").textContent = cur.guia;
+  tLeft = +document.getElementById("dur").value; tTotal=tLeft; updT();
+  stopT(); go("s-pra"); bell(528,2);
+}
+function stopT(){ clearInterval(tInt); tInt=null; document.getElementById("tGo").innerHTML="&#9654;"; }
+document.getElementById("dur").onchange = e=>{ tLeft=+e.target.value; tTotal=tLeft; updT(); };
+document.getElementById("tGo").onclick = ()=>{
+  if(tInt){ stopT(); return; }
+  document.getElementById("tGo").innerHTML="&#10074;&#10074;";
+  tInt = setInterval(()=>{ tLeft--; updT();
+    if(store.intervalos&&tTotal>=300&&tLeft===Math.floor(tTotal/2)) bell(660,1.5);
+    if(tLeft===60) bell(660,1.5);
+    if(tLeft<=0){ stopT(); bell(432,3); endPra(); } },1000);
+};
+document.getElementById("tReset").onclick = ()=>{ stopT(); tLeft=+document.getElementById("dur").value; tTotal=tLeft; updT(); };
+document.getElementById("tEnd").onclick = ()=>{ stopT(); bell(432,3); endPra(); };
+document.getElementById("intBtn").innerHTML="&#128276; Intervalos: "+(store.intervalos?"on":"off");
+document.getElementById("intBtn").onclick = ()=>{ store.intervalos=!store.intervalos; save(); document.getElementById("intBtn").innerHTML="&#128276; Intervalos: "+(store.intervalos?"on":"off"); };
+document.getElementById("dimBtn").onclick = ()=>{ updT(); document.getElementById("dim").classList.add("on"); };
+document.getElementById("dimOff").onclick = ()=>{ document.getElementById("dim").classList.remove("on"); };
+// Fondos generados con WebAudio (sin archivos, funcionan offline). Volumen bajo: no tapan voz ni campanas.
+function noiseBuf(){ audioCtx = audioCtx||new (window.AudioContext||window.webkitAudioContext)(); const len=2*audioCtx.sampleRate, buf=audioCtx.createBuffer(1,len,audioCtx.sampleRate), d=buf.getChannelData(0); let last=0; for(let i=0;i<len;i++){ const w=Math.random()*2-1; last=(last+0.02*w)/1.02; d[i]=last*3.5; } return buf; }
+let mar=null;
+function marStart(){ const src=audioCtx.createBufferSource(); src.buffer=noiseBuf(); src.loop=true; const f=audioCtx.createBiquadFilter(); f.type="lowpass"; f.frequency.value=420; const g=audioCtx.createGain(); g.gain.value=0.06; const lfo=audioCtx.createOscillator(); lfo.frequency.value=0.09; const lg=audioCtx.createGain(); lg.gain.value=0.035; lfo.connect(lg); lg.connect(g.gain); src.connect(f); f.connect(g); g.connect(audioCtx.destination); src.start(); lfo.start(); mar={src,lfo}; document.getElementById("marBtn").innerHTML="&#127754; Mar: on"; }
+function marStop(){ if(!mar) return; try{ mar.src.stop(); mar.lfo.stop(); }catch(e){} try{ mar.src.disconnect(); mar.lfo.disconnect(); }catch(e){} mar=null; const b=document.getElementById("marBtn"); if(b) b.innerHTML="&#127754; Mar: off"; }
+document.getElementById("marBtn").onclick = ()=>{ try{ if(audioCtx&&audioCtx.state==="suspended") audioCtx.resume(); mar?marStop():marStart(); }catch(e){} };
+let nat=null;
+function chirp(){ try{ const t=audioCtx.currentTime, o=audioCtx.createOscillator(), g=audioCtx.createGain(); o.type="sine"; const f0=2400+Math.random()*1200; o.frequency.setValueAtTime(f0,t); o.frequency.linearRampToValueAtTime(f0+600,t+0.09); o.frequency.linearRampToValueAtTime(f0-400,t+0.22); g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(0.05,t+0.05); g.gain.exponentialRampToValueAtTime(0.0001,t+0.28); o.connect(g); g.connect(audioCtx.destination); o.start(t); o.stop(t+0.3); if(Math.random()<0.5){ const t2=t+0.35, o2=audioCtx.createOscillator(), g2=audioCtx.createGain(); o2.type="sine"; o2.frequency.setValueAtTime(f0+300,t2); o2.frequency.linearRampToValueAtTime(f0+800,t2+0.08); o2.frequency.linearRampToValueAtTime(f0-200,t2+0.2); g2.gain.setValueAtTime(0.0001,t2); g2.gain.exponentialRampToValueAtTime(0.04,t2+0.05); g2.gain.exponentialRampToValueAtTime(0.0001,t2+0.25); o2.connect(g2); g2.connect(audioCtx.destination); o2.start(t2); o2.stop(t2+0.28); } }catch(e){} }
+function natBird(){ if(!nat) return; try{ if(Math.random()<0.65) chirp(); }catch(e){} nat.timer=setTimeout(natBird, 2200+Math.random()*4500); }
+function natStart(){ const src=audioCtx.createBufferSource(); src.buffer=noiseBuf(); src.loop=true; const f=audioCtx.createBiquadFilter(); f.type="bandpass"; f.frequency.value=800; f.Q.value=0.5; const g=audioCtx.createGain(); g.gain.value=0.03; const lfo=audioCtx.createOscillator(); lfo.frequency.value=0.07; const lg=audioCtx.createGain(); lg.gain.value=0.015; lfo.connect(lg); lg.connect(g.gain); src.connect(f); f.connect(g); g.connect(audioCtx.destination); src.start(); lfo.start(); nat={src,lfo,timer:0}; document.getElementById("natBtn").innerHTML="&#127795; Naturaleza: on"; natBird(); }
+function natStop(){ if(!nat) return; try{ clearTimeout(nat.timer); nat.src.stop(); nat.lfo.stop(); }catch(e){} try{ nat.src.disconnect(); nat.lfo.disconnect(); }catch(e){} nat=null; const b=document.getElementById("natBtn"); if(b) b.innerHTML="&#127795; Naturaleza: off"; }
+document.getElementById("natBtn").onclick = ()=>{ try{ if(audioCtx&&audioCtx.state==="suspended") audioCtx.resume(); nat?natStop():natStart(); }catch(e){} };
+document.getElementById("vozBtn").onclick = ()=>{
+  try{
+    if(hablando){ speechSynthesis.cancel(); hablando=false; document.getElementById("vozBtn").innerHTML="&#128483; Guia por voz"; return; }
+    const frases=[...cur.pasos].map(t=>(t||"").trim()).filter(Boolean);
+    speechSynthesis.cancel();
+    hablando=true; document.getElementById("vozBtn").innerHTML="&#9724; Detener voz";
+    let i=0;
+    const next=()=>{
+      if(!hablando) return;
+      if(i>=frases.length){ hablando=false; document.getElementById("vozBtn").innerHTML="&#128483; Guia por voz"; return; }
+      const u=new SpeechSynthesisUtterance(frases[i++]); u.lang="es-ES"; u.rate=.85;
+      u.onend=()=>setTimeout(next,1000); u.onerror=()=>{ hablando=false; document.getElementById("vozBtn").innerHTML="&#128483; Guia por voz"; };
+      speechSynthesis.speak(u);
+    };
+    next();
+  }catch(e){ alert("Voz no disponible en este dispositivo."); }
+};
+document.getElementById("pausa").onclick = ()=>{ openPra(hoy); tLeft=30; tTotal=30; updT(); };
+function endPra(){
+  const k = new Date().toISOString().slice(0,10);
+  store.done[k+"#"+cur.num]=true; regPractica(cur.num); save(); prog();
+  go("s-dia");
+  document.getElementById("antesBtns").innerHTML = ["+ Calma","+ Claridad","+ Energia","+ Sueno","+ Gratitud","Igual"].map(x=>'<button class="chip" data-a="'+x+'">'+x+'</button>').join("");
+  document.querySelectorAll("[data-a]").forEach(b=>b.onclick=()=>b.classList.toggle("on"));
+}
+// Diario con niveles + estadisticas por categoria
+[["rCalma","vCalma"],["rClar","vClar"],["rEner","vEner"]].forEach(([r,v])=>{ document.getElementById(r).oninput=e=>{ document.getElementById(v).textContent=e.target.value+"/10"; }; });
+document.getElementById("guardarDia").onclick = ()=>{
+  const tags=[...document.querySelectorAll("[data-a].on")].map(b=>b.dataset.a);
+  store.diario.unshift({f:new Date().toLocaleString(), puerta:cur?cur.num:null, cat:cur?cur.categoria:null, tags, nota:document.getElementById("nota").value, calma:+document.getElementById("rCalma").value, claridad:+document.getElementById("rClar").value, energia:+document.getElementById("rEner").value});
+  document.getElementById("nota").value=""; save(); diary(); go("s-hoy");
+};
+document.getElementById("omitir").onclick = ()=>{ go("s-hoy"); };
+function diasDe(n){ const s=new Set(); Object.keys(store.done||{}).forEach(k=>{ const p=k.split("#"); if(+p[1]===n) s.add(p[0]); }); return s.size; }
+function ultimoRes(n){ const e=(store.diario||[]).find(e=>e.puerta===n&&(e.calma||e.claridad||e.energia)); if(!e) return ""; const r=[]; if(e.calma) r.push("calma "+e.calma+"/10"); if(e.claridad) r.push("claridad "+e.claridad+"/10"); if(e.energia) r.push("energía "+e.energia+"/10"); return r.join(" · "); }
+function olvidarPuerta(n){ Object.keys(store.done||{}).forEach(k=>{ if(+k.split("#")[1]===n) delete store.done[k]; }); if(store.estados) delete store.estados[n]; save(); diary(); prog(); }
+function borrarEntrada(i){ store.diario.splice(i,1); save(); diary(); }
+function exportarDatos(){ try{ const blob=new Blob([JSON.stringify({app:"puertas112",fecha:new Date().toISOString(),favs:store.favs,diario:store.diario,done:store.done,estados:store.estados,perfil:store.perfil},null,1)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="puertas112-mis-datos.json"; document.body.appendChild(a); a.click(); setTimeout(()=>{ try{URL.revokeObjectURL(a.href);}catch(e){} a.remove(); },800); }catch(e){ alert("No se pudo exportar."); } }
+function borrarTodo(){ if(!confirm("Borrar todo tu historial (prácticas, diario, favoritas y estados)?")) return; if(!confirm("Seguro? No se puede deshacer.")) return; localStorage.removeItem("puertas112"); location.reload(); }
+function diary(){
+ const d=store.diario;
+ const nums=[...new Set([...Object.keys(store.done||{}).map(k=>+k.split("#")[1]), ...Object.keys(store.estados||{}).map(Number)])].filter(n=>n>=1&&n<=112).sort((a,b)=>a-b);
+ const rec=nums.length?'<div class="sect">Tu recorrido</div>'+nums.map(n=>{ const m=M[n-1], e=estDe(n), u=ultimoRes(n); return '<div class="diary-e"><small>Puerta '+n+' · '+m.titulo+' · '+diasDe(n)+' día(s) · '+ESTL[e.estado][0]+(u?' · último: '+u:'')+'</small><div><button class="mini" data-ol="'+n+'">Olvidar esta puerta</button></div></div>'; }).join(""):'<p class="sub">Aún sin prácticas registradas.</p>';
+ document.getElementById("entradas").innerHTML = rec+'<div class="sect">Notas</div>'+(d.length? d.slice(0,20).map((e,i)=>'<div class="diary-e"><small>'+e.f+(e.puerta?" - Puerta "+e.puerta:"")+(e.calma?" · calma "+e.calma+"/10":"")+'</small><div>'+((e.tags||[]).join(" ")||"")+'</div><div>'+(e.nota||"")+'</div><div><button class="mini" data-be="'+i+'">Borrar nota</button></div></div>').join("") : '<p class="sub">Aun no hay palabras. A veces la practica mas importante es no tener que explicarla.</p>')+'<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-s" id="expDatos">Exportar mis datos</button><button class="btn btn-s" id="borrarTodo">Borrar todo el historial</button></div>';
+ document.querySelectorAll("[data-ol]").forEach(b=>b.onclick=()=>{ if(confirm("Olvidar la puerta "+b.dataset.ol+" (días y estado)? Tus notas se conservan.")) olvidarPuerta(+b.dataset.ol); });
+ document.querySelectorAll("[data-be]").forEach(b=>b.onclick=()=>{ if(confirm("Borrar esta nota?")) borrarEntrada(+b.dataset.be); });
+ document.getElementById("expDatos").onclick=exportarDatos;
+ document.getElementById("borrarTodo").onclick=borrarTodo;
+  const done=Object.keys(store.done).length;
+  let extra="";
+  const byCat={};
+  d.forEach(e=>{ if(e.cat&&e.calma){ (byCat[e.cat]=byCat[e.cat]||[]).push(e.calma); } });
+  const avgs=Object.keys(byCat).filter(c=>byCat[c].length>=2).map(c=>({c,m:byCat[c].reduce((a,b)=>a+b,0)/byCat[c].length}));
+  if(avgs.length){ avgs.sort((a,b)=>b.m-a.m); extra=" · Lo que más calma te da: "+CATN[avgs[0].c]+" ("+avgs[0].m.toFixed(1)+"/10)"; }
+  document.getElementById("stats").textContent = "Puertas visitadas: "+done+" - Favoritas: "+store.favs.length+" - Entradas: "+d.length+extra;
+}
+diary();
+function hoyKey(){ return new Date().toISOString().slice(0,10); }
+function practicadoHoy(){ return Object.keys(store.done||{}).some(k=>k.split("#")[0]===hoyKey()); }
+function checkRem(){
+ try{
+  const r=store.rem; if(!r||!r.on) return;
+  if(practicadoHoy()||store.remFecha===hoyKey()) return;
+  const p=(r.hora||"08:00").split(":"); const t=new Date(); t.setHours(+p[0],+(p[1]||0),0,0);
+  if(new Date()<t) return;
+  store.remFecha=hoyKey(); save();
+  if("Notification" in window&&Notification.permission==="granted"){ try{ new Notification("112 Puertas",{body:"Tu puerta de hoy: "+hoy.num+" - "+hoy.titulo}); }catch(e){} }
+ }catch(e){}
+}
+function paintRem(){ const b=document.getElementById("remBtn"); if(b) b.innerHTML="Recordatorio: "+(store.rem&&store.rem.on?"on":"off"); const h=document.getElementById("remHora"); if(h&&store.rem&&store.rem.hora) h.value=store.rem.hora; }
+document.getElementById("remBtn").onclick=()=>{
+ try{
+  const on=!(store.rem&&store.rem.on);
+  if(on&&"Notification" in window&&Notification.permission==="default"){ Notification.requestPermission().then(()=>{ paintRem(); checkRem(); }); }
+  store.rem={on,hora:document.getElementById("remHora").value||"08:00"};
+  save(); paintRem(); checkRem();
+ }catch(e){}
+};
+document.getElementById("remHora").onchange=()=>{ store.rem=Object.assign({on:false},store.rem,{hora:document.getElementById("remHora").value}); save(); };
+paintRem(); checkRem();
+// Cartas
+function cartaDiaria(seedStr){
+  let h=0; for(const c of seedStr) h=(h*31+c.charCodeAt(0))>>>0;
+  return M[h%M.length];
+}
+function showCarta(m){
+  document.getElementById("carta").innerHTML='<div style="font-size:48px">&#128302;</div><div class="tnum">PUERTA '+m.num+'</div><div class="tt" style="font-size:20px">'+m.titulo+'</div><p class="poet sub">'+m.esencial+'</p><div class="kv" style="justify-content:center"><span class="tag">'+CATN[m.categoria]+'</span><span class="tag">'+m.momento+'</span></div><button class="btn btn-p" id="cartaGo">Practicar</button>';
+  document.getElementById("cartaGo").onclick=()=>openDet(m);
+}
+showCarta(cartaDiaria(new Date().toISOString().slice(0,10)));
+document.getElementById("otraCarta").onclick=()=>showCarta(M[Math.floor(Math.random()*M.length)]);
+// Programa + modo sin objetivo
+document.getElementById("goalBtn").onclick=()=>{
+  store.singoal=!store.singoal; save();
+  document.body.classList.toggle("singoal",store.singoal);
+  document.getElementById("goalBtn").innerHTML="&#127769; Modo sin objetivo: "+(store.singoal?"on":"off");
+  prog();
+};
+document.getElementById("goalBtn").innerHTML="&#127769; Modo sin objetivo: "+(store.singoal?"on":"off");
+function prog(){
+ const keys=Object.keys(store.done);
+ const distintas=[...new Set(keys.map(k=>+k.split("#")[1]))].length;
+ const practicas=keys.length;
+ document.getElementById("progNum").textContent=distintas+" / 112 puertas";
+ const stages=["&#127793;","&#127807;","&#127811;","&#127795;","&#127796;","&#127800;"];
+ document.getElementById("planta").innerHTML=stages[Math.min(Math.floor(distintas/20),5)];
+ document.getElementById("progTxt").textContent = store.singoal?"Hoy solo estás aquí. No necesitas completar nada.":distintas===0?"Empieza hoy con la puerta del dia.":distintas<7?"Has atravesado "+distintas+" puertas en "+practicas+" prácticas. Sigue volviendo.":"Has atravesado "+distintas+" puertas de presencia en "+practicas+" prácticas.";
+  const dots=document.getElementById("dots"); dots.innerHTML="";
+  const dn=doneNums();
+  M.forEach(m=>{ const b=document.createElement("button"); b.className="dot"+(dn.has(m.num)?" done":"")+(m.num===hoy.num?" today":""); b.title=m.num+" - "+m.titulo; b.onclick=()=>openDet(m); dots.appendChild(b); });
+  const fg=document.getElementById("famGrid"); if(fg&&fg.innerHTML) renderBlocks();
+}
+prog();
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
