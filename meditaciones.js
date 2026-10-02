@@ -10,12 +10,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Observa con atención constante el instante de intervalo en que la inhalación ha entrado por completo y aún no ha comenzado la exhalación.",
-  "pasos": [
-   "Observa con atención constante el instante de intervalo en que la inhalación ha entrado por completo y aún no ha comenzado la exhalación.",
-   "Quédate en la pausa, sin hacer nada.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo con la espalda recta, sin controlar el aire.",
+    "Acompaña una inhalación completa hasta que termina del todo.",
+    "Quédate en la pausa que sigue, sin hacer nada.",
+    "Cuando nazca la exhalación, acompáñala y espera la próxima pausa."
+   ],
   "integracion": "Antes de responder un mensaje difícil, observa una inhalación completa y quédate en su pausa.",
   "reflexion": "¿Pudiste notar el instante sin aire, o solo lo recordaste después?",
   "efecto": "En esa pausa universal sin respiración, la mente se detiene por completo y la falsa identidad del ego se disuelve.",
@@ -35,12 +35,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Mantén la conciencia centrada en el momento exacto en que el flujo del aire curva su rumbo de abajo hacia arriba o de arriba hacia abajo.",
-  "pasos": [
-   "Mantén la conciencia centrada en el momento exacto en que el flujo del aire curva su rumbo de abajo hacia arriba o de arriba hacia abajo.",
-   "Atiende el giro, ahí quédate.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y respira natural, sintiendo el aire en la nariz.",
+    "Atiende el giro de entrar a salir: el punto exacto del cambio.",
+    "Atiende el giro de salir a entrar: el otro punto exacto.",
+    "Quédate en los giros, volviendo a ellos si te distraes."
+   ],
   "integracion": "En una fila o espera, sigue tres giros completos del aire, de entrar a salir.",
   "reflexion": "¿Sentiste el punto exacto donde el aire cambia de rumbo?",
   "efecto": "Conduce al \"punto neutro\" donde no eres ni cuerpo ni mente, revelando la naturaleza pura del observador.",
@@ -60,12 +60,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Concentra la atención en el centro del ombligo (Hara), donde la entrada y salida del aliento se cruzan y se funden.",
-  "pasos": [
-   "Concentra la atención en el centro del ombligo (Hara), donde la entrada y salida del aliento se cruzan y se funden.",
-   "Baja al ombligo y respira ahí.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y lleva una mano al vientre.",
+    "Respira hasta el ombligo, sintiendo cómo sube y baja.",
+    "Siente cómo entrada y salida se cruzan y se funden ahí.",
+    "Quédate respirando en el ombligo, volviendo si te pierdes."
+   ],
   "integracion": "Al caminar, lleva una mano al vientre y respira hasta ahí durante un minuto.",
   "reflexion": "¿El centro se sintió más abajo que tu cabeza?",
   "efecto": "Conecta con el centro cósmico de energía y produce un estado de centramiento profundo y dicha sin esfuerzo.",
@@ -85,12 +85,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Mantente alerta cuando la respiración se detenga de forma espontánea (del todo afuera o del todo adentro) o durante un susto o emergencia súbita.",
-  "pasos": [
-   "Mantente alerta cuando la respiración se detenga de forma espontánea (del todo afuera o del todo adentro) o durante un susto o emergencia súbita.",
-   "Si el aire se detiene, mírate.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Durante el día, nota cuando el aire se detenga solo, adentro o afuera del todo.",
+    "Si un susto o sorpresa te corta el aliento, no reacciones: mírate.",
+    "En la pausa, observa qué queda de ti sin aire ni pensamiento.",
+    "Deja que el aire vuelva solo; no lo retengas ni lo empujes."
+   ],
   "integracion": "Cuando un susto o sorpresa te corte el aliento, en vez de reaccionar, mírate un segundo.",
   "reflexion": "¿Qué quedó de ti cuando el aire se detuvo?",
   "efecto": "Al detenerse el movimiento del aliento, el pensamiento cesa de golpe y la pequeña identidad egoica se evapora.",
@@ -111,12 +111,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Enfoca la atención entre las cejas; permite que la mente anteceda al pensamiento y siente que el aliento llena la cabeza derramándose como luz desde la coronilla.",
-  "pasos": [
-   "Enfoca la atención entre las cejas; permite que la mente anteceda al pensamiento y siente que el aliento llena la cabeza derramándose como luz desde la coronilla.",
-   "Mira desde la frente, sin seguir nada.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y lleva la atención al entrecejo.",
+    "Deja pasar los pensamientos sin seguirlos: tú miras desde la frente.",
+    "Siente que el aliento llena la cabeza y se derrama como luz por la coronilla.",
+    "Quédate mirando desde la frente, volviendo si te metes en un pensamiento."
+   ],
   "integracion": "Antes de una tarea mental, cierra los ojos treinta segundos y siente la frente llena de aire.",
   "reflexion": "¿Pudiste observar un pensamiento sin meterte en él?",
   "efecto": "Despierta la visión del testigo (observador de pensamientos) y purifica la conciencia mediante un renacimiento interior.",
@@ -132,16 +132,16 @@ window.MEDITACIONES = [
   "categoria": "respiracion",
   "nivel": "Principiante",
   "duracion": "5-10 min",
-  "momento": "Vida diaria",
-  "postura": "Sentado comodo",
-  "intencion": "Calma y presencia",
-  "esencial": "Mantén la atención fija en el espacio entre dos respiraciones mientras realizas tus tareas cotidianas.",
-  "pasos": [
-   "Mantén la atención fija en el espacio entre dos respiraciones mientras realizas tus tareas cotidianas.",
-   "Actúa y a la vez observa el intervalo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Vida diaria",
+   "postura": "En actividad",
+   "intencion": "Calma y presencia",
+   "esencial": "Mantén la atención fija en el espacio entre dos respiraciones mientras realizas tus tareas cotidianas.",
+   "pasos": [
+    "Elige una tarea rutinaria: lavar platos, caminar, ordenar.",
+    "Hazla a ritmo normal y a la vez sigue el aire entrando y saliendo.",
+    "Atiende el intervalo entre una respiración y la siguiente mientras actúas.",
+    "Si pierdes el intervalo, retómalo sin detener la tarea."
+   ],
   "integracion": "Elige una tarea rutinaria (lavar platos, caminar) y sigue el entre-respiraciones mientras la haces.",
   "reflexion": "¿La tarea siguió siendo drama o se volvió juego?",
   "efecto": "Deshace la identificación dramática con las acciones externas, transformando la vida en un juego consciente (psicodrama).",
@@ -157,16 +157,16 @@ window.MEDITACIONES = [
   "categoria": "respiracion",
   "nivel": "Principiante",
   "duracion": "5-10 min",
-  "momento": "Al dormirse",
-  "postura": "Sentado comodo",
-  "intencion": "Calma y presencia",
-  "esencial": "Al ir a dormir, enfoca la atención en el aliento sutil en el centro de la frente y siente cómo desciende hacia el corazón.",
-  "pasos": [
-   "Al ir a dormir, enfoca la atención en el aliento sutil en el centro de la frente y siente cómo desciende hacia el corazón.",
-   "Baja con el aliento hacia el corazón.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Al dormirse",
+   "postura": "Acostado boca arriba",
+   "intencion": "Calma y presencia",
+   "esencial": "Al ir a dormir, enfoca la atención en el aliento sutil en el centro de la frente y siente cómo desciende hacia el corazón.",
+   "pasos": [
+    "Acuéstate boca arriba, cómodo, con los ojos cerrados.",
+    "Siente el aliento sutil en el centro de la frente.",
+    "Con cada respiración, siente cómo desciende hacia el corazón.",
+    "Sigue bajando con él hasta dormirte, sin esfuerzo."
+   ],
   "integracion": "Ya acostado, siente el aliento bajar de la frente al corazón hasta dormirte.",
   "reflexion": "¿Registraste el momento de dormirte o te tragó sin aviso?",
   "efecto": "Concede dominio sobre los sueños y trasciende el miedo inconsciente a la muerte.",
@@ -186,12 +186,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Calma y presencia",
   "esencial": "Con máxima devoción, amor y confianza, céntrate en los dos puntos de giro del aliento.",
-  "pasos": [
-   "Con máxima devoción, amor y confianza, céntrate en los dos puntos de giro del aliento.",
-   "Respira como quien agradece.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y lleva las manos al pecho en gratitud.",
+    "Respira lento sintiendo que lo divino respira en ti.",
+    "Atiende los dos giros del aliento como quien agradece.",
+    "Quédate respirando en devoción, tratando el cuerpo como templo."
+   ],
   "integracion": "Trata tu próxima comida como templo: dos respiraciones lentas de gratitud antes del primer bocado.",
   "reflexion": "¿El cuerpo se sintió distinto al mirarlo con cariño?",
   "efecto": "Eleva la práctica a una experiencia devocional pura en la que el cuerpo se reconoce como el templo sagrado del ser.",
@@ -223,8 +223,54 @@ window.MEDITACIONES = [
   "guia": "Quieto del todo; solo atestigua.",
   "clave": "La emoción necesita mover el cuerpo: si no te mueves, la miras y se disuelve. Empieza por lo físico: chupar, mirar fijo.",
   "senial": "Si tras quedarte inmóvil sales distinto, repite 3 meses.",
-  "sutra": "Yace como muerto; ante la furia quédate inmóvil; mira sin pestañear; chupa y vuélvete la chupadura.",
-  "cuidado": "Si los ojos arden o lagrimean, parpadea y descansa; retoma cuando se calmen."
+   "sutra": "Yace como muerto; ante la furia quédate inmóvil; mira sin pestañear; chupa y vuélvete la chupadura.",
+   "cuidado": "Si los ojos arden o lagrimean, parpadea y descansa; retoma cuando se calmen.",
+   "variantes": [
+    {
+     "letra": "a",
+     "titulo": "Yacer como muerto",
+     "postura": "Acostado boca arriba",
+     "momento": "Ante ira o agitación",
+     "pasos": [
+      "Tiéndete boca arriba, brazos sueltos a los costados, ojos cerrados.",
+      "Siente el cuerpo pesado y muerto: inmóvil, sin responder.",
+      "Ante la ira, quédate estatua sin acomodarte ni hablar.",
+      "Solo atestigua lo que pasa adentro, sin intervenir."
+     ],
+     "guia": "Quieto del todo; solo atestigua.",
+     "integracion": "Ante la próxima oleada de ira, quédate diez segundos totalmente inmóvil antes de hablar."
+    },
+    {
+     "letra": "b",
+     "titulo": "Mirada fija",
+     "postura": "Sentado cómodo",
+     "momento": "Cualquier momento",
+     "pasos": [
+      "Elige un punto a la altura de los ojos, a 1-2 metros.",
+      "Mira fijo sin pestañear hasta que los ojos pidan descanso.",
+      "Cuando ardan o lagrimeen, cierra, descansa y retoma.",
+      "Quédate solo como mirada, sin pensar en lo mirado."
+     ],
+     "guia": "Mira hasta que solo quede mirar.",
+     "integracion": "Dos veces al día, mira un objeto un minuto sin mover los ojos.",
+     "cuidado": "Si los ojos arden o lagrimean, parpadea y descansa; retoma cuando se calmen."
+    },
+    {
+     "letra": "c",
+     "titulo": "Succión",
+     "postura": "Sentado cómodo",
+     "momento": "Cualquier momento",
+     "pasos": [
+      "Entrecierra los labios como para chupar por una pajita (vale dedo limpio o pajita).",
+      "Chupa suave y siente el centro de la boca y los labios.",
+      "Olvida el objeto: vuélvete la succión misma.",
+      "Sostén la atención ahí, volviendo con suavidad si te distraes."
+     ],
+     "guia": "Vuélvete la chupadura.",
+     "integracion": "Al beber algo hoy, siente los primeros tres sorbos como pura succión.",
+     "cuidado": "Succión suave, sin tensión en la mandíbula ni falta de aire."
+    }
+   ]
  },
  {
   "id": 10,
@@ -233,16 +279,16 @@ window.MEDITACIONES = [
   "categoria": "cuerpo",
   "nivel": "Principiante",
   "duracion": "5-10 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Habitar el cuerpo",
-  "esencial": "Al recibir o dar una caricia amorosa, abandona los pensamientos y entrégate por completo a la sensación del contacto táctil.",
-  "pasos": [
-   "Al recibir o dar una caricia amorosa, abandona los pensamientos y entrégate por completo a la sensación del contacto táctil.",
-   "Sé solo tacto, nada más.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "En contacto con otro",
+   "intencion": "Habitar el cuerpo",
+   "esencial": "Al recibir o dar una caricia amorosa, abandona los pensamientos y entrégate por completo a la sensación del contacto táctil.",
+   "pasos": [
+    "En un saludo, abrazo o caricia, detente un instante.",
+    "Abandona lo que ibas a decir o pensar y entrégate al contacto.",
+    "Sé solo tacto: temperatura, presión, textura, nada más.",
+    "Quédate en la sensación hasta que se disuelva sola."
+   ],
   "integracion": "Hoy, en un saludo o abrazo, abandónate cinco segundos a la pura sensación del contacto.",
   "reflexion": "¿El instante duró más que de costumbre?",
   "efecto": "Abre la puerta a la dimensión vertical del momento presente y a la vivencia de la vida eterna.",
@@ -262,12 +308,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Habitar el cuerpo",
   "esencial": "Al sentir un estímulo o percepción sutil (como el roce de una hormiga), detén el aliento y cierra las aberturas de los sentidos.",
-  "pasos": [
-   "Al sentir un estímulo o percepción sutil (como el roce de una hormiga), detén el aliento y cierra las aberturas de los sentidos.",
-   "Cierra afuera, mira adentro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Ante un roce, picor o ruido sutil, detén el aliento un instante.",
+    "Cierra ojos y oídos con las manos, suave.",
+    "Mira adentro: la atención sin salida cae al espacio interno.",
+    "Respira normal y quédate en el silencio posterior."
+   ],
   "integracion": "Ante un ruido molesto, retén el aire un momento y cierra ojos y oídos con las manos.",
   "reflexion": "¿A dónde fue tu atención cuando se cerraron las puertas?",
   "efecto": "Desconecta la mente del estímulo externo y repliega la atención de golpe hacia el espacio interno.",
@@ -284,23 +330,24 @@ window.MEDITACIONES = [
   "categoria": "cuerpo",
   "nivel": "Intermedio",
   "duracion": "5-10 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Habitar el cuerpo",
-  "esencial": "Sentado o acostado, siente y visualiza que el cuerpo pierde todo peso hasta volverse completamente ingrávido.",
-  "pasos": [
-   "Sentado o acostado, siente y visualiza que el cuerpo pierde todo peso hasta volverse completamente ingrávido.",
-   "Suelta el peso, flota.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Sentado en el transporte, imagina que pesas la mitad durante dos minutos.",
-  "reflexion": "¿El cuerpo se volvió liviano o la mente protestó?",
-  "efecto": "Rompe la ilusión de identificarse con el cuerpo denso y trasciende el nivel mental.",
-  "guia": "Suelta el peso, flota.",
-  "clave": "El peso es del cuerpo, no tuyo: siéntelo disolverse parte por parte hasta que solo quede conciencia.",
-  "senial": "Si sientes liviandad o como si flotaras, profundiza.",
-  "sutra": "Acostado o sentado, vuélvete ingrávido, más allá de la mente."
+   "momento": "Cualquier momento",
+   "postura": "Sentado o acostado",
+   "intencion": "Habitar el cuerpo",
+   "esencial": "Sentado o acostado, siente y visualiza que el cuerpo pierde todo peso hasta volverse completamente ingrávido.",
+   "pasos": [
+    "Acomódate sentado o acostado, con el cuerpo apoyado y los ojos cerrados.",
+    "Recorre el cuerpo parte por parte soltando el peso: pies, piernas, cadera, espalda, brazos, cabeza.",
+    "Siente que el cuerpo pierde peso hasta volverse ingrávido, como si flotara.",
+    "Quédate flotando, volviendo con suavidad cada vez que te distraigas."
+   ],
+   "integracion": "Sentado en el transporte, imagina que pesas la mitad durante dos minutos.",
+   "reflexion": "¿El cuerpo se volvió liviano o la mente protestó?",
+   "efecto": "Rompe la ilusión de identificarse con el cuerpo denso y trasciende el nivel mental.",
+   "guia": "Suelta el peso, flota.",
+   "clave": "El peso es del cuerpo, no tuyo: siéntelo disolverse parte por parte hasta que solo quede conciencia.",
+   "senial": "Si sientes liviandad o como si flotaras, profundiza.",
+   "sutra": "Acostado o sentado, vuélvete ingrávido, más allá de la mente.",
+   "cuidado": "Si aparece mareo o vértigo, vuelve a sentir el apoyo del cuerpo y abre los ojos."
  },
  {
   "id": 13,
@@ -313,19 +360,20 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Habitar el cuerpo",
   "esencial": "Contempla un punto en la pared o los círculos de colores de una pluma de pavo real hasta que el objeto se disuelva.",
-  "pasos": [
-   "Contempla un punto en la pared o los círculos de colores de una pluma de pavo real hasta que el objeto se disuelva.",
-   "Mira hasta que solo quede mirar.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Marca un punto oscuro en la pared, a un metro, a la altura de los ojos.",
+    "Míralo fijo sin mover los ojos, respirando suave.",
+    "Sigue hasta que los bordes vibren o el objeto se disuelva.",
+    "Cuando se disuelva, cierra los ojos y quédate en el que mira."
+   ],
   "integracion": "Mira un objeto de tu escritorio hasta que parezca perder los bordes, dos minutos.",
   "reflexion": "¿Qué miraba cuando el objeto se disolvió?",
   "efecto": "Al desaparecer el soporte visual externo o imaginado, la atención se ve forzada a regresar hacia el centro del observador.",
-  "guia": "Mira hasta que solo quede mirar.",
-  "clave": "La mente solo sabe moverse; detenla en un solo punto externo y te arrojará a tu centro interno.",
-  "senial": "Si el objeto se disuelve y quedas solo tú, es la tuya.",
-  "sutra": "Contempla un punto hasta que se disuelva; o los círculos del pavo real como tus sentidos en lo ilimitado."
+   "guia": "Mira hasta que solo quede mirar.",
+   "clave": "La mente solo sabe moverse; detenla en un solo punto externo y te arrojará a tu centro interno.",
+   "senial": "Si el objeto se disuelve y quedas solo tú, es la tuya.",
+   "sutra": "Contempla un punto hasta que se disuelva; o los círculos del pavo real como tus sentidos en lo ilimitado.",
+   "cuidado": "Si los ojos arden o lagrimean, parpadea y descansa; retoma cuando se calmen."
  },
  {
   "id": 14,
@@ -338,12 +386,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Habitar el cuerpo",
   "esencial": "Pon toda la atención en el nervio sutil (delicado como el hilo de un loto) situado en el centro de la columna vertebral.",
-  "pasos": [
-   "Pon toda la atención en el nervio sutil (delicado como el hilo de un loto) situado en el centro de la columna vertebral.",
-   "Sube por el centro, despacio.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate con la espalda recta, sin rigidez.",
+    "Lleva la atención a la base de la columna.",
+    "Sube despacio por el centro, vértebra a vértebra, como un hilo de luz.",
+    "Al llegar a la coronilla, quédate ahí, volviendo al eje si te pierdes."
+   ],
   "integracion": "En una pausa, endereza la espalda y sigue una línea de luz subiendo por tu columna, tres veces.",
   "reflexion": "¿Sentiste el eje del cuerpo por dentro?",
   "efecto": "Revela la energía sutil interior y llena la conciencia con una luz radiante que expande el aura.",
@@ -363,12 +411,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Habitar el cuerpo",
   "esencial": "Tapa las aberturas de la cabeza (ojos, oídos, nariz, boca) con las manos reteniendo brevemente la energía.",
-  "pasos": [
-   "Tapa las aberturas de la cabeza (ojos, oídos, nariz, boca) con las manos reteniendo brevemente la energía.",
-   "Tapa afuera, escucha adentro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Con manos limpias, tapa ojos, oídos y labios a la vez, suave.",
+    "Quédate unos segundos respirando quieto por la nariz, reteniendo la energía.",
+    "Escucha el zumbido interno concentrado en el entrecejo.",
+    "Suelta de golpe y quédate quieto en el silencio posterior."
+   ],
   "integracion": "Hazlo una vez al día en privado, treinta segundos, y nota el silencio posterior.",
   "reflexion": "¿El zumbido interno se volvió presencia?",
   "efecto": "La energía que solía fluir hacia fuera se concentra en el tercer ojo, abriendo un espacio abarcador de totalidad.",
@@ -389,12 +437,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Habitar el cuerpo",
   "esencial": "Absorbe las percepciones sensoriales (vista, oído, tacto) llevándolas directamente al centro del corazón.",
-  "pasos": [
-   "Absorbe las percepciones sensoriales (vista, oído, tacto) llevándolas directamente al centro del corazón.",
-   "Baja lo que ves al corazón.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y lleva una mano al centro del pecho.",
+    "Mira algo, escucha algo: en vez de analizarlo, bájalo al pecho.",
+    "Siente cada percepción como calor en el corazón.",
+    "Quédate en el sentir, volviendo al pecho si subes a la cabeza."
+   ],
   "integracion": "Ante algo bello hoy (música, cielo), llévalo al pecho en vez de comentarlo.",
   "reflexion": "¿Sentiste más con el pecho que con la cabeza?",
   "efecto": "Sustituye el análisis mental por el sentir amoroso, facilitando la caída espontánea hacia el centro del ombligo.",
@@ -414,12 +462,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Centro y equilibrio",
   "esencial": "Ante los extremos de la mente (placer/dolor, atracción/aversión), no elijas ni tomes partido; permanece en el medio.",
-  "pasos": [
-   "Ante los extremos de la mente (placer/dolor, atracción/aversión), no elijas ni tomes partido; permanece en el medio.",
-   "Ni esto ni aquello; quédate.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y nota el péndulo de hoy: qué te atrae y qué te repele.",
+    "Ante cada extremo, no elijas ni rechaces: quédate en el medio.",
+    "Ni esto ni aquello: respira en el centro entre los dos.",
+    "Si un bando te arrastra, vuelve al medio sin pelear."
+   ],
   "integracion": "Cuando algo te guste o te moleste hoy, no tomes partido durante un minuto: quédate en medio.",
   "reflexion": "¿El péndulo se detuvo o te llevó igual?",
   "efecto": "Detiene el impulso del péndulo mental, produciendo la disolución del ego y revelando la paz inmutable.",
@@ -439,12 +487,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Centro y equilibrio",
   "esencial": "Contempla un objeto o persona con amor continuo, sin desviar la mirada a ningún otro elemento.",
-  "pasos": [
-   "Contempla un objeto o persona con amor continuo, sin desviar la mirada a ningún otro elemento.",
-   "Ama con la mirada, sin pedir nada.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Elige un objeto o una flor y ponlo delante.",
+    "Míralo con cariño continuo, sin mirar otra cosa.",
+    "Ama sin pedir nada: deja que lo mirado te absorba.",
+    "Cuando el ego se olvide, quédate en esa bendición."
+   ],
   "integracion": "Elige un objeto cualquiera y míralo con cariño dos minutos, sin mirar otra cosa.",
   "reflexion": "¿Desapareciste un momento a favor de lo mirado?",
   "efecto": "Al olvidarse del ego por completo en favor del objeto amado, surge la bendición de la conciencia unificada.",
@@ -460,16 +508,16 @@ window.MEDITACIONES = [
   "categoria": "centramiento",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Centro y equilibrio",
-  "esencial": "Siéntate apoyado únicamente en los glúteos sin tocar el suelo con manos ni pies, buscando el equilibrio perfecto.",
-  "pasos": [
-   "Siéntate apoyado únicamente en los glúteos sin tocar el suelo con manos ni pies, buscando el equilibrio perfecto.",
-   "Busca el centro, no la perfección.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado en el suelo, sin apoyo",
+   "intencion": "Centro y equilibrio",
+   "esencial": "Siéntate apoyado únicamente en los glúteos sin tocar el suelo con manos ni pies, buscando el equilibrio perfecto.",
+   "pasos": [
+    "Siéntate en el suelo blando, solo sobre los glúteos, con pies y manos en el aire.",
+    "Busca el equilibrio sin agarrarte: el centro, no la perfección.",
+    "Siente cómo la atención cae de golpe al ombligo.",
+    "Si pierdes el equilibrio, ríe, cae suave y repite."
+   ],
   "integracion": "Prueba la postura un minuto en casa; si te caes, ríe y repite.",
   "reflexion": "¿A dónde saltó tu atención cuando perdiste el equilibrio?",
   "efecto": "El equilibrio físico absoluto catapulta repentinamente la atención hacia el centro del ombligo (Hara).",
@@ -486,16 +534,16 @@ window.MEDITACIONES = [
   "categoria": "centramiento",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Vida diaria",
-  "postura": "Sentado comodo",
-  "intencion": "Centro y equilibrio",
-  "esencial": "En un vehículo en marcha (o sentado quieto), déjate llevar por el movimiento rítmico en círculos cada vez más pequeños sin ofrecer resistencia.",
-  "pasos": [
-   "En un vehículo en marcha (o sentado quieto), déjate llevar por el movimiento rítmico en círculos cada vez más pequeños sin ofrecer resistencia.",
-   "Muévete con lo que se mueve.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Vida diaria",
+   "postura": "Sentado, como pasajero",
+   "intencion": "Centro y equilibrio",
+   "esencial": "En un vehículo en marcha (o sentado quieto), déjate llevar por el movimiento rítmico en círculos cada vez más pequeños sin ofrecer resistencia.",
+   "pasos": [
+    "Siéntate como pasajero (o en una silla) y cierra los ojos.",
+    "Déjate llevar por el vaivén en círculos, cada vez más pequeños.",
+    "No resistas el movimiento: fúndete con él.",
+    "Cuando llegue el silencio, quédate quieto en él."
+   ],
   "integracion": "En tu próximo viaje, suéltate al movimiento del vehículo en vez de resistirlo.",
   "reflexion": "¿El vaivén te aquietó o te puso nervioso?",
   "efecto": "Elimina la rigidez y resistencia del ego, conduciendo a un estado de silencio y centramiento interior.",
@@ -516,12 +564,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Centro y equilibrio",
   "esencial": "Ante un pinchazo suave con una aguja o un dolor, concentra la atención en reducir la zona dolorosa a un mero punto focal.",
-  "pasos": [
-   "Ante un pinchazo suave con una aguja o un dolor, concentra la atención en reducir la zona dolorosa a un mero punto focal.",
-   "Haz el dolor un punto y míralo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Ante una molestia pequeña, ubícala con precisión.",
+    "Reduce la zona con la atención hasta volverla un punto.",
+    "Mira el punto sin huir: observa qué cambia.",
+    "Reconoce al que mira: tú no eres lo que duele."
+   ],
   "integracion": "Ante la próxima molestia pequeña, reduce la zona a un punto con la atención.",
   "reflexion": "¿El dolor cambió cuando dejaste de huir de él?",
   "efecto": "Rompe la identificación con el cuerpo físico; el observador se separa de la sensación corporal.",
@@ -538,16 +586,16 @@ window.MEDITACIONES = [
   "categoria": "mente",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Centro y equilibrio",
-  "esencial": "Contempla un evento del pasado recorriéndolo en dirección inversa (del presente hacia atrás) como si fuera una película de alguien ajeno.",
-  "pasos": [
-   "Contempla un evento del pasado recorriéndolo en dirección inversa (del presente hacia atrás) como si fuera una película de alguien ajeno.",
-   "Mira tu historia como si no fuera tuya.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "En calma, o al acostarte",
+   "postura": "Sentado comodo",
+   "intencion": "Centro y equilibrio",
+   "esencial": "Contempla un evento del pasado recorriéndolo en dirección inversa (del presente hacia atrás) como si fuera una película de alguien ajeno.",
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y elige un evento de hoy.",
+    "Recórrelo hacia atrás, del presente al inicio, como película ajena.",
+    "Míralo sin justificarte ni culparte: solo testigo.",
+    "Al llegar al inicio, suelta la película y quédate quieto."
+   ],
   "integracion": "Toma un recuerdo molesto y recórrelo de atrás hacia adelante, como película ajena.",
   "reflexion": "¿Pesó menos visto al revés y desde fuera?",
   "efecto": "Desmantela las cargas psicológicas acumuladas (karma), purifica la mente y despierta al observador testigo.",
@@ -567,12 +615,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Siente la presencia de un objeto y la ausencia de los demás; posteriormente, suelta tanto la sensación del objeto como la de la ausencia.",
-  "pasos": [
-   "Siente la presencia de un objeto y la ausencia de los demás; posteriormente, suelta tanto la sensación del objeto como la de la ausencia.",
-   "Suelta lo visto y lo no visto.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y elige un objeto cercano.",
+    "Siéntelo con todo el cuerpo: presencia aquí, ausencia de lo demás.",
+    "Suelta la sensación del objeto.",
+    "Suelta también la ausencia: quédate en lo que queda."
+   ],
   "integracion": "Mira tu habitación, nota un objeto y el vacío alrededor; suelta ambas sensaciones.",
   "reflexion": "¿Qué quedó cuando soltaste el objeto y su falta?",
   "efecto": "La conciencia cae en un vacío puro (Shunya) libre de contenidos, revelando el ser verdadero.",
@@ -592,19 +640,20 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Cuando surja amor u odio hacia alguien, no dirijas la emoción hacia la persona externa, sino mantente centrado en el origen interno de la energía.",
-  "pasos": [
-   "Cuando surja amor u odio hacia alguien, no dirijas la emoción hacia la persona externa, sino mantente centrado en el origen interno de la energía.",
-   "No vayas al otro; vuelve a la fuente.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Cuando surja amor u odio hacia alguien, detente antes de actuar.",
+    "No vayas al otro: lleva la atención al pecho, a la fuente.",
+    "Siente la energía en su origen, sin proyectarla.",
+    "Quédate en el fuego interno hasta que se asiente."
+   ],
   "integracion": "Cuando hoy sientas algo fuerte hacia alguien, quédate un minuto en tu pecho antes de actuar.",
   "reflexion": "¿La emoción se disipó o se volvió fuego?",
   "efecto": "Evita la disipación externa de la energía y transmutará la emoción en fuego de presencia y autorrealización.",
   "guia": "No vayas al otro; vuelve a la fuente.",
   "clave": "Tú eres la fuente del estado, el otro solo la pantalla. No proyectar devuelve la energía al centro.",
-  "senial": "Si al no proyectar sientes fuego interno, profundiza.",
-  "sutra": "Cuando surja amor u odio hacia alguien, no lo pongas en la persona: permanece centrado."
+   "senial": "Si al no proyectar sientes fuego interno, profundiza.",
+   "sutra": "Cuando surja amor u odio hacia alguien, no lo pongas en la persona: permanece centrado.",
+   "cuidado": "Si la emoción desborda, respira hondo y espera a que pase; no te fuerces."
  },
  {
   "id": 25,
@@ -616,24 +665,25 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
-  "esencial": "En el instante preciso en que sientas el impulso de realizar cualquier acción o movimiento (hablar, correr, comer, reír), detente bruscamente en seco sin reacomodar el cuerpo ni hacer preparativos previos.",
-  "pasos": [
-   "En el instante preciso en que sientas el impulso de realizar cualquier acción o movimiento (hablar, correr, comer, reír), detente bruscamente en seco sin reacomodar el cuerpo ni hacer preparativos previos.",
-   "Detente. No te acomodes. Mira.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "En el instante preciso en que sientas el impulso de realizar cualquier acción o movimiento (hablar, correr, comer, reír), detente bruscamente en seco sin reacomodar el cuerpo ni hacer preparativos previos.",
+   "pasos": [
+    "Elige un lugar seguro, sin escaleras, calle ni objetos cortantes cerca.",
+    "Ante un impulso simple (hablar, abrir el móvil, picar algo), detente en seco sin acomodarte.",
+    "Quédate congelado unos segundos y mírate por dentro: impulso, cuerpo, testigo.",
+    "Respira normal y retoma o suelta la acción ya consciente."
+   ],
   "integracion": "Elige una acción automática (abrir el móvil, picar algo) y detente en seco justo al empezar.",
   "reflexion": "¿A dónde fue la energía que no salió?",
   "efecto": "Al bloquear de forma súbita la salida externa de la energía en movimiento, la inercia habitual del cuerpo y de la mente se rompe. La energía no tiene más remedio que regresar hacia el centro del ser, generando un abismo de separación entre el cuerpo y el observador testigo.",
-  "guia": "Detente. No te acomodes. Mira.",
-  "fuente_hueco": "35 a 44.txt",
-  "clave": "Lo intenso e involuntario detiene la mente sola: no interrumpas el instante, mírate en él. Vale también para el stop voluntario ante cualquier impulso.",
-  "senial": "Si en el susto aparece el testigo, úsalo siempre.",
-  "sutra": "Al comienzo del estornudo, en el pavor, en la ansiedad, sobre el abismo: sé consciente sin pausa."
- },
- {
-  "id": 26,
+   "guia": "Detente. No te acomodes. Mira.",
+   "fuente_hueco": "35 a 44.txt",
+   "clave": "Lo intenso e involuntario detiene la mente sola: no interrumpas el instante, mírate en él. Vale también para el stop voluntario ante cualquier impulso.",
+   "senial": "Si en el susto aparece el testigo, úsalo siempre.",
+   "sutra": "Al comienzo del estornudo, en el pavor, en la ansiedad, sobre el abismo: sé consciente sin pausa.",
+   "cuidado": "Practícalo con gestos simples y en lugar seguro; nunca corriendo, en escaleras, en la calle ni conduciendo. Si estás de pie, no bloquees las rodillas."
+  },
+  {
+   "id": 26,
   "num": 26,
   "titulo": "Considerar y abandonar el deseo",
   "categoria": "mente",
@@ -642,13 +692,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
-  "esencial": "Cuando un deseo intenso (sexual, alimenticio, de lograr o poseer algo) surja en la mente, contempla la emoción tal como es sin juzgarla ni clasificarla (\"considerarla\"). Inmediatamente después, de forma repentina y total",
-  "pasos": [
-   "Cuando un deseo intenso (sexual, alimenticio, de lograr o poseer algo) surja en la mente, contempla la emoción tal como es sin juzgarla ni clasificarla (\"considerarla\").",
-   "Inmediatamente después, de forma repentina y total.",
-   "Míralo entero, luego suéltalo.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Cuando un deseo intenso (sexual, alimenticio, de lograr o poseer algo) surja en la mente, contempla la emoción tal como es sin juzgarla ni clasificarla (\"considerarla\"). Inmediatamente después, de forma repentina y total, abandónala.",
+   "pasos": [
+    "Cuando un deseo intenso surja, míralo de frente sin juzgarlo.",
+    "Considéralo: siente dónde vive en el cuerpo.",
+    "De forma repentina y total, suéltalo.",
+    "Quédate en el centro que nunca se altera."
+   ],
   "integracion": "Cuando aparezca un antojo, míralo de frente un minuto y suéltalo sin pelear.",
   "reflexion": "¿El deseo era tuyo o solo pasaba por ti?",
   "efecto": "Al desenganchar la atención del objeto deseado sin caer en la represión ni en la indulgencia, la energía del deseo se retira del objeto externo y vuelve al sujeto, disolviendo las ataduras psicológicas.",
@@ -661,39 +711,39 @@ window.MEDITACIONES = [
  {
   "id": 27,
   "num": 27,
-  "titulo": "Agotamiento físico total",
-  "categoria": "mente",
-  "nivel": "Intermedio",
-  "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
+   "titulo": "Agotamiento físico total",
+   "categoria": "mente",
+   "nivel": "Intermedio",
+   "duracion": "10-15 min",
+   "momento": "Con tiempo y espacio",
+   "postura": "De pie, con espacio libre",
   "intencion": "Claridad y testigo",
   "esencial": "Muévete, corre, salta o baila continuamente hasta agotar del todo la energía física. Cuando el cuerpo esté exhausto y sea físicamente imposible dar un solo paso más, déjate caer libremente al suelo como un bloque inerte,",
-  "pasos": [
-   "Corre, salta, baila o muévete sin parar, ignorando las primeras protestas de fatiga.",
-   "Sigue hasta el límite físico real, donde sea imposible dar un paso mas.",
-   "Dejate caer como un bloque inerte, sin amortiguar ni acomodarte.",
-   "Quédate inmóvil en el suelo, atento a la caida."
-  ],
+   "pasos": [
+    "Elige un espacio despejado y blando, con agua cerca y nada con que golpearte.",
+    "Corre, salta, baila o muévete sin parar, ignorando las primeras protestas de fatiga.",
+    "Sigue hasta el límite físico real, donde sea imposible dar un paso mas.",
+    "Déjate caer al suelo de forma blanda, flexionando y protegiendo la cabeza, y quédate inmóvil atento a la caida."
+   ],
   "integracion": "Hazlo un día con tiempo: baila o corre hasta no poder más y desplómate consciente.",
   "reflexion": "¿Quién cayó al suelo, el cuerpo o tú?",
   "efecto": "Agota las capas superficiales de energía física y desmantela el control mental. Al desplomarse conscientemente, el meditador experimenta la totalidad del ser sin división entre el que cae y la caída.",
   "guia": "Agótate del todo y cae despierto.",
   "fuente_hueco": "35 a 44.txt",
   "sutra": "Vaga y muévete hasta el agotamiento total; al desplomarte al suelo, estáte entero en esa caida.",
-  "clave": "Ignora las primeras quejas de la mente y sigue hasta el límite real; cae sin amortiguar ni acomodarte, consciente.",
-  "senial": "Si al caer sientes totalidad sin division entre tu y la caida, es tu puerta.",
-  "cuidado": "Si hay mareo, dolor o condición cardíaca, para. Elige espacio despejado para caer."
+   "clave": "Ignora las primeras quejas de la mente y sigue hasta el límite real; cae blando y consciente, protegiendo la cabeza: la entrega es interna, no el golpe.",
+   "senial": "Si al caer sientes totalidad sin division entre tu y la caida, es tu puerta.",
+   "cuidado": "Superficie blanda y despejada, sin objetos duros cerca. Si hay mareo, dolor o condición cardíaca, para."
  },
  {
   "id": 28,
   "num": 28,
-  "titulo": "Trascendencia en la privación de fuerza o conocimiento",
-  "categoria": "mente",
-  "nivel": "Intermedio",
-  "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
+   "titulo": "Trascendencia en la privación de fuerza o conocimiento",
+   "categoria": "mente",
+   "nivel": "Intermedio",
+   "duracion": "10-15 min",
+   "momento": "Cualquier momento",
+   "postura": "Acostado boca arriba",
   "intencion": "Claridad y testigo",
   "esencial": "Imagina de forma guiada o siente que estás siendo privado gradualmente de tu fuerza física o de tus conocimientos intelectuales. En el instante límite en que sientes la privación absoluta, da el salto hacia el observador",
   "pasos": [
@@ -708,19 +758,20 @@ window.MEDITACIONES = [
   "guia": "Suelta todo lo que crees ser.",
   "fuente_hueco": "35 a 44.txt",
   "sutra": "Imagina que pierdes poco a poco fuerza y saber; en el instante de la privacion total, trasciende.",
-  "clave": "Siente el cuerpo pesado e inerte como plomo; en el punto final, cambia la atención al que observa.",
-  "senial": "Si aún sin fuerza ni ideas sigues existiendo como testigo, es tu puerta."
+   "clave": "Siente el cuerpo pesado e inerte como plomo; en el punto final, cambia la atención al que observa.",
+   "senial": "Si aún sin fuerza ni ideas sigues existiendo como testigo, es tu puerta.",
+   "cuidado": "Puede dar sueño o angustia; si te angustias, abre los ojos y vuelve a la respiración. Nunca practiques conduciendo ni en altura."
  },
  {
   "id": 29,
   "num": 29,
   "titulo": "El camino de la devoción",
-  "categoria": "mente",
+  "categoria": "corazon",
   "nivel": "Avanzado",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
-  "intencion": "Claridad y testigo",
+  "intencion": "Amor y unidad",
   "esencial": "Entrégate con amor incondicional, fe y confianza absoluta (Bhakti) hacia la existencia, lo divino o el maestro, abandonando la voluntad egoica.",
   "pasos": [
    "Trata la existencia, tu cuerpo o un maestro como templo, no como objeto de analisis.",
@@ -732,10 +783,10 @@ window.MEDITACIONES = [
   "reflexion": "¿Qué cambió cuando no hubo cálculo, solo entrega?",
   "efecto": "Para las personas orientadas al sentimiento, la devoción disuelve la armadura de la mente sin lucha intelectual, permitiendo que la energía fluya naturalmente hacia la libertad espiritual.",
   "guia": "Entrégate entero, sin reservas.",
-  "fuente_hueco": "35 a 44.txt",
-  "sutra": "La devocion libera.",
-  "clave": "No analices lo sagrado; trata cuerpo, existencia o maestro como templo. Deja crecer amor y gratitud sin racionalizar hasta que el yo se disuelva en el flujo.",
-  "senial": "Si al entregarte sin pedir nada el ego desaparece, es tu puerta."
+  "fuente_hueco": "35 a 44.txt + reporte Osho 29/30/32/36 (usuario 2026-10-02)",
+  "sutra": "La entrega total libera: cuando el que ama se disuelve en lo amado.",
+  "clave": "No adores hacia afuera ni negocies con lo divino: la mente calculadora solo se detiene en la entrega absoluta, cuando ya no hay amante separado de lo amado.",
+  "senial": "Si al entregarte sin pedir nada desaparece el que pide, es tu puerta."
  },
  {
   "id": 30,
@@ -748,20 +799,21 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Cierra los ojos y mantén los globos oculares inmóviles. Recorre internamente tu estructura corporal y mental extremidad por extremidad, contemplando cada detalle desde tu centro de visión.",
-  "pasos": [
-   "Siéntate comodo, cierra los ojos y detiene el movimiento ocular.",
-   "Ubica la atención en tu centro de vision interno.",
-   "Explora el cuerpo por dentro como caverna viva, luego también pensamientos y emociones.",
-   "Reconoce que lo presenciado no eres tu; estabilizate como testigo."
-  ],
+   "pasos": [
+    "Siéntate comodo, cierra los ojos y detén el movimiento ocular, sin apretar los párpados.",
+    "Ubica la atención en tu centro de vision interno.",
+    "Explora el cuerpo por dentro como caverna viva, luego también pensamientos y emociones.",
+    "Reconoce que lo presenciado no eres tu; estabilizate como testigo."
+   ],
   "integracion": "Acostado con ojos cerrados, recorre tu cuerpo por dentro parte por parte, cinco minutos.",
   "reflexion": "¿Viste tu interior o solo pensaste en él?",
   "efecto": "Al observar el cuerpo y la mente desde el interior, la conciencia se separa de la forma física y mental, estableciéndose en la subjetividad pura del testigo (Svarupa).",
   "guia": "Mira el cuerpo desde adentro.",
-  "fuente_hueco": "35 a 44.txt",
-  "sutra": "Con los ojos cerrados, contempla tu ser interno en detalle; así conoces tu verdadera naturaleza.",
-  "clave": "Lo que puedes observar no eres tu: recorre órganos, huesos, sensaciones y pensamientos desde adentro hasta quedar solo como testigo.",
-  "senial": "Si al recorrerte por dentro comprendes que no eres lo observado, es tu puerta."
+  "fuente_hueco": "35 a 44.txt + reporte Osho 29/30/32/36 (usuario 2026-10-02)",
+  "sutra": "Deja el espejo y entra: recorre por dentro tu geografía hasta dar con tu naturaleza.",
+   "clave": "Del cuerpo solo conoces la piel y el espejo: entra y recorre sensaciones, canales y centros hasta quedar como testigo de tu geografía interna.",
+   "senial": "Si al recorrerte por dentro comprendes que no eres lo observado, es tu puerta.",
+   "cuidado": "Sin forzar los ojos: mirada suave tras los párpados. Si hay tensión o dolor de cabeza, relaja y abre los ojos."
  },
  {
   "id": 31,
@@ -774,12 +826,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Contempla un objeto o recipiente (como una vasija) abarcándolo como un todo indivisible de una sola mirada, sin dividirlo mentalmente en partes y sin reparar en el material del que está hecho (madera, barro u oro).",
-  "pasos": [
-   "Contempla un objeto o recipiente (como una vasija) abarcándolo como un todo indivisible de una sola mirada, sin dividirlo mentalmente en partes y sin reparar en el material del que está hecho (madera, barro u oro).",
-   "Abarca el todo, olvida las partes.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Elige un objeto simple (taza, vasija) y ponlo a un metro, a la altura de los ojos.",
+    "Míralo entero de una sola mirada, sin recorrerlo por partes.",
+    "Suelta el material, el nombre y la utilidad: solo forma total.",
+    "Cuando la mirada se aquiete, cierra los ojos y quédate en el observador."
+   ],
   "integracion": "Toma una taza y mírala como un todo, sin juzgar su material ni sus partes.",
   "reflexion": "¿La mente se quedó sin nada que analizar?",
   "efecto": "Al eliminar el análisis de detalles y la fijación en la sustancia material, la mirada no encuentra excusas para moverse. La inmovilidad ocular detiene el pensamiento y la atención rebota hacia el centro del observador.",
@@ -810,9 +862,9 @@ window.MEDITACIONES = [
   "reflexion": "¿El objeto recuperó su frescura?",
   "efecto": "Limpia los ojos del polvo del hábito y de la memoria automática. Devuelve a la percepción la inocencia y frescura infantil, abriendo la puerta a la presencia del momento presente.",
   "guia": "Mira sin pasado.",
-  "fuente_hueco": "35 a 44.txt",
-  "sutra": "Contempla como por primera vez a una persona bella o a un objeto ordinario.",
-  "clave": "Suelta nombres, utilidad, juicios y recuerdos; mira con asombro directo como un recien nacido.",
+  "fuente_hueco": "35 a 44.txt + reporte Osho 29/30/32/36 (usuario 2026-10-02)",
+  "sutra": "Mira lo cotidiano como lo nunca visto: una persona, una cosa, sin archivo previo.",
+  "clave": "La mente ve con archivos viejos; ante lo nunca visto no tiene a qué recurrir y se calla. Ahí nace la mirada contemplativa.",
   "senial": "Si sin pasado la atención queda anclada en el presente, es tu puerta."
  },
  {
@@ -822,16 +874,16 @@ window.MEDITACIONES = [
   "categoria": "mirada",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Percepcion fresca",
-  "esencial": "Fijar la mirada de manera continua en la vastedad del cielo azul puro sin nubes, evitando enfocar objetos flotantes como aves o aviones.",
-  "pasos": [
-   "Fijar la mirada de manera continua en la vastedad del cielo azul puro sin nubes, evitando enfocar objetos flotantes como aves o aviones.",
-   "Piérdete en lo azul.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "De día, con cielo visible",
+   "postura": "Sentado comodo",
+   "intencion": "Percepcion fresca",
+   "esencial": "Fijar la mirada de manera continua en la vastedad del cielo azul puro sin nubes, evitando enfocar objetos flotantes como aves o aviones.",
+   "pasos": [
+    "Sal o asómate a ver cielo abierto, sin sol directo.",
+    "Mira la vastedad azul sin enfocar nubes, aves ni aviones.",
+    "Piérdete en lo azul, sin pensar en lo que miras.",
+    "Cuando la mente se aquiete, cierra los ojos y siente el cielo adentro."
+   ],
   "integracion": "Cuando veas cielo despejado, míralo dos minutos sin enfocar nubes ni pájaros.",
   "reflexion": "¿La mirada se disolvió en lo abierto?",
   "efecto": "Dado que el cielo abierto no ofrece ningún objeto delimitado donde la atención pueda aferrarse, la mente pierde sus apoyos y la vacuidad exterior se refleja internamente, produciendo serenidad y silencio.",
@@ -853,20 +905,21 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Al escuchar la comunicación de una enseñanza mística suprema por parte de un maestro, mantén los ojos quietos e inmóviles sin pestañear.",
-  "pasos": [
-   "Siéntate ante la ensenanza que escuchas.",
-   "Fija la mirada en un punto, como de piedra.",
-   "No pestanees durante la escucha.",
-   "Deja que la inmovilidad vuelva la mente cavidad transparente."
-  ],
+   "pasos": [
+    "Siéntate ante la ensenanza que escuchas.",
+    "Fija la mirada en un punto, como de piedra.",
+    "Parpadea solo si los ojos lo piden; retoma la quietud después.",
+    "Deja que la inmovilidad vuelva la mente cavidad transparente."
+   ],
   "integracion": "En tu próxima conversación importante, mantén la mirada quieta y solo escucha.",
   "reflexion": "¿Escuchaste más cuando los ojos dejaron de moverse?",
   "efecto": "La inmovilidad de los ojos frena el flujo automático de los pensamientos. La mente se convierte en una cavidad receptiva y transparente que absorbe la verdad existencial directamente.",
   "guia": "Ojos quietos, escucha total.",
   "fuente_hueco": "35 a 44.txt",
   "sutra": "Mientras se imparte la ensenanza suprema, ojos quietos sin pestanear: vuélvete libre al instante.",
-  "clave": "Ojo quieto, mente quieta; convierte la conciencia en cavidad receptiva que absorbe sin pensar.",
-  "senial": "Si al aquietar los ojos el pensamiento se congela y solo escuchas, es tu puerta."
+   "clave": "Ojo quieto, mente quieta; convierte la conciencia en cavidad receptiva que absorbe sin pensar.",
+   "senial": "Si al aquietar los ojos el pensamiento se congela y solo escuchas, es tu puerta.",
+   "cuidado": "Si los ojos arden o lagrimean, parpadea y descansa; retoma cuando se calmen. Sin forzar."
  },
  {
   "id": 35,
@@ -879,12 +932,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Asómate al borde de un pozo muy profundo y contempla de forma sostenida su fondo oscuro y distante.",
-  "pasos": [
-   "Asomate con cuidado al borde de algo muy profundo.",
-   "Mira fijo y continuo al fondo oscuro.",
-   "Evita pensamientos, comparaciones o temores.",
-   "Sostén hasta que el vacio provoque asombro y silencio."
-  ],
+   "pasos": [
+    "Asomate con cuidado al borde de algo muy profundo.",
+    "Mira fijo y continuo al fondo oscuro.",
+    "No sigas pensamientos ni comparaciones; si viene temor, respira y vuelve al fondo.",
+    "Sostén hasta que el vacio provoque asombro y silencio."
+   ],
   "integracion": "Asómate a algo profundo (un balcón alto, el mar) y mira el fondo sin pensar.",
   "reflexion": "¿El vacío de afuera despertó tu vacío?",
   "efecto": "La profundidad física externa evoca el abismo de la mente inconsciente. La atención se sumerge en el vacío externo provocando un estado de asombro interior donde los pensamientos se detienen.",
@@ -916,10 +969,10 @@ window.MEDITACIONES = [
   "reflexion": "¿Quedó conciencia sin contenido?",
   "efecto": "Al vaciar tanto el objeto externo como la memoria interna, la conciencia cae en una vacuidad pura libre de contenidos (subjetividad pura).",
   "guia": "Suelta lo visto y su recuerdo.",
-  "fuente_hueco": "35 a 44.txt",
-  "sutra": "Mira un objeto, luego retira lentamente tu mirada, luego retira tu pensamiento; y entonces...",
-  "clave": "Primero queda solo la imagen mental; luego vuélvete neutral ante ella hasta que se disuelva y quede vacuidad.",
-  "senial": "Si al soltar objeto e imagen queda silencio sin contenido, es tu puerta."
+  "fuente_hueco": "35 a 44.txt + reporte Osho 29/30/32/36 (usuario 2026-10-02)",
+  "sutra": "Fija un objeto, suelta la vista, suelta su imagen: reposa en lo que queda.",
+  "clave": "Tres fases: el objeto, solo su imagen, ni siquiera su imagen. Al vaciar fuera y dentro sin perder la alerta, queda el vacío consciente.",
+  "senial": "Si al soltar objeto e imagen queda un silencio alerta sin contenido, es tu puerta."
  },
  {
   "id": 37,
@@ -1091,7 +1144,7 @@ window.MEDITACIONES = [
   "intencion": "Escucha profunda",
   "esencial": "Mantén la boca levemente entreabierta y sitúa la atención en el centro exacto de la lengua. O bien, siente el sonido silencioso \"HH\" con cada inhalación.",
   "pasos": [
-   "Abre apenas la boca, relaja mandibula.",
+    "Abre apenas la boca, relaja mandíbula.",
    "Lleva toda la atención al centro de la lengua, sin moverla.",
    "Alternativa: al inhalar, siente el roce sutil HH (no se vocaliza, es el sonido natural del aire al entrar).",
    "Siente como baja de garganta al corazón."
@@ -1142,12 +1195,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Escucha profunda",
   "esencial": "Entona en silencio una palabra que termine en \"AH\". Descansa sin esfuerzo en la exhalación completa (\"HH\") cuando el aire sale totalmente del cuerpo.",
-  "pasos": [
-   "Entona en silencio una palabra que termine en \"AH\".",
-   "Descansa sin esfuerzo en la exhalación completa (\"HH\") cuando el aire sale totalmente del cuerpo.",
-   "Descansa en el HH final.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y elige una palabra terminada en AH.",
+    "Entónala en silencio, alargando el AH.",
+    "Al vaciarse el aire, descansa en el HH final sin esfuerzo.",
+    "Quédate en la pausa vacía hasta que el aire vuelva solo."
+   ],
   "integracion": "Susurra una palabra terminada en AH y descansa en la exhalación vacía posterior.",
   "reflexion": "¿La pausa vacía te sostuvo?",
   "efecto": "Al descansar en la exhalación completa, la energía no vuelve afuera y la mente se asienta en el testigo silencioso.",
@@ -1163,16 +1216,16 @@ window.MEDITACIONES = [
   "categoria": "sonido",
   "nivel": "Avanzado",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Escucha profunda",
-  "esencial": "Presiona los oídos con los dedos y contrae el esfínter rectal simultáneamente. Esta doble oclusión encierra la energía y revela una columna de sonido silencioso interior.",
-  "pasos": [
-   "Presiona los oídos con los dedos y contrae el esfínter rectal simultáneamente.",
-   "Esta doble oclusión encierra la energía y revela una columna de sonido silencioso interior.",
-   "Cierra abajo y arriba; escucha.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "En privado, sentado",
+   "postura": "Sentado comodo",
+   "intencion": "Escucha profunda",
+   "esencial": "Presiona los oídos con los dedos y contrae el esfínter rectal simultáneamente. Esta doble oclusión encierra la energía y revela una columna de sonido silencioso interior.",
+   "pasos": [
+    "Siéntate cómodo, con la espalda recta y las manos limpias.",
+    "Tapa ambos oídos con las yemas, suave, y contrae leve la base del cuerpo, sin pujar.",
+    "Escucha el zumbido interior 20-30 segundos, sin forzar.",
+    "Suelta manos y contracción; quédate quieto escuchando el silencio posterior."
+   ],
   "integracion": "En privado, tapa tus oídos y contrae la base del cuerpo treinta segundos; escucha el zumbido interno.",
   "reflexion": "¿Apareció la columna de sonido interior?",
   "efecto": "La doble oclusion encierra la energía y revela la columna de sonido interior; la mente se aquieta en su eje.",
@@ -1180,7 +1233,7 @@ window.MEDITACIONES = [
   "clave": "Doble cierre: la energía deja de fugarse y aparece la columna de sonido silencioso. Pocos segundos bastan.",
   "senial": "Si oyes el zumbido interior, repite en momentos sueltos.",
   "sutra": "Tapando los oídos por presión y contrayendo la base, entra en el sonido interior.",
-  "cuidado": "Dedos limpios, tapón suave sin presionar fuerte; contracción leve, sin pujar."
+   "cuidado": "Dedos limpios, tapón suave sin presionar fuerte; contracción leve, sin pujar. Ante dolor de oído, mareo o malestar, suelta de inmediato."
  },
  {
   "id": 47,
@@ -1192,13 +1245,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Escucha profunda",
-  "esencial": "Repite tu propio nombre continuamente en silencio hasta despojarlo de significado conceptual, usándolo como un vehículo para conectar con la naturaleza de todos los sonidos. 3. Energía Tántrica, Sensaciones y Vida Cotidi",
-  "pasos": [
-   "Repite tu propio nombre continuamente en silencio hasta despojarlo de significado conceptual, usándolo como un vehículo para conectar con la naturaleza de todos los sonidos.",
-   "3. Energía Tántrica, Sensaciones y Vida Cotidi.",
-   "Repite tu nombre hasta vaciarlo.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Repite tu propio nombre continuamente en silencio hasta despojarlo de significado conceptual, usándolo como un vehículo para conectar con la naturaleza de todos los sonidos.",
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y repite tu nombre en silencio.",
+    "Escúchalo como sonido puro, sin su historia ni su cara.",
+    "Sigue hasta que suene extraño y pierda significado.",
+    "Quédate en la vibración vacía, sin dueño."
+   ],
   "integracion": "Repite tu nombre en silencio hasta que suene extraño y pierda significado.",
   "reflexion": "¿Quién quedó cuando tu nombre se vació?",
   "efecto": "Al repetir tu nombre hasta vaciarlo de significado, todos los sonidos se vuelven puerta al testigo.",
@@ -1218,20 +1271,20 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Al inicio del contacto amoroso, enfoca la atención en la calidez y el fuego inicial sin apresurarte hacia el clímax o la eyaculación.",
-  "pasos": [
-   "Al inicio del contacto amoroso, enfoca la atención en la calidez y el fuego inicial sin apresurarte hacia el clímax o la eyaculación.",
-   "Quédate en el fuego del comienzo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Acuerda con tu pareja un encuentro sin prisa ni meta.",
+    "Al inicio del contacto, lleva la atención a la calidez y al fuego del comienzo.",
+    "Respira lento y quédate en el inicio tibio, sin correr hacia el final.",
+    "Termina quedándote quieto juntos, sintiendo la energía en el origen."
+   ],
   "integracion": "En la intimidad, atiende la calidez del inicio sin correr hacia el final.",
   "reflexion": "¿El inicio bastó como plenitud?",
   "efecto": "La energía permanece en el origen y se transforma en una meditación regeneradora.",
   "guia": "Quédate en el fuego del comienzo.",
   "clave": "Quédate en el inicio tibio sin correr al clímax: la energía se queda en el origen y regenera.",
   "senial": "Si el comienzo se vuelve vasto, es tu vía.",
-  "sutra": "Al comienzo de la unión, atiende el fuego del principio y evita perderte en el final.",
-  "cuidado": "Solo con acuerdo mutuo, sin exigencia ni prisa."
+   "sutra": "Al comienzo de la unión, atiende el fuego del principio y evita perderte en el final.",
+   "cuidado": "Solo con acuerdo mutuo, sin exigencia ni prisa. Si surge incomodidad, parar y hablar."
  },
  {
   "id": 49,
@@ -1244,20 +1297,20 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Durante el abrazo amoroso, si el cuerpo o los sentidos comienzan a temblar, abandona el control mental y transfórmate en el temblor mismo.",
-  "pasos": [
-   "Durante el abrazo amoroso, si el cuerpo o los sentidos comienzan a temblar, abandona el control mental y transfórmate en el temblor mismo.",
-   "Sé el temblor, no quien tiembla.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "En el abrazo, si el cuerpo empieza a temblar, no lo controles.",
+    "Abandona el control mental y transfórmate en el temblor mismo.",
+    "Sé la vibración, no quien tiembla; deja que se expanda.",
+    "Quédate quieto después, sintiendo el círculo que quedó."
+   ],
   "integracion": "Si el cuerpo tiembla (frío, emoción, abrazo), sé el temblor en vez de controlarlo.",
   "reflexion": "¿Se disolvieron los límites al entregarte?",
-  "efecto": "Al ceder el control voluntario del cuerpo y entregarte por completo a la vibración, el ego y la mente pierden su dominio rígido. La energía biológica se libera de la localización puramente sexual y se expande por todo el organismo. Los límites corporales de ambos amantes se disuelven para formar un",
+  "efecto": "Al ceder el control voluntario del cuerpo y entregarte por completo a la vibración, el ego y la mente pierden su dominio rígido. La energía biológica se libera de la localización puramente sexual y se expande por todo el organismo. Los límites corporales de ambos amantes se disuelven para formar un solo círculo de energía.",
   "guia": "Sé el temblor, no quien tiembla.",
   "clave": "Suelta el control y sé la vibración misma: los límites de los dos cuerpos se disuelven en un solo círculo.",
   "senial": "Si el temblor te expande más allá de la piel, sigue.",
-  "sutra": "Si en el abrazo los sentidos tiemblan como hojas, entra en el temblor.",
-  "cuidado": "Solo con acuerdo mutuo, sin exigencia ni prisa."
+   "sutra": "Si en el abrazo los sentidos tiemblan como hojas, entra en el temblor.",
+   "cuidado": "Solo con acuerdo mutuo, sin exigencia ni prisa. Si surge incomodidad, parar y hablar."
  },
  {
   "id": 50,
@@ -1266,23 +1319,24 @@ window.MEDITACIONES = [
   "categoria": "cotidiano",
   "nivel": "Intermedio",
   "duracion": "5-10 min",
-  "momento": "Cualquier momento",
-  "postura": "En actividad",
-  "intencion": "Presencia diaria",
-  "esencial": "Evoca el estado de comunión energética en solitario, permitiendo que el cuerpo vibre e ingrese en ese mismo estado de quietud.",
-  "pasos": [
-   "Evoca el estado de comunión energética en solitario, permitiendo que el cuerpo vibre e ingrese en ese mismo estado de quietud.",
-   "El otro fue puerta; entra solo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado comodo",
+   "intencion": "Presencia diaria",
+   "esencial": "Evoca el estado de comunión energética en solitario, permitiendo que el cuerpo vibre e ingrese en ese mismo estado de quietud.",
+   "pasos": [
+    "Siéntate a solas, cómodo y sin interrupciones.",
+    "Evoca una comunión vivida hasta sentir su calidez en el cuerpo.",
+    "Deja que el cuerpo vibre igual ahora, sin necesitar al otro.",
+    "Reconoce la puerta interna y quédate quieto en ella."
+   ],
   "integracion": "A solas, evoca una comunión vivida y deja que el cuerpo vibre igual ahora.",
   "reflexion": "¿Necesitaste al otro para volver a ese estado?",
-  "efecto": "Otorga independencia y libertad frente a la necesidad de la presencia física de la otra persona. Una vez descubierto el centro de comunión interna, el practicante comprende que la persona externa era solo una puerta; al reproducir el estado meditativo en solitario, la totalidad del universo se convi",
+  "efecto": "Otorga independencia y libertad frente a la necesidad de la presencia física de la otra persona. Una vez descubierto el centro de comunión interna, el practicante comprende que la persona externa era solo una puerta; al reproducir el estado meditativo en solitario, la totalidad del universo se convierte en comunión.",
   "guia": "El otro fue puerta; entra solo.",
   "clave": "Evoca el estado en soledad y deja que el cuerpo vibre igual: la puerta era interna, no la otra persona.",
   "senial": "Si el recuerdo te lleva al mismo estado, practícalo solo.",
-  "sutra": "Incluso recordando la unión, sin abrazo, llega la transformación."
+   "sutra": "Incluso recordando la unión, sin abrazo, llega la transformación.",
+   "cuidado": "Si el recuerdo trae tristeza intensa, suéltalo y vuelve a la respiración; no fuerces."
  },
  {
   "id": 51,
@@ -1295,15 +1349,15 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Al reencontrarte con un amigo querido y sentir surgir la alegría, no dirijas la mente solo a la persona externa, sino imprégnate en la sensación interna de la alegría misma.",
-  "pasos": [
-   "Al reencontrarte con un amigo querido y sentir surgir la alegría, no dirijas la mente solo a la persona externa, sino imprégnate en la sensación interna de la alegría misma.",
-   "Bebe la alegría, no al mensajero.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Al reencontrarte con alguien querido, nota la alegría naciendo dentro.",
+    "No salgas hacia la persona: imprégnate de la sensación misma.",
+    "Bebe la alegría hasta que crezca y se expanda.",
+    "Quédate quieto saboreándola, sin comentarla."
+   ],
   "integracion": "Cuando hoy sientas alegría por alguien, imprégnate de la alegría misma, no de la persona.",
   "reflexion": "¿La dicha estaba en ti o en el otro?",
-  "efecto": "Revela que la dicha no proviene del objeto externo, sino que siempre ha residido en las fuentes ocultas de tu propio ser, siendo la otra persona únicamente la situación o detonante. Al enfocar la conciencia directamente en la emoción positiva, esta no se disipa afuera, sino que se profundiza y expan",
+  "efecto": "Revela que la dicha no proviene del objeto externo, sino que siempre ha residido en las fuentes ocultas de tu propio ser, siendo la otra persona únicamente la situación o detonante. Al enfocar la conciencia directamente en la emoción positiva, esta no se disipa afuera, sino que se profundiza y expande.",
   "guia": "Bebe la alegría, no al mensajero.",
   "clave": "La dicha está en ti, el otro solo la detona: quédate en la sensación en vez de salir hacia la persona.",
   "senial": "Si la alegría crece al mirarla, es tu puerta.",
@@ -1320,12 +1374,12 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Saborea los alimentos con lentitud consciente, convirtiéndote en el sabor mismo para que la plenitud se extienda por el cuerpo.",
-  "pasos": [
-   "Saborea los alimentos con lentitud consciente, convirtiéndote en el sabor mismo para que la plenitud se extienda por el cuerpo.",
-   "Conviértete en el sabor.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate a comer sin pantallas ni prisa.",
+    "Mastica lento el primer bocado, sintiendo el sabor completo.",
+    "Conviértete en el sabor: no hay comensal, solo gusto.",
+    "Sigue tres bocados así; el resto, come en calma."
+   ],
   "integracion": "En una comida, mastica lento y sé el sabor durante tres bocados.",
   "reflexion": "¿El piloto automático se detuvo al saborear?",
   "efecto": "Rompe la insensibilidad y la conducta robotizada impuesta por el hábito mental. Al fundirte totalmente con la experiencia del sabor, el parloteo de la mente se detiene, la sensibilidad corporal se revitaliza y el organismo se llena de una plenitud de vida en el momento presente.",
@@ -1345,15 +1399,15 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Contempla los eventos de la vida y el universo como si fueran una película o un juego teatral, observándolo con ligereza sin involucrarte dramáticamente.",
-  "pasos": [
-   "Contempla los eventos de la vida y el universo como si fueran una película o un juego teatral, observándolo con ligereza sin involucrarte dramáticamente.",
-   "Todo es escena; actúa ligero.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Elige diez minutos de tu día para mirar como película.",
+    "Personas y hechos son escenas: participa ligero, sin drama.",
+    "Si te enganchas, recuerda: es escena, actúa festivo.",
+    "Al terminar, nota si la seriedad se aflojó."
+   ],
   "integracion": "Mira tu día como película: participa ligero, sin drama, diez minutos.",
   "reflexion": "¿Se aflojó la seriedad?",
-  "efecto": "Disuelve la seriedad excesiva, la cual es la raíz principal del sufrimiento y de las tensiones psicológicas. Al comprender la existencia como un espectáculo cambiante (lila o juego), la mente suelta los apegos dramáticos y la conciencia se establece en una actitud festiva, serena y dichosa de observ",
+  "efecto": "Disuelve la seriedad excesiva, la cual es la raíz principal del sufrimiento y de las tensiones psicológicas. Al comprender la existencia como un espectáculo cambiante (lila o juego), la mente suelta los apegos dramáticos y la conciencia se establece en una actitud festiva, serena y dichosa de observador.",
   "guia": "Todo es escena; actúa ligero.",
   "clave": "Mira personas y hechos como escenas de una película: la seriedad es la raíz del sufrimiento; el observador festivo queda libre.",
   "senial": "Si al mirar así se afloja el drama, continúa.",
@@ -1370,15 +1424,15 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Ante cualquier evento dichoso o doloroso, ubica la atención en el espacio intermedio entre ambas polaridades para actuar como un testigo imparcial.",
-  "pasos": [
-   "Ante cualquier evento dichoso o doloroso, ubica la atención en el espacio intermedio entre ambas polaridades para actuar como un testigo imparcial.",
-   "Ni apego ni huida; centro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Ante algo bueno o malo de hoy, detente un instante.",
+    "Nota el tirón: apegarte si gusta, huir si duele.",
+    "Ubícate en el medio: ni apego ni huida.",
+    "Actúa desde el centro imparcial."
+   ],
   "integracion": "Ante algo bueno o malo hoy, ubícate en el medio sin apegarte ni huir.",
   "reflexion": "¿El péndulo perdió fuerza?",
-  "efecto": "Interrumpe la mecánica natural de la mente, que busca constantemente apegarse al placer o escapar del dolor. Al mantenerte neutral en el punto medio sin atracción ni repulsión, el movimiento pendular del pensamiento se detiene, revelando el centro de conciencia firme desde el cual se contempla la re",
+  "efecto": "Interrumpe la mecánica natural de la mente, que busca constantemente apegarse al placer o escapar del dolor. Al mantenerte neutral en el punto medio sin atracción ni repulsión, el movimiento pendular del pensamiento se detiene, revelando el centro de conciencia firme desde el cual se contempla la realidad.",
   "guia": "Ni apego ni huida; centro.",
   "clave": "El punto medio entre opuestos es el testigo imparcial: ni atracción ni repulsión.",
   "senial": "Si en el medio el péndulo se detiene, sigue.",
@@ -1395,15 +1449,15 @@ window.MEDITACIONES = [
   "postura": "En actividad",
   "intencion": "Presencia diaria",
   "esencial": "Reconoce que los objetos y deseos existen en ti del mismo modo que en los demás; la aceptación incondicional transforma esa energía.",
-  "pasos": [
-   "Reconoce que los objetos y deseos existen en ti del mismo modo que en los demás; la aceptación incondicional transforma esa energía.",
-   "Acepta el deseo; míralo cambiar.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Nota un deseo incómodo de hoy, sin juzgarlo.",
+    "Reconócelo también en ti como en los demás: es humano.",
+    "Acéptalo sin reprimirlo ni actuarlo: solo míralo.",
+    "Observa cómo se transforma solo al ser aceptado."
+   ],
   "integracion": "Nota un deseo incómodo hoy y acéptalo sin juzgarlo ni actuarlo.",
   "reflexion": "¿Se transformó lo aceptado sin pelear?",
-  "efecto": "Elimina las máscaras del ego, la culpa y la falsa autoimagen que intentan dividir los deseos en \"buenos\" y \"malos\". Al no reprimir ni juzgar los impulsos, la energía atascada en el inconsciente emerge a la superficie de la mente consciente, permitiendo que la sola observación atenta y sin juicio la",
+  "efecto": "Elimina las máscaras del ego, la culpa y la falsa autoimagen que intentan dividir los deseos en \"buenos\" y \"malos\". Al no reprimir ni juzgar los impulsos, la energía atascada en el inconsciente emerge a la superficie de la mente consciente, permitiendo que la sola observación atenta y sin juicio la disuelva.",
   "guia": "Acepta el deseo; míralo cambiar.",
   "clave": "Tu mente original es espejo puro cubierto de polvo (pasado). Aceptar sin juzgar limpia; no reprimas.",
   "senial": "Si al aceptar algo se transforma solo, es tu vía.",
@@ -1420,12 +1474,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Cierra los ojos e imagina que todo el espacio infinito del universo ha sido absorbido por completo dentro de tu propia cabeza, visualizándolo en forma de un gran resplandor o brillo luminoso.",
-  "pasos": [
-   "Cierra los ojos e imagina que todo el espacio infinito del universo ha sido absorbido por completo dentro de tu propia cabeza, visualizándolo en forma de un gran resplandor o brillo luminoso.",
-   "El universo cabe en tu cabeza.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y respira suave.",
+    "Imagina el cielo entero absorbido en tu cabeza como resplandor.",
+    "Siente la vastedad adentro: no hay bordes.",
+    "Descansa en el espacio luminoso, volviendo si el parloteo vuelve."
+   ],
   "integracion": "Cierra los ojos e imagina todo el cielo metido en tu cabeza como resplandor.",
   "reflexion": "¿La mente calló ante tanta vastedad?",
   "efecto": "Al enfocar la vastedad del espacio dentro de la cabeza, el parloteo mental se detiene y la conciencia experimenta la claridad del espacio ilimitado en el centro del propio ser.",
@@ -1445,12 +1499,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Mantén la certeza interior y el recuerdo constante de ser luz pura en todo momento: mientras estás despierto (vigilia), durante el sueño con sueños y en el sueño profundo.",
-  "pasos": [
-   "Mantén la certeza interior y el recuerdo constante de ser luz pura en todo momento: mientras estás despierto (vigilia), durante el sueño con sueños y en el sueño profundo.",
-   "Recuerda: eres luz.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y repite en silencio: 'soy luz'.",
+    "Siente el cuerpo como brillo, no como peso.",
+    "Lleva el recuerdo a lo que hagas hoy: actuar desde la luz.",
+    "A la noche, duérmete repitiéndolo hasta cruzar el sueño."
+   ],
   "integracion": "Repítete 'soy luz' al despertar, al mediodía y al dormir, y actúa desde ahí.",
   "reflexion": "¿Te olvidaste menos del cuerpo?",
   "efecto": "Disuelve la identificación exclusiva con el cuerpo denso y despierta una presencia luminosa continua que trasciende el olvido y la inconsciencia nocturna.",
@@ -1466,16 +1520,16 @@ window.MEDITACIONES = [
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Al dormirse",
-  "postura": "Sentado comodo",
-  "intencion": "Silencio y expansion",
-  "esencial": "Al acostarte por la noche, mantén la atención alerta en la pequeña pausa o intervalo exacto en que la vigilia del día se desvanece pero el sueño todavía no ha comenzado.",
-  "pasos": [
-   "Al acostarte por la noche, mantén la atención alerta en la pequeña pausa o intervalo exacto en que la vigilia del día se desvanece pero el sueño todavía no ha comenzado.",
-   "Vela en el umbral del sueño.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Al dormirse",
+   "postura": "Acostado boca arriba",
+   "intencion": "Silencio y expansion",
+   "esencial": "Al acostarte por la noche, mantén la atención alerta en la pequeña pausa o intervalo exacto en que la vigilia del día se desvanece pero el sueño todavía no ha comenzado.",
+   "pasos": [
+    "Acuéstate boca arriba, cómodo, con los ojos cerrados.",
+    "Suelta el día sin repasar nada: solo respira.",
+    "Vela el umbral: el instante en que la vigilia se apaga y el sueño aún no llega.",
+    "Si te duermes, bien; si atrapas el intervalo, anótalo mañana."
+   ],
   "integracion": "Esta noche, vigila el instante exacto en que el día se apaga y el sueño aún no llega.",
   "reflexion": "¿Atrapaste el intervalo sin mente?",
   "efecto": "En ese punto neutro —donde no actúa la mente consciente ni el sueño— la atención queda libre de los pensamientos habituales y la realidad del ser (being) se revela en su pureza original.",
@@ -1495,12 +1549,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Contempla las formas, colores y divisiones del mundo comprendiendo que son proyecciones engañosas de la mente (maya), y reconoce que todo lo que parece divisible es, en esencia, una unidad indivisible.",
-  "pasos": [
-   "Contempla las formas, colores y divisiones del mundo comprendiendo que son proyecciones engañosas de la mente (maya), y reconoce que todo lo que parece divisible es, en esencia, una unidad indivisible.",
-   "Todo lo diverso es uno.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y mira la variedad delante: formas, colores, caras.",
+    "Recuerda: todo lo diverso es una sola unidad.",
+    "Mira cada división como proyección: transparente, no sólida.",
+    "Quédate en el observador único tras las apariencias."
+   ],
   "integracion": "Mira la variedad del día (caras, colores) y recuerda: una sola unidad.",
   "reflexion": "¿Las divisiones perdieron poder?",
   "efecto": "Libera al practicante de la fascinación y el desasosiego por las apariencias cambiantes de la vida, devolviendo la atención al observador inmutable (el conocedor) que atestigua el flujo de la existencia.",
@@ -1516,16 +1570,16 @@ window.MEDITACIONES = [
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Silencio y expansion",
-  "esencial": "Suelta la identificación física con la piel y los límites corporales, contemplando la conciencia no como la carne sólida, sino como un espacio abierto e ilimitado.",
-  "pasos": [
-   "Suelta la identificación física con la piel y los límites corporales, contemplando la conciencia no como la carne sólida, sino como un espacio abierto e ilimitado.",
-   "No eres la piel; expándete.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado o acostado",
+   "intencion": "Silencio y expansion",
+   "esencial": "Suelta la identificación física con la piel y los límites corporales, contemplando la conciencia no como la carne sólida, sino como un espacio abierto e ilimitado.",
+   "pasos": [
+    "Siéntate o acuéstate cómodo, con los ojos cerrados.",
+    "Siente la piel como porosa, no como frontera.",
+    "Expándete más allá de los límites: conciencia sin bordes.",
+    "Quédate en la expansión, volviendo si regresas al cuerpo."
+   ],
   "integracion": "Tiéndete e imagina la piel porosa, la conciencia más grande que el cuerpo.",
   "reflexion": "¿Saliste de la prisión de la forma?",
   "efecto": "Rompe la prisión del ego basada en la forma física, permitiendo experimentar la libertad y la expansión de la conciencia sin fronteras.",
@@ -1545,12 +1599,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Al observar cualquier objeto externo, no te fijes únicamente en el objeto ni te encierres solo en ti mismo. Siente simultáneamente el objeto percibido, el acto de percibir y la presencia del sujeto que observa.",
-  "pasos": [
-   "Al observar cualquier objeto externo, no te fijes únicamente en el objeto ni te encierres solo en ti mismo.",
-   "Siente simultáneamente el objeto percibido, el acto de percibir y la presencia del sujeto que observa.",
-   "Objeto, mirar y testigo: uno.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Elige un objeto cercano y míralo con calma.",
+    "Siente lo mirado, el mirar y quien mira, los tres a la vez.",
+    "No te quedes solo en el objeto ni solo en ti.",
+    "Quédate en el campo único donde los tres son uno."
+   ],
   "integracion": "Mira un objeto sintiendo a la vez lo mirado, el mirar y quien mira.",
   "reflexion": "¿Se unieron los tres en un solo campo?",
   "efecto": "Disuelve la separación entre el sujeto y el objeto, unificando la experiencia en un solo campo de conciencia plena.",
@@ -1566,16 +1620,16 @@ window.MEDITACIONES = [
   "categoria": "mente",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Claridad y testigo",
-  "esencial": "En lugar de aislar un estímulo, expande tu atención para incluir de manera envolvente todo el entorno, los sonidos, las formas y las sensaciones dentro de tu propia presencia.",
-  "pasos": [
-   "En lugar de aislar un estímulo, expande tu atención para incluir de manera envolvente todo el entorno, los sonidos, las formas y las sensaciones dentro de tu propia presencia.",
-   "Inclúyelo todo en ti.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado o caminando",
+   "intencion": "Claridad y testigo",
+   "esencial": "En lugar de aislar un estímulo, expande tu atención para incluir de manera envolvente todo el entorno, los sonidos, las formas y las sensaciones dentro de tu propia presencia.",
+   "pasos": [
+    "Abre los sentidos, sentado o caminando despacio.",
+    "En vez de aislar un estímulo, incluye el entorno entero.",
+    "Sonidos, formas, sensaciones: todo dentro de tu presencia.",
+    "Descansa en la inclusión total, sin elegir nada."
+   ],
   "integracion": "En la calle, incluye todo (ruidos, gente, cielo) dentro de tu presencia, sin aislar nada.",
   "reflexion": "¿Desapareció la división con el mundo?",
   "efecto": "Elimina la sensación de división y aislamiento egoico con el mundo.",
@@ -1595,12 +1649,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Cierra los ojos y aplica una presión extremadamente suave con las yemas de los dedos sobre los globos oculares, sin forzar.",
-  "pasos": [
-   "Cierra los ojos y aplica una presión extremadamente suave con las yemas de los dedos sobre los globos oculares, sin forzar.",
-   "Presiona leve; mira adentro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Con manos limpias y uñas cortas, cierra los ojos.",
+    "Apoya las yemas sobre los párpados como una pluma, 20-30 segundos.",
+    "Suelta las manos y mira la oscuridad y la luz interna.",
+    "Quédate quieto, volviendo con suavidad si te distraes."
+   ],
   "integracion": "Con ojos cerrados, presiona suavísimo los párpados un minuto y siente la luz interna.",
   "reflexion": "¿Apareció el cuerpo de luz tras los ojos?",
   "efecto": "Detiene la estimulación óptica externa, permitiendo que la energía visual se repliegue hacia la percepción del cuerpo etérico y la luz interior.",
@@ -1608,7 +1662,7 @@ window.MEDITACIONES = [
   "clave": "Presión suavísima sobre los párpados: la energía visual se repliega y nace la luz interior.",
   "senial": "Si aparece ingravidez en la mirada, repite.",
   "sutra": "Tocando los ojos como una pluma, halla la levedad entre ellos: se abre el corazón e impregna el cosmos.",
-  "cuidado": "Yemas apenas apoyadas, sin hundir los ojos; ante cualquier molestia, suelta."
+   "cuidado": "Solo sobre los párpados, nunca presionar el globo con fuerza; sin lentillas puestas. Ante dolor, mareo o destellos, soltar de inmediato."
  },
  {
   "id": 64,
@@ -1621,12 +1675,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Tras relajar la vista y la tensión física, lleva la atención a la capa sutil o campo de energía que envuelve y atraviesa el cuerpo denso.",
-  "pasos": [
-   "Tras relajar la vista y la tensión física, lleva la atención a la capa sutil o campo de energía que envuelve y atraviesa el cuerpo denso.",
-   "Siente tu capa sutil.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, suelta los hombros y ablanda la mirada.",
+    "Lleva la atención a la piel y un palmo más allá.",
+    "Siente la capa sutil que envuelve y atraviesa el cuerpo.",
+    "Quédate en el campo vibrante, volviendo si regresas al hueso."
+   ],
   "integracion": "Tras relajar la vista, siente la capa de energía que envuelve tu cuerpo.",
   "reflexion": "¿Percibiste algo más que hueso y músculo?",
   "efecto": "Trasciende la identificación exclusiva con la estructura ósea y muscular.",
@@ -1646,12 +1700,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Mantente atento al espacio de silencio que aparece justo cuando un pensamiento termina y antes de que comience el siguiente.",
-  "pasos": [
-   "Mantente atento al espacio de silencio que aparece justo cuando un pensamiento termina y antes de que comience el siguiente.",
-   "Entra en el hueco entre ideas.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y deja pasar los pensamientos sin seguirlos.",
+    "Al terminar uno, nota el hueco antes del siguiente.",
+    "Entra en el hueco: silencio sin contenido.",
+    "Vuelve al hueco cada vez, sin buscarlo con esfuerzo."
+   ],
   "integracion": "Hoy caza tres pausas entre un pensamiento y el siguiente.",
   "reflexion": "¿El silencio entre ideas existe de verdad?",
   "efecto": "Revela el estado de no-mente y la vacuidad esencial detrás del flujo mental.",
@@ -1671,12 +1725,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Siente cómo los límites de tu piel se vuelven porosos y permeables, disolviendo las fronteras entre el espacio interno y el espacio externo.",
-  "pasos": [
-   "Siente cómo los límites de tu piel se vuelven porosos y permeables, disolviendo las fronteras entre el espacio interno y el espacio externo.",
-   "Disuelve la frontera piel-mundo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y siente la piel.",
+    "Imagina sus bordes porosos: el adentro y el afuera se tocan.",
+    "Estira una zona (la mano, el pecho) hasta lo ilimitado.",
+    "Quédate sin frontera, volviendo si los bordes regresan."
+   ],
   "integracion": "En la ducha, siente que el agua y tu piel comparten el mismo espacio sin frontera.",
   "reflexion": "¿Se volvió porosa tu frontera?",
   "efecto": "Otorga una sensación de libertad ilimitada y disuelve la pesadez física.",
@@ -1696,12 +1750,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Lleva la atención al centro del pecho o a la base de los centros vitales y siente cómo la dicha o energía pura satura progresivamente cada célula.",
-  "pasos": [
-   "Lleva la atención al centro del pecho o a la base de los centros vitales y siente cómo la dicha o energía pura satura progresivamente cada célula.",
-   "Empápate de dicha.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y lleva la atención al centro del pecho.",
+    "Siente ahí una dicha tibia, como luz que empapa.",
+    "Deja que sature célula a célula: brazos, vientre, cabeza.",
+    "Quédate empapado, sin querer más."
+   ],
   "integracion": "Lleva atención al pecho y siente una dicha que empapa cada célula, tres minutos.",
   "reflexion": "¿La plenitud calmó el querer más?",
   "efecto": "Transmuta el deseo compulsivo en plenitud presente.",
@@ -1721,19 +1775,20 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "En lugar de reprimir o buscar la descarga externa del deseo, enfoca toda la atención en su origen energético dentro del cuerpo.",
-  "pasos": [
-   "En lugar de reprimir o buscar la descarga externa del deseo, enfoca toda la atención en su origen energético dentro del cuerpo.",
-   "Del deseo al corazón, vertical.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Cuando surja el deseo, no lo reprimas ni lo descargues.",
+    "Llévalo al corazón o a la raíz y respira ahí.",
+    "Siente la energía subir vertical, sin salir.",
+    "Quédate en el pecho vibrante hasta que se asiente."
+   ],
   "integracion": "Cuando surja deseo, no lo descargues: llévalo al corazón y respira ahí.",
   "reflexion": "¿Subió la energía en vez de salir?",
   "efecto": "Permite que la energía se mueva en dirección vertical hacia la conciencia.",
   "guia": "Del deseo al corazón, vertical.",
   "clave": "La energía creativa vive en el pecho y la raíz; llevala ahí en vez de descargarla.",
-  "senial": "Si el pecho vibra con energía propia, es tu puerta.",
-  "sutra": "Siente las sutiles cualidades de la creatividad permeando tus pechos."
+   "senial": "Si el pecho vibra con energía propia, es tu puerta.",
+   "sutra": "Siente las sutiles cualidades de la creatividad permeando tus pechos.",
+   "cuidado": "Sin reprimir ni actuar en automático; si incomoda, respira y suelta la práctica."
  },
  {
   "id": 69,
@@ -1746,12 +1801,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Sintoniza con el espacio abierto a tu alrededor e imagina que tu cuerpo de conciencia dichosa se expande gradualmente hasta abarcarlo todo.",
-  "pasos": [
-   "Sintoniza con el espacio abierto a tu alrededor e imagina que tu cuerpo de conciencia dichosa se expande gradualmente hasta abarcarlo todo.",
-   "Expande tu dicha sin límite.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y siente tu dicha presente, aunque sea pequeña.",
+    "Expándela a la habitación: paredes incluidas.",
+    "Sigue hasta el barrio, el cielo: sin límite.",
+    "Quédate siendo el espacio dichoso que todo lo abarca."
+   ],
   "integracion": "Imagina tu dicha expandiéndose hasta llenar la habitación entera.",
   "reflexion": "¿Quedó algo pequeño en ti?",
   "efecto": "Disuelve la sensación de pequenez e inseguridad.",
@@ -1770,13 +1825,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Descansa internamente en el espacio vacío donde la mente no tiene ningún pensamiento, concepto o imagen en el que apoyarse.",
-  "pasos": [
-   "Descansa internamente en el espacio vacío donde la mente no tiene ningún pensamiento, concepto o imagen en el que apoyarse.",
-   "Sin apoyo mental; descansa.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Descansa internamente en el espacio vacío donde la mente no tiene ningún pensamiento, concepto o imagen en el que apoyarse.",
+   "pasos": [
+    "Siéntate cómodo con la espalda recta y cierra los ojos.",
+    "Suelta un pensamiento, luego otro: no los sigas ni los empujes.",
+    "Cuando no quede nada que sostener, descansa en ese espacio sin apoyos.",
+    "Si la mente agarra algo, suéltalo y vuelve al espacio."
+   ],
   "integracion": "Siéntate cinco minutos sin sostener ningún pensamiento ni imagen.",
   "reflexion": "¿Pudiste descansar sin apoyos?",
   "efecto": "Acceso directo al silencio absoluto del ser (Bhairava).",
@@ -1795,13 +1850,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
-  "esencial": "Observa los acontecimientos, emociones, cimas y valles de la vida sin tomar partido, juzgar o preferir un estado sobre otro.",
-  "pasos": [
-   "Observa los acontecimientos, emociones, cimas y valles de la vida sin tomar partido, juzgar o preferir un estado sobre otro.",
-   "No elijas; sé dichoso.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Observa los acontecimientos, emociones, cimas y valles de la vida sin tomar partido, juzgar o preferir un estado sobre otro.",
+   "pasos": [
+    "Siéntate y trae a la mente un alto y un bajo de hoy.",
+    "Míralos sin preferir uno ni rechazar el otro.",
+    "Ante lo que venga (ruido, emoción, pensamiento), no tomes partido.",
+    "Quédate en el medio, dejando que todo pase sin elegir."
+   ],
   "integracion": "Hoy, ante altos y bajos, no prefieras: deja que todo pase sin tomar partido.",
   "reflexion": "¿La dicha llegó sin elegir?",
   "efecto": "La mente deja de dividirse entre atracción y aversión, alcanzando un estado de ecuanimidad dichosa.",
@@ -1821,12 +1876,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Siente la tranquilidad tranquila en el centro del corazón y visualiza esa calma expandiéndose en todas las direcciones hacia el universo.",
-  "pasos": [
-   "Siente la tranquilidad tranquila en el centro del corazón y visualiza esa calma expandiéndose en todas las direcciones hacia el universo.",
-   "Irradia calma desde el corazón.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, lleva las manos al pecho y cierra los ojos.",
+    "Siente la calma que ya hay en el centro del corazón.",
+    "Visualiza esa paz expandiéndose en todas direcciones.",
+    "Quédate irradiando, volviendo al pecho si te pierdes."
+   ],
   "integracion": "Siente calma en el pecho y envíala en todas direcciones, tres minutos.",
   "reflexion": "¿Se aquietó lo agitado?",
   "efecto": "Restablece el equilibrio emocional y disuelve la agitación.",
@@ -1842,16 +1897,16 @@ window.MEDITACIONES = [
   "categoria": "cuerpo",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Claridad y testigo",
-  "esencial": "Siente tu cuerpo como una habitación vacía, solo paredes de piel.",
-  "pasos": [
-   "Siente tu cuerpo como una habitación vacía, solo paredes de piel.",
-   "Eres una habitación vacía.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado o caminando",
+   "intencion": "Claridad y testigo",
+   "esencial": "Siente tu cuerpo como una habitación vacía, solo paredes de piel.",
+   "pasos": [
+    "De pie, sentado o caminando despacio, siente el cuerpo.",
+    "Imagínalo hueco: solo paredes de piel, nada adentro.",
+    "Muévete, respira y mira desde la habitación vacía.",
+    "Quédate en la liviandad, volviendo si la pesadez regresa."
+   ],
   "integracion": "Camina cinco minutos sintiendo el cuerpo hueco, solo paredes de piel.",
   "reflexion": "¿Se aflojó la pesadez del ego?",
   "efecto": "Libera tensiones y deshace la pesadez del ego corporal.",
@@ -1871,12 +1926,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Mira el universo fenoménico como una estructura o cascarón transparente donde la mente juega libremente sin quedar atrapada.",
-  "pasos": [
-   "Mira el universo fenoménico como una estructura o cascarón transparente donde la mente juega libremente sin quedar atrapada.",
-   "Juega libre en el cascarón.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y mira tus asuntos como juego.",
+    "Todo ocurre dentro de un cascarón transparente.",
+    "Juega libre: participa sin quedar atrapado.",
+    "Quédate en lo lúdico, volviendo si la seriedad vuelve."
+   ],
   "integracion": "Mira tus asuntos como juego dentro de un cascarón transparente.",
   "reflexion": "¿La vida se volvió más ligera?",
   "efecto": "Aporta ligereza existencial y comprensión del juego de la vida (Lila).",
@@ -1896,12 +1951,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Sostén a la vez lo que sabes y lo que ignoras; luego suelta ambos y permanece.",
-  "pasos": [
-   "Sostén a la vez lo que sabes y lo que ignoras; luego suelta ambos y permanece.",
-   "Suelta saber y no saber.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate ante un problema y pon lo que sabes a un lado.",
+    "Pon lo que ignoras al otro lado.",
+    "Suelta ambos platillos a la vez.",
+    "Permanece en lo que queda: ser sin explicación."
+   ],
   "integracion": "Sostén a la vez lo que sabes y lo que ignoras de un problema, luego suelta ambos.",
   "reflexion": "¿Descansó la mente explicadora?",
   "efecto": "Rompe la fijación de querer explicarlo todo con la mente.",
@@ -1921,12 +1976,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Claridad y testigo",
   "esencial": "Observa las fluctuaciones del mundo cambiante sintiendo la presencia inmutable que atestigua el flujo.",
-  "pasos": [
-   "Observa las fluctuaciones del mundo cambiante sintiendo la presencia inmutable que atestigua el flujo.",
-   "Cambia todo; tú mira.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y nota tres cambios de hoy.",
+    "Siente lo inmutable que los mira sin moverse.",
+    "Cambia todo; tú mira: ola y océano.",
+    "Quédate en el océano, volviendo si una ola te lleva."
+   ],
   "integracion": "Nota tres cambios del día y siente lo inmutable que los mira.",
   "reflexion": "¿Lo que cambia te arrastró menos?",
   "efecto": "Desapego de las circunstancias externas al anclarse en lo inmutable.",
@@ -1942,16 +1997,16 @@ window.MEDITACIONES = [
   "categoria": "corazon",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Amor y unidad",
-  "esencial": "Al tratar con alguien, siente que su conciencia es idéntica a la tuya.",
-  "pasos": [
-   "Al tratar con alguien, siente que su conciencia es idéntica a la tuya.",
-   "El otro eres tú.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Vida diaria",
+   "postura": "En conversación",
+   "intencion": "Amor y unidad",
+   "esencial": "Al tratar con alguien, siente que su conciencia es idéntica a la tuya.",
+   "pasos": [
+    "En tu próxima charla, escucha mirando a los ojos.",
+    "Siente que la conciencia del otro es idéntica a la tuya.",
+    "Deja el interés por ti: vuélvete el otro por un rato.",
+    "Nota si la compasión nace sola."
+   ],
   "integracion": "En una charla, siente que la conciencia del otro es la tuya.",
   "reflexion": "¿Se abrió la compasión sin esfuerzo?",
   "efecto": "Disuelve el egoísmo y expande la compasión natural.",
@@ -1970,13 +2025,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
-  "esencial": "Sostén que la conciencia pura es la única sustancia bajo todas las formas.",
-  "pasos": [
-   "Sostén que la conciencia pura es la única sustancia bajo todas las formas.",
-   "Todo es conciencia.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Sostén que la conciencia pura es la única sustancia bajo todas las formas.",
+   "pasos": [
+    "Siéntate cómodo y mira lo que tienes delante.",
+    "Repite en silencio ante cada cosa: 'esto también es conciencia'.",
+    "Incluye tu cuerpo y tus pensamientos en lo mismo.",
+    "Quédate en la unidad, volviendo a la frase si te pierdes."
+   ],
   "integracion": "Repite hoy ante lo diverso: 'esto también es conciencia'.",
   "reflexion": "¿La unidad se volvió experiencia?",
   "efecto": "Asienta la visión no-dual donde todo es conciencia.",
@@ -1996,12 +2051,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
   "esencial": "Reconoce tu atención interna como fuente de sabiduría.",
-  "pasos": [
-   "Reconoce tu atención interna como fuente de sabiduría.",
-   "Tu guía está adentro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate ante una duda real que tengas hoy.",
+    "Cierra los ojos y pregunta adentro, sin responder con la cabeza.",
+    "Espera la respuesta del cuerpo: calma es sí, tensión es no.",
+    "Actúa desde ahí y nota qué pasa."
+   ],
   "integracion": "Ante una duda, cierra los ojos dos minutos y pregunta adentro antes de preguntar afuera.",
   "reflexion": "¿Respondió tu sabiduría interna?",
   "efecto": "Otorga soberanía espiritual sin depender de guías externos.",
@@ -2020,13 +2075,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
-  "esencial": "Comprende que la nada (Shunya) y la totalidad (Purna) expresan la misma realidad sin límites desde dos ángulos distintos.",
-  "pasos": [
-   "Comprende que la nada (Shunya) y la totalidad (Purna) expresan la misma realidad sin límites desde dos ángulos distintos.",
-   "Vacío y lleno: lo mismo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Comprende que la nada (Shunya) y la totalidad (Purna) expresan la misma realidad sin límites desde dos ángulos distintos.",
+   "pasos": [
+    "Siéntate con una taza vacía delante (o imagínala).",
+    "Contémplala vacía; luego imagínala llena: la misma realidad, dos ángulos.",
+    "Lleva eso adentro: tu vacío y tu plenitud son lo mismo.",
+    "Descansa en esa reconciliación, sin elegir un lado."
+   ],
   "integracion": "Contempla una taza vacía y una llena: la misma realidad, dos ángulos.",
   "reflexion": "¿Nada y todo se reconciliaron?",
   "efecto": "Integración absoluta de la existencia sin contradicciones.",
@@ -2042,16 +2097,16 @@ window.MEDITACIONES = [
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Silencio y expansion",
-  "esencial": "Cierra los ojos e ingrésate conscientemente en la oscuridad profunda del espacio interno, descansando en ella sin temor.",
-  "pasos": [
-   "Cierra los ojos e ingrésate conscientemente en la oscuridad profunda del espacio interno, descansando en ella sin temor.",
-   "Descansa en tu noche interior.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "momento": "Cualquier momento",
+   "postura": "Sentado o acostado",
+   "intencion": "Silencio y expansion",
+   "esencial": "Cierra los ojos e ingrésate conscientemente en la oscuridad profunda del espacio interno, descansando en ella sin temor.",
+   "pasos": [
+    "Siéntate cómodo o acuéstate, cierra los ojos.",
+    "Entra en la oscuridad interna sin buscar nada.",
+    "Descansa en tu noche interior, sin temor.",
+    "Si aparece luz, recíbela; si no, sigue descansando."
+   ],
   "integracion": "Con ojos cerrados, entra en tu oscuridad interna sin miedo, cinco minutos.",
   "reflexion": "¿La oscuridad reveló luz?",
   "efecto": "La ausencia de formas externas revela la resplandeciente luz de la conciencia pura.",
@@ -2071,12 +2126,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Visualiza un rayo o chispa de luz ascendiendo gradualmente por la columna vertebral, pasando de un chakra al siguiente hasta la coronilla.",
-  "pasos": [
-   "Visualiza un rayo o chispa de luz ascendiendo gradualmente por la columna vertebral, pasando de un chakra al siguiente hasta la coronilla.",
-   "Sube la luz, chakra a chakra.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate con la espalda recta, sin rigidez.",
+    "Siente la base de la columna.",
+    "Sube una chispa de luz, centro a centro, hasta la coronilla.",
+    "Quédate en la coronilla luminosa, volviendo si te pierdes."
+   ],
   "integracion": "Visualiza luz subiendo vértebra a vértebra hasta la coronilla, cinco minutos.",
   "reflexion": "¿Subió la energía con la imagen?",
   "efecto": "Despierta el flujo ascendente de la energía vital (Prana).",
@@ -2096,12 +2151,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Imagina que el fuego purificador de la atención consume los pensamientos y las identificaciones hasta dejar únicamente la esencia limpia.",
-  "pasos": [
-   "Imagina que el fuego purificador de la atención consume los pensamientos y las identificaciones hasta dejar únicamente la esencia limpia.",
-   "Quema lo pensado; queda tú.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y trae un pensamiento que te ate.",
+    "Imagínalo ardiendo de abajo arriba hasta ser ceniza.",
+    "Quema identificaciones, una por una; tú, el testigo, quedas.",
+    "Descansa en la esencia intacta tras el fuego."
+   ],
   "integracion": "Imagina tus pensamientos de hoy ardiendo hasta quedar ceniza limpia.",
   "reflexion": "¿Quedó tu esencia tras el fuego?",
   "efecto": "Purificación profunda de los hábitos mentales (Karmas).",
@@ -2146,12 +2201,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Abandona la proyección hacia la realización futura y enfoca la totalidad de tu atención en la presencia del momento presente.",
-  "pasos": [
-   "Abandona la proyección hacia la realización futura y enfoca la totalidad de tu atención en la presencia del momento presente.",
-   "La meta es este instante.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y nota tu 'cuando logre X' de hoy.",
+    "Suéltalo: la meta es este instante.",
+    "Atiende total lo presente: cuerpo, aire, sonidos.",
+    "Si la búsqueda vuelve, suéltala otra vez."
+   ],
   "integracion": "Suelta el 'cuando logre X' y atiende total este momento, tres veces hoy.",
   "reflexion": "¿Se detuvo la búsqueda inquieta?",
   "efecto": "Detención inmediata de la búsqueda inquieta de la mente.",
@@ -2171,12 +2226,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Suelta la necesidad compulsiva de certezas y controles mentales, aprendiendo a descansar en la apertura de lo desconocido.",
-  "pasos": [
-   "Suelta la necesidad compulsiva de certezas y controles mentales, aprendiendo a descansar en la apertura de lo desconocido.",
-   "Descansa sin certezas.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y elige algo que no controlas hoy.",
+    "Suelta la necesidad de certeza sobre eso.",
+    "Descansa en lo desconocido, sin traerlo hacia ti.",
+    "Quédate en la apertura, volviendo si el control regresa."
+   ],
   "integracion": "Deja una pequeña decisión sin controlar hoy y descansa en no saber.",
   "reflexion": "¿Sobreviviste a lo desconocido?",
   "efecto": "Libertad interior y fin del miedo al cambio.",
@@ -2196,19 +2251,19 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Mira tus recuerdos como escenas de un sueño ya soñado, sin identificarte.",
-  "pasos": [
-   "Mira tus recuerdos como escenas de un sueño ya soñado, sin identificarte.",
-   "Tu pasado fue un sueño.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Mira un recuerdo viejo como escena de película ya pasada.",
-  "reflexion": "¿Perdió peso lo ya soñado?",
-  "efecto": "Desmantela el peso del pasado y su condicionamiento.",
-  "guia": "Tu pasado fue un sueño.",
-  "clave": "Repasa el día al acostarte, del presente hacia atrás, como película ajena. Técnica básica, muy probada.",
-  "senial": "Si el pasado pierde carga emocional, es tu vía.",
-  "sutra": "Mira tu pasado des-identificado, incluso tu propia forma: sé testigo."
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y trae un recuerdo pesado.",
+    "Repásalo como sueño: lugares que ya no existen, gente que ya no está.",
+    "Pregunta: ¿dónde está eso ahora? Solo en el soñador.",
+    "Suelta la escena y quédate en el soñador despierto."
+   ],
+  "integracion": "Toma un recuerdo pesado y míralo como sueño: ¿dónde está eso ahora?",
+  "reflexion": "¿El pasado se volvió niebla de sueño?",
+  "efecto": "Deshace el pasado por irrealidad, no por análisis: lo soñado no ata al que despertó.",
+  "guia": "Despierta del sueño llamado pasado.",
+  "clave": "El sueño no se discute ni se arregla: se despierta. No repases el pasado para corregirlo; míralo como sueño hasta abrir los ojos.",
+  "senial": "Si el recuerdo se vuelve niebla de sueño, es tu vía.",
+  "sutra": "Todo lo vivido fue soñado por ti: míralo como sueño y despierta en el soñador."
  },
  {
   "id": 88,
@@ -2221,44 +2276,46 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Cuando surja una emoción intensa (como ira o atracción), no la dirijas hacia la persona u objeto externo, sino mantente centrado en la fuente interna donde la energía brota.",
-  "pasos": [
-   "Cuando surja una emoción intensa (como ira o atracción), no la dirijas hacia la persona u objeto externo, sino mantente centrado en la fuente interna donde la energía brota.",
-   "No la dirijas; habítala.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Cuando ardan ira o atracción, detente antes de dirigirlas.",
+    "Quédate en la fuente interna donde la energía brota.",
+    "Habítala sin proyectarla a nadie.",
+    "Deja que alimente el fuego de la conciencia."
+   ],
   "integracion": "Cuando la ira o la atracción ardan, quédate en su fuente sin dirigirla a nadie.",
   "reflexion": "¿La emoción alimentó presencia?",
   "efecto": "La energía emocional no se disipa afuera, sino que alimenta el fuego de la conciencia.",
   "guia": "No la dirijas; habítala.",
   "clave": "Pesca el impulso en su nacimiento, antes de que agarre objeto: ahí eres libre.",
-  "senial": "Si atrapas comienzos, profundiza.",
-  "sutra": "Con toda tu conciencia en el comienzo mismo del deseo y del saber: sabe."
+   "senial": "Si atrapas comienzos, profundiza.",
+   "sutra": "Con toda tu conciencia en el comienzo mismo del deseo y del saber: sabe.",
+   "cuidado": "Si la emoción desborda, respira hondo y espera a que pase; no te fuerces."
  },
  {
   "id": 89,
   "num": 89,
-  "titulo": "Detención abrupta de la energía (Stop)",
+  "titulo": "Lo intenso e involuntario como puerta",
   "categoria": "mente",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Al empezar a hablar o actuar en caliente, detente en seco sin acomodarte.",
-  "pasos": [
-   "Al empezar a hablar o actuar en caliente, detente en seco sin acomodarte.",
-   "Corta el impulso; vuelve al centro.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Al empezar a hablar en una discusión, detente en seco y respira.",
-  "reflexion": "¿El automatismo se rompió?",
-  "efecto": "Quiebra el automatismo y devuelve la energía al centro.",
-  "guia": "Corta el impulso; vuelve al centro.",
-  "clave": "Lo intenso e involuntario detiene la mente sola: no interrumpas el instante, mírate en él. Vale también para el stop voluntario ante cualquier impulso.",
-  "senial": "Si en el susto aparece el testigo, úsalo siempre.",
-  "sutra": "Al comienzo del estornudo, en el pavor, en la ansiedad, sobre el abismo: sé consciente sin pausa."
+  "esencial": "Cuando algo intenso e involuntario te tome por sorpresa (un susto, un estornudo, un vértigo), no lo interrumpas ni huyas: mírate en él.",
+   "pasos": [
+    "No provoques nada: esta puerta solo se abre con lo que llega solo.",
+    "Cuando llegue el susto, el estornudo o el vértigo, no te endurezcas ni te distraigas.",
+    "Quédate consciente en el instante: cuerpo tenso, mente detenida, testigo mirando.",
+    "Cuando pase, registra qué viste en la pausa antes de comentarlo."
+   ],
+  "integracion": "En el próximo susto o estornudo, en vez de reírlo o comentarlo, mírate en él un segundo.",
+  "reflexion": "¿Estuviste presente dentro de lo involuntario, aunque fuera un instante?",
+  "efecto": "Convierte sustos, estornudos y sobresaltos en rendijas de no-mente.",
+   "guia": "En lo intenso, quédate y mira.",
+   "clave": "En lo involuntario no hay esfuerzo que hacer: la mente ya se detuvo sola. Tu único trabajo es estar ahí en vez de huir.",
+   "senial": "Si después del susto recuerdas haber estado presente en él, esa es tu puerta.",
+   "sutra": "En el estornudo, el pavor o el vértigo la mente se detiene sola: quédate en ese instante sin moverte por dentro.",
+   "cuidado": "No provoques sustos ni te acerques a bordes reales para practicar; la puerta es el instante que llega solo en lo cotidiano. No contengas el estornudo con violencia: déjalo salir y mírate en él."
  },
  {
   "id": 90,
@@ -2270,13 +2327,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Reconoce que 'estoy atrapado' y 'quiero liberarme' son ideas; tu naturaleza ya es libre.",
-  "pasos": [
-   "Reconoce que 'estoy atrapado' y 'quiero liberarme' son ideas; tu naturaleza ya es libre.",
-   "Atrapado y libre son ideas.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Reconoce que 'estoy atrapado' y 'quiero liberarme' son ideas; tu naturaleza ya es libre.",
+   "pasos": [
+    "Siéntate y nota dónde dices 'estoy atrapado' o 'quiero liberarme'.",
+    "Pregunta: ¿quién lo dice? Mira la idea como idea.",
+    "No intentes liberarte: ve el truco con que te escapas de ti.",
+    "Quédate quieto en la libertad que ya estaba ahí."
+   ],
   "integracion": "Nota cuando digas 'estoy atrapado' y pregunta: ¿quién lo dice?",
   "reflexion": "¿Siempre fuiste libre?",
   "efecto": "Paz absoluta al soltar la lucha entre prisión y libertad.",
@@ -2296,12 +2353,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
   "esencial": "Toma conciencia de que cada percepción sensorial individual es limitada por naturaleza. Al soltar la fijación en el objeto percibido, permite que la percepción particular se disuelva en la omnipotencia de la conciencia.",
-  "pasos": [
-   "Toma conciencia de que cada percepción sensorial individual es limitada por naturaleza.",
-   "Al soltar la fijación en el objeto percibido, permite que la percepción particular se disuelva en la omnipotencia de la conciencia.",
-   "Suelta el fragmento; entra lo entero.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y elige una percepción: algo que ves u oyes.",
+    "Admite: 'esto es solo un fragmento'.",
+    "Suelta la fijación en el objeto.",
+    "Deja que lo fragmentario se disuelva en lo entero."
+   ],
   "integracion": "Mira algo y admite: 'esto es solo un fragmento'; suelta la fijación.",
   "reflexion": "¿Se abrió lo ilimitado?",
   "efecto": "Libera la mente de las fronteras de la percepción fragmentaria.",
@@ -2321,12 +2378,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
   "esencial": "Contempla las formas externas y tu propia forma física reconociendo que no están separadas en verdad. Comprende que cada forma existente está constituida por esta misma conciencia omnipresente.",
-  "pasos": [
-   "Contempla las formas externas y tu propia forma física reconociendo que no están separadas en verdad.",
-   "Comprende que cada forma existente está constituida por esta misma conciencia omnipresente.",
-   "Tu forma y las formas: una sola.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Mira tu mano y una cosa externa, lado a lado.",
+    "Siente la misma conciencia en ambas.",
+    "Tu forma y las formas: una sola, sin separación.",
+    "Quédate en la unidad, volviendo si la división regresa."
+   ],
   "integracion": "Mira tu mano y una cosa externa: la misma conciencia en ambas.",
   "reflexion": "¿Se cayó la separación?",
   "efecto": "Revela la naturaleza unificada y no dual de la existencia.",
@@ -2338,107 +2395,107 @@ window.MEDITACIONES = [
  {
   "id": 93,
   "num": 93,
-  "titulo": "Sentir la conciencia de cada ser como propia",
+  "titulo": "Ser cada ser en la multitud",
   "categoria": "corazon",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
-  "momento": "Cualquier momento",
-  "postura": "Sentado comodo",
-  "intencion": "Amor y unidad",
-  "esencial": "Al mirar o pensar en otras personas, deja a un lado la preocupación egoica por ti mismo. Siente que la conciencia que habita en cada ser es idéntica a tu propia conciencia, convirtiéndote en cada ser.",
-  "pasos": [
-   "Al mirar o pensar en otras personas, deja a un lado la preocupación egoica por ti mismo.",
-   "Siente que la conciencia que habita en cada ser es idéntica a tu propia conciencia, convirtiéndote en cada ser.",
-   "Conviértete en cada ser.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Mira a tres personas hoy y siente su conciencia idéntica a la tuya.",
-  "reflexion": "¿Creció la empatía sin proponértelo?",
-  "efecto": "Disuelve el aislamiento egoico y expande la empatía universal.",
-  "guia": "Conviértete en cada ser.",
-  "clave": "El ensimismamiento sostiene la separación: siente al otro desde dentro y el ego se afloja.",
-  "senial": "Si el otro se vuelve íntimo, continúa.",
-  "sutra": "Siente la conciencia de cada persona como tu propia conciencia: deja el interés por ti y vuélvete cada ser."
+   "momento": "Vida diaria",
+   "postura": "Entre gente, sin interactuar",
+   "intencion": "Amor y unidad",
+   "esencial": "Donde haya varias personas (calle, sala, transporte), siente que la misma conciencia habita en cada una, incluida la tuya.",
+   "pasos": [
+    "Ubícate donde haya gente, sin necesidad de hablar.",
+    "Mira los rostros uno por uno, sin fijarte en nadie.",
+    "En cada uno, siente la misma conciencia que en ti.",
+    "Cierra los ojos y siente la multitud como un solo ser."
+   ],
+  "integracion": "En un lugar con gente, mira rostros y siente en cada uno tu misma conciencia.",
+  "reflexion": "¿La multitud se volvió un solo ser?",
+  "efecto": "Disuelve la sensación de masa ajena: la multitud revela una sola conciencia en muchas formas.",
+  "guia": "Una conciencia, muchos rostros.",
+  "clave": "Con una persona nace la compasión; con muchas, la unidad: no veas muchos, ve una sola conciencia en cada forma.",
+  "senial": "Si la calle se vuelve íntima, continúa.",
+  "sutra": "Donde haya muchos, no veas muchos: una sola conciencia en cada forma; vuélvete cada uno."
  },
  {
   "id": 94,
   "num": 94,
-  "titulo": "Reconocimiento de que solo existe la conciencia",
+  "titulo": "Disolver las formas en la conciencia",
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
-  "esencial": "Medita de manera sostenida en la certeza de que esta conciencia pura existe como cada ser y que nada existe fuera de ella.",
-  "pasos": [
-   "Medita de manera sostenida en la certeza de que esta conciencia pura existe como cada ser y que nada existe fuera de ella.",
-   "Nada fuera de la conciencia.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Sostén cinco minutos la certeza 'nada existe fuera de la conciencia'.",
-  "reflexion": "¿La visión no-dual se estabilizó?",
-  "efecto": "Establece la visión no dual donde toda manifestación es reconocida como conciencia.",
-  "guia": "Nada fuera de la conciencia.",
-  "clave": "Visión no-dual sostenida: toda manifestación es la misma conciencia con distintas formas.",
-  "senial": "Si la unidad se mantiene en lo cotidiano, es tu vía.",
-  "sutra": "Esta conciencia existe como cada ser, y nada existe fuera de ella."
+  "esencial": "Con los ojos cerrados, deja que cada forma que traigas (tu cuerpo, un rostro, una cosa) se disuelva en conciencia pura.",
+   "pasos": [
+    "Siéntate cómodo y cierra los ojos.",
+    "Trae una forma: tu cuerpo, un rostro, un objeto querido.",
+    "Siente de qué está hecha: conciencia. Déjala disolverse como azúcar en agua.",
+    "Trae otra y disuélvela; quédate en lo que nunca se disuelve."
+   ],
+  "integracion": "Con ojos cerrados, disuelve hoy tres formas recordadas en conciencia.",
+  "reflexion": "¿Qué quedó cuando las formas se disolvieron?",
+  "efecto": "Invierte la práctica: en vez de llevar la conciencia a las cosas, devuelve las cosas a la conciencia.",
+  "guia": "Disuelve cada forma en conciencia.",
+  "clave": "Las formas aparecen y se van; lo que las mira, no. Disuélvelas una por una hasta quedar solo con el que mira.",
+  "senial": "Si al disolver formas aparece un fondo que no se disuelve, reposa ahí.",
+  "sutra": "Todo lo que aparece está hecho de conciencia: disuelve cada forma en ella hasta que solo quede lo que mira."
  },
  {
   "id": 95,
   "num": 95,
-  "titulo": "El espíritu de guía interno",
+  "titulo": "Gobernarte desde la conciencia",
   "categoria": "corazon",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Amor y unidad",
-  "esencial": "Reconoce que la conciencia es el verdadero espíritu de guía presente en cada individuo. Sitúa tu atención en ser directamente esa conciencia guía.",
-  "pasos": [
-   "Reconoce que la conciencia es el verdadero espíritu de guía presente en cada individuo.",
-   "Sitúa tu atención en ser directamente esa conciencia guía.",
-   "Sé tu propia guía.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Actúa hoy como si fueras la conciencia-guía de tus propios actos.",
-  "reflexion": "¿La soberanía se sintió natural?",
-  "efecto": "Otorga soberanía espiritual al conectar con la sabiduría interna.",
-  "guia": "Sé tu propia guía.",
-  "clave": "La angustia nace de sentirte separado; al dormir te fundes y amanece dicha. Sé soberano: tu sabiduría interna manda, no afuera.",
-  "senial": "Si al volverte guía cesa la dependencia, sigue.",
-  "sutra": "Esta conciencia es el espíritu de guía en cada uno: sé directamente esa guía."
+  "esencial": "De noche revisa tus actos como su guía; de mañana date una orden desde la calma; de día obedécete.",
+   "pasos": [
+    "De noche, repasa tus actos como un guía benevolente, sin castigo.",
+    "Señala una sola corrección para mañana.",
+    "De mañana, date una orden clara desde la calma.",
+    "Obedécete durante el día y registra a la noche."
+   ],
+  "integracion": "Esta noche revisa tu día como guía; mañana date una orden y obedécete.",
+  "reflexion": "¿Creció la obediencia interna sin rigidez?",
+  "efecto": "Convierte la guía interna en gobierno: revisión nocturna, mando matinal, obediencia diurna.",
+  "guia": "Revísate, mándate, obedécete.",
+  "clave": "Consultar y olvidar no sirve: revisa de noche, mándate de mañana y obedécete de día. La soberanía se entrena.",
+  "senial": "Si mandarte desde la calma se vuelve natural, sigue.",
+  "sutra": "La conciencia que te mira es tu guía: ponte bajo su mando y obedécete."
  },
  {
   "id": 96,
   "num": 96,
-  "titulo": "El cuerpo como habitación vacía",
+  "titulo": "Respirar dentro del cuerpo hueco",
   "categoria": "cuerpo",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Contempla tu forma corporal pasiva como si fuera una habitación totalmente vacía, delimitada únicamente por paredes hechas de piel.",
-  "pasos": [
-   "Contempla tu forma corporal pasiva como si fuera una habitación totalmente vacía, delimitada únicamente por paredes hechas de piel.",
-   "Camina vacío.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Siéntate cinco minutos sintiendo el cuerpo hueco, solo paredes de piel.",
-  "reflexion": "¿La densidad se desmanteló?",
-  "efecto": "Desmantela la identificación con la densidad física y produce ligereza interior.",
-  "guia": "Camina vacío.",
-  "clave": "Contempla el cuerpo como vasija vacía: se desarma la densidad y llega liviandad.",
-  "senial": "Si el cuerpo se vuelve espacioso, repite.",
-  "sutra": "Supón tu forma pasiva como habitación vacía con paredes de piel."
+  "esencial": "Siente el cuerpo hueco, solo paredes de piel, y respira dentro de él como quien ventila una habitación vacía.",
+   "pasos": [
+    "Siéntate quieto y siente el cuerpo hueco: solo paredes de piel, nada adentro.",
+    "Inhala y siente el aire ocupando la habitación.",
+    "Exhala y siente cómo se vacía de nuevo.",
+    "Escucha el eco interno (respiración, latido) resonando en lo hueco."
+   ],
+  "integracion": "Respira cinco minutos dentro del cuerpo hueco: inhalar lo llena, exhalar lo vacía.",
+  "reflexion": "¿El cuerpo se volvió caja de resonancia del silencio?",
+  "efecto": "Suma respiración y escucha a la vacuidad corporal: el cuerpo se vuelve caja de resonancia.",
+  "guia": "Ventila tu habitación vacía.",
+  "clave": "Vacía la forma y respira dentro de ella: el aire y el eco interno confirman lo hueco mejor que la imagen.",
+  "senial": "Si al respirar adentro el cuerpo suena hueco, repite.",
+  "sutra": "Vacía tu forma hasta ser habitación de piel, y respira y escucha dentro de ella."
  },
  {
   "id": 97,
   "num": 97,
-  "titulo": "El universo como un cascarón transparente",
+  "titulo": "El cascarón vacío donde retozar",
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
@@ -2446,12 +2503,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Visualiza el universo entero como un cascarón o estructura vacía dentro del cual tu mente juega e interactúa de forma infinita.",
-  "pasos": [
-   "Visualiza el universo entero como un cascarón o estructura vacía dentro del cual tu mente juega e interactúa de forma infinita.",
-   "Juega en la burbuja del mundo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate, cierra los ojos e imagina el mundo como burbuja vacía.",
+    "Tu mente juega dentro, sin fin ni dueño.",
+    "Mira tus asuntos de hoy jugando en la burbuja.",
+    "Quédate en lo lúdico, volviendo si la seriedad vuelve."
+   ],
   "integracion": "Visualiza el universo como burbuja vacía donde tu mente juega.",
   "reflexion": "¿El desapego se volvió lúdico?",
   "efecto": "Aporta desapego lúdico ante las circunstancias de la vida.",
@@ -2463,27 +2520,27 @@ window.MEDITACIONES = [
  {
   "id": 98,
   "num": 98,
-  "titulo": "Trascendencia del saber/no-saber y existir/no-existir",
+  "titulo": "Ser y no-ser: soltar la existencia",
   "categoria": "vacio",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Medita en los conceptos opuestos del conocer y el no-conocer, del existir y el no-existir; luego, deja ambos de lado para permanecer en el puro ser.",
-  "pasos": [
-   "Medita en los conceptos opuestos del conocer y el no-conocer, del existir y el no-existir; luego, deja ambos de lado para permanecer en el puro ser.",
-   "Más allá de ser o no ser.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Medita en existir y no existir a la vez; luego suelta ambos.",
-  "reflexion": "¿Reposaste en el puro ser?",
-  "efecto": "Rompe las dualidades intelectuales permitiendo reposar en la existencia pura.",
+  "esencial": "Sostén a la vez que existes y que podrías no existir; suelta ambas y reposa en lo que queda.",
+   "pasos": [
+    "Siéntate y siente tu existir: peso, respiración, presencia.",
+    "Imagina tu no-existir: el mundo sin ti, que ya fue así antes de nacer.",
+    "Sostén ambas a la vez, sin elegir.",
+    "Suelta las dos y reposa en el puro ser, sin nombre."
+   ],
+  "integracion": "Siente tu existir y tu posible no-existir a la vez; luego suelta ambos.",
+  "reflexion": "¿El puro ser apareció sin nombre?",
+  "efecto": "Lleva la no-elección a la raíz: ni siquiera existir o no existir se sostiene ante el ser.",
   "guia": "Más allá de ser o no ser.",
-  "clave": "Suelta los dos platillos de la balanza intelectual: el ser puro queda cuando no eliges concepto.",
-  "senial": "Si al soltar ambos llega descanso, profundiza.",
-  "sutra": "Medita en saber y no saber, existir y no existir; luego deja ambas cosas y simplemente sé."
+  "clave": "Esto no es un problema a resolver: cuando existir y no existir pesan lo mismo, la balanza cae sola.",
+  "senial": "Si al soltar ambas aparece un ser sin nombre, reposa ahí.",
+  "sutra": "Medita en existir y no existir a la vez; luego deja ambas cosas y simplemente sé."
  },
  {
   "id": 99,
@@ -2496,12 +2553,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Dirige la atención al espacio interior que es eterno, inmóvil y libre de cualquier soporte o concepto mental.",
-  "pasos": [
-   "Dirige la atención al espacio interior que es eterno, inmóvil y libre de cualquier soporte o concepto mental.",
-   "Espacio eterno, mente quieta.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos y suelta toda imagen.",
+    "No te lleves nada: ni Dios, ni alma, ni concepto.",
+    "Entra al espacio eterno e inmóvil.",
+    "Quédate en el silencio absoluto, volviendo si algo te saca."
+   ],
   "integracion": "Atiende el espacio interior eterno e inmóvil, sin conceptos.",
   "reflexion": "¿Entraste al silencio absoluto?",
   "efecto": "Permite ingresar al silencio absoluto de la mente.",
@@ -2518,22 +2575,22 @@ window.MEDITACIONES = [
    "nivel": "Intermedio",
    "duracion": "10-15 min",
    "momento": "Vida diaria",
-  "postura": "Sentado comodo",
-  "intencion": "Silencio y expansion",
-  "esencial": "Participa en tus tareas reconociendo la vida como un juego (lila), sin solemnidad.",
-  "pasos": [
-   "Participa en tus tareas reconociendo la vida como un juego (lila), sin solemnidad.",
-   "La vida es juego; juega.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Haz una tarea pesada jugando: la vida como lila, diez minutos.",
-  "reflexion": "¿La tensión se disolvió en juego?",
-  "efecto": "Elimina la seriedad excesiva y la tensión en la vida diaria.",
+   "postura": "En actividad",
+   "intencion": "Silencio y expansion",
+   "esencial": "Juega tu papel de hoy a fondo, con entrega total por fuera y sonrisa interna: es lila.",
+   "pasos": [
+    "Elige una tarea pesada de hoy.",
+    "Juega tu papel a fondo: entrégate a la escena sin reservas.",
+    "Por dentro, ríe: sabes que es lila.",
+    "Nota si la tensión se disolvió en juego."
+   ],
+  "integracion": "Elige una tarea pesada y juega tu papel a fondo, riendo por dentro.",
+  "reflexion": "¿Actuaste a fondo y por dentro reíste?",
+  "efecto": "Transforma la acción en meditación: entrega total por fuera, libertad por dentro.",
   "guia": "La vida es juego; juega.",
-  "clave": "Participa en lo cotidiano como juego (lila): sin seriedad excesiva no hay tensión.",
-  "senial": "Si la vida se vuelve juego, continúa.",
-  "sutra": "Juega, criatura: el universo es un cascarón vacío donde tu mente retoza sin fin."
+  "clave": "Contemplar el juego libera al que mira; jugarlo a fondo con sonrisa interna libera al que actúa. Entrega total por fuera, risa por dentro.",
+  "senial": "Si actúas a fondo y por dentro ríes, es tu vía.",
+  "sutra": "No mires el juego desde la tribuna: entra, juega tu papel a fondo y ríe por dentro."
  },
  {
   "id": 101,
@@ -2546,12 +2603,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Reconoce que el ser esencial no se halla limitado por la piel ni sujeto a las restricciones del tiempo y del espacio.",
-  "pasos": [
-   "Reconoce que el ser esencial no se halla limitado por la piel ni sujeto a las restricciones del tiempo y del espacio.",
-   "No cabes en tu piel.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, cierra los ojos.",
+    "Siente que no terminas en la piel.",
+    "Ni tiempo ni espacio te contienen.",
+    "Quédate en lo ilimitado que eres."
+   ],
   "integracion": "Siente que no terminas en la piel: tu ser no cabe en tiempo ni espacio.",
   "reflexion": "¿El ego se quedó pequeño?",
   "efecto": "Desencadena la expansión de la conciencia más allá de los límites del ego.",
@@ -2571,12 +2628,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Trasciende tanto el estado de inconsciencia como el de conciencia vigil para situarte en el estado Bhairava, libre de dualidades.",
-  "pasos": [
-   "Trasciende tanto el estado de inconsciencia como el de conciencia vigil para situarte en el estado Bhairava, libre de dualidades.",
-   "Entre dormir y velar: Bhairava.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo, entre el sueño y la vigilia: ni alerta tensa ni modorra.",
+    "Deja vagar la mente como nubes, sin seguirlas.",
+    "Recuerda el cielo: el fondo inmóvil tras los pensamientos.",
+    "Quédate en Bhairava, libre de dualidad."
+   ],
   "integracion": "Ni dormido ni despierto: quédate cinco minutos entre ambos estados.",
   "reflexion": "¿Tocaste lo libre de dualidad?",
   "efecto": "Conduce a la libertad definitiva más allá del pensamiento y la ignorancia.",
@@ -2588,27 +2645,27 @@ window.MEDITACIONES = [
  {
   "id": 103,
   "num": 103,
-  "titulo": "Absorción de los sentidos en el corazón",
-  "categoria": "cuerpo",
+  "titulo": "Sentir con el corazón, no pensar con la cabeza",
+  "categoria": "corazon",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
-  "esencial": "Absorbe lo que ves, oyes y tocas llevándolo directo al centro del corazón.",
-  "pasos": [
-   "Absorbe lo que ves, oyes y tocas llevándolo directo al centro del corazón.",
-   "Todo lo sentido, al corazón.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Lleva hoy tres percepciones distintas directo al corazón.",
-  "reflexion": "¿La energía dispersa volvió a casa?",
-  "efecto": "Repliega la energía dispersa hacia la fuente de paz interior.",
-  "guia": "Todo lo sentido, al corazón.",
-  "clave": "Lleva vista, oído y tacto al corazón en vez de analizarlos: el sentir reemplaza al pensar.",
-  "senial": "Si el pecho se vuelve un centro cálido, es tu vía.",
-  "sutra": "Conforme los sentidos son absorbidos en el corazón, alcanza el centro del loto."
+  "esencial": "Ante lo que sientas hoy, distingue si nace en la cabeza o en el pecho; suelta el comentario y quédate con lo que nace en el pecho.",
+   "pasos": [
+    "Siéntate cómodo y trae una situación con carga (un cariño, un enojo).",
+    "Pregunta: ¿esto lo pienso o lo siento? Localiza cabeza y pecho.",
+    "Suelta el comentario mental y baja al pecho.",
+    "Decide y actúa desde el sentir del pecho."
+   ],
+  "integracion": "Ante algo que sientas hoy, distingue cabeza y pecho, y actúa desde el pecho.",
+  "reflexion": "¿El pecho respondió distinto que la cabeza?",
+  "efecto": "Entrena el discernimiento del origen: lo pensado se comenta, lo sentido guía.",
+  "guia": "¿Cabeza o pecho? Quédate con el pecho.",
+  "clave": "La cabeza comenta, el pecho siente: cuando distingues el origen, el sentir manda y el pensar acompaña.",
+  "senial": "Si notas la diferencia entre pensar un cariño y sentirlo en el pecho, es tu vía.",
+  "sutra": "Siente, no pienses: el sentir es del corazón. Comprueba si tu amor nace en la cabeza o en el pecho."
  },
  {
   "id": 104,
@@ -2621,12 +2678,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Siente la paz y la dicha en el centro del corazón y visualiza cómo esa presencia dichosa se expande en todas las direcciones abarcando el espacio infinito.",
-  "pasos": [
-   "Siente la paz y la dicha en el centro del corazón y visualiza cómo esa presencia dichosa se expande en todas las direcciones abarcando el espacio infinito.",
-   "Expande tu dicha a todo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y siente paz y dicha en el centro del corazón.",
+    "Expándela a la habitación entera.",
+    "Sigue al barrio, al cielo: sin límite.",
+    "Quédate siendo presencia que todo lo abarca."
+   ],
   "integracion": "Siente dicha en el pecho y expándela a toda la casa.",
   "reflexion": "¿La separación se disolvió en serenidad?",
   "efecto": "Disuelve la sensación de separación y llena el entorno de serenidad.",
@@ -2638,27 +2695,27 @@ window.MEDITACIONES = [
  {
   "id": 105,
   "num": 105,
-   "titulo": "Luz que asciende por la columna vertebral",
+   "titulo": "Demorarse en cada centro de luz",
    "categoria": "cuerpo",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
-  "esencial": "Visualiza una chispa de luz ascendiendo por tu columna hasta iluminar la coronilla.",
-  "pasos": [
-   "Visualiza una chispa de luz ascendiendo por tu columna hasta iluminar la coronilla.",
-   "La chispa sube hasta la corona.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Visualiza la chispa subiendo por tu columna hasta iluminar la coronilla como lámpara.",
-  "reflexion": "¿Se encendieron los centros altos?",
-  "efecto": "Despierta el flujo de energía sutil hacia los centros superiores.",
-  "guia": "La chispa sube hasta la corona.",
-  "clave": "Visualiza la luz subiendo vértebra a vértebra hasta la coronilla: así se eleva la energía vital.",
-  "senial": "Si sientes calor o corriente ascendente, continúa.",
-  "sutra": "Considera tu esencia como rayos de luz que ascienden de centro en centro por la columna."
+  "esencial": "Sube la luz deteniéndote en cada centro hasta sentirlo encendido, sin prisa por llegar a la corona.",
+   "pasos": [
+    "Siéntate con la espalda recta, sin rigidez, ojos cerrados.",
+    "Enciende la chispa en la base y súbela al primer centro.",
+    "Quédate en él hasta sentir calor, brillo o latido.",
+    "Solo entonces sube al siguiente y demora igual; si uno no enciende, respira en él sin forzarlo."
+   ],
+  "integracion": "Sube la luz demorándote en cada centro hasta sentirlo encendido.",
+  "reflexion": "¿Algún centro se encendió al demorarte?",
+  "efecto": "Convierte la subida en visita: cada centro se enciende cuando recibe atención sin prisa.",
+  "guia": "Enciende cada lámpara sin prisa.",
+  "clave": "Pasar de largo deja los centros dormidos: demora en cada uno hasta que dé señal, como quien enciende lámparas una por una.",
+  "senial": "Si un centro responde con calor o brillo al demorarte, esa es tu vía.",
+  "sutra": "Asciende de centro en centro demorándote en cada uno hasta que cada lámpara se encienda."
  },
  {
   "id": 106,
@@ -2671,12 +2728,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Percepcion fresca",
   "esencial": "Observa los pensamientos, emociones y percepciones pasar como reflejos en la superficie de un espejo, sin identificarte con ninguno de ellos.",
-  "pasos": [
-   "Observa los pensamientos, emociones y percepciones pasar como reflejos en la superficie de un espejo, sin identificarte con ninguno de ellos.",
-   "Eres el espejo, no el reflejo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate cómodo y deja pasar pensamientos y emociones.",
+    "Míralos como reflejos en un espejo: no los toques.",
+    "Tú eres el espejo, no lo reflejado.",
+    "Quédate espejo, volviendo si un reflejo te lleva."
+   ],
   "integracion": "Mira pensamientos y emociones pasar como reflejos, sin tocarlos.",
   "reflexion": "¿Pudiste no identificarte con nada?",
   "efecto": "Otorga la capacidad de atestiguar el flujo mental con imparcialidad.",
@@ -2695,20 +2752,20 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Atiende los breves silencios entre el final de un pensamiento y el inicio del siguiente.",
-  "pasos": [
-   "Atiende los breves silencios entre el final de un pensamiento y el inicio del siguiente.",
-   "Habita el intervalo.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Quédate en los silencios entre pensamientos durante cinco minutos.",
-  "reflexion": "¿La no-mente se abrió?",
-  "efecto": "Abre la puerta hacia la no-mente y el silencio esencial.",
+  "esencial": "Cuando notes el hueco entre dos pensamientos, no sigas al siguiente: entra en el hueco y quédate a vivir en él.",
+   "pasos": [
+    "Siéntate cómodo y deja pasar los pensamientos sin seguirlos.",
+    "Al terminar uno, nota el hueco antes del siguiente.",
+    "Entra en el hueco y reposa en él como en una hamaca, sin sostener nada.",
+    "Cuando el próximo pensamiento te saque, vuelve a la hamaca sin fastidio."
+   ],
+  "integracion": "Hoy reposa tres veces en el hueco entre dos pensamientos, aunque dure un segundo.",
+  "reflexion": "¿El hueco te alojó, aunque fuera un instante?",
+  "efecto": "Convierte el intervalo en morada: la no-mente deja de ser un destello y se vuelve un lugar.",
   "guia": "Habita el intervalo.",
-  "clave": "El intervalo entre pensamientos es instantáneo como un relámpago: no lo busques con esfuerzo, apenas percíbelo al pasar.",
-  "senial": "Si un flash de silencio aparece entre dos ideas, es tu puerta.",
-  "sutra": "En los espacios intermedios, percibe esto como un relámpago."
+  "clave": "Ver el hueco al pasar no basta: entra y quédate hasta que el próximo pensamiento te saque. La hamaca se ensancha con el uso.",
+  "senial": "Si el hueco se ensancha y te aloja, es tu morada.",
+  "sutra": "Entre un pensamiento y el siguiente hay una morada sin palabras: entra en ella y reposa."
  },
  {
   "id": 108,
@@ -2721,12 +2778,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Suelta todas las doctrinas, teorías e interpretaciones intelectuales para abordar la existencia con una mente fresca y dispuesta a experimentar.",
-  "pasos": [
-   "Suelta todas las doctrinas, teorías e interpretaciones intelectuales para abordar la existencia con una mente fresca y dispuesta a experimentar.",
-   "Suelta la doctrina; vive.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Siéntate y escribe una creencia que defiendes.",
+    "Táchala y mírala como doctrina, no como verdad.",
+    "Aborda el día con mente fresca, a experimentar.",
+    "Si la teoría vuelve, suéltala y vive."
+   ],
   "integracion": "Escribe una creencia tuya y táchala: abórdala hoy con mente fresca.",
   "reflexion": "¿La vivencia superó a la teoría?",
   "efecto": "Transforma la comprensión intelectual en una vivencia existencial directa.",
@@ -2738,27 +2795,27 @@ window.MEDITACIONES = [
  {
   "id": 109,
   "num": 109,
-  "titulo": "Trascendencia de las ideas de atadura y liberación",
+  "titulo": "Atadura y libertad son relativas",
   "categoria": "mente",
   "nivel": "Intermedio",
   "duracion": "10-15 min",
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Reconoce que tanto la idea de estar atrapado como la búsqueda de liberación son conceptos creados por la mente, permaneciendo en la no-elección.",
-  "pasos": [
-   "Reconoce que tanto la idea de estar atrapado como la búsqueda de liberación son conceptos creados por la mente, permaneciendo en la no-elección.",
-   "Ni preso ni libre: presencia.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
-  "integracion": "Suelta a la vez la queja de estar atrapado y el ansia de liberarte.",
-  "reflexion": "¿Llegó la paz sin lucha?",
-  "efecto": "Establece la paz absoluta al soltar la lucha interna.",
-  "guia": "Ni preso ni libre: presencia.",
-  "clave": "Ambas son reflejos de tu mente; al ver el truco con que te escapas de ti, el truco se disuelve.",
-  "senial": "Si la lucha por liberarte cesa, es tu vía.",
-  "sutra": "Atadura y liberación son relativas: son solo para quienes temen al universo."
+  "esencial": "Nota que atadura y libertad cambian según el día: son estados relativos, no tu naturaleza. Atrapa cómo te escapas de ti.",
+   "pasos": [
+    "Siéntate y recuerda un momento reciente en que te sentiste libre y otro en que te sentiste preso.",
+    "Compara: ¿cambió el mundo o cambió tu actitud?",
+    "Atrapa una fuga típica tuya (móvil, queja, prisa).",
+    "Quédate tres minutos sin fugarte y mira qué queda."
+   ],
+  "integracion": "Atrapa hoy una fuga típica tuya y quédate tres minutos sin fugarte.",
+  "reflexion": "¿Cambió el mundo o cambió tu actitud?",
+  "efecto": "Desarma la relatividad: al ver tus fugas, preso y libre se revelan como estados pasajeros.",
+  "guia": "Mira cómo te escapas de ti.",
+  "clave": "El problema no es conocerte: es ver cómo te escapas de ti. Atrapada la fuga, la atadura muestra su relatividad.",
+  "senial": "Si al quedarte sin fuga la prisión se disuelve, es tu vía.",
+  "sutra": "Atadura y libertad son relativas: el problema no es conocerte, sino ver cómo te escapas de ti."
  },
  {
   "id": 110,
@@ -2771,12 +2828,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Contempla el movimiento incesante del mundo fenoménico mientras te mantienes firme como el observador inmutable.",
-  "pasos": [
-   "Contempla el movimiento incesante del mundo fenoménico mientras te mantienes firme como el observador inmutable.",
-   "Todo cambia; tú permanece.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Ante el movimiento del día, detente un instante.",
+    "Sé el punto fijo que no se mueve.",
+    "Todo cambia; tú permanece.",
+    "Quédate en lo eterno, volviendo si el flujo te lleva."
+   ],
   "integracion": "Ante el movimiento del día, sé el punto fijo que no se mueve.",
   "reflexion": "¿Lo eterno te sostuvo?",
   "efecto": "Ancla la conciencia en lo eterno mientras todo cambia a tu alrededor.",
@@ -2796,12 +2853,12 @@ window.MEDITACIONES = [
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
   "esencial": "Experimenta el instante en que la separación entre el sujeto que observa, el acto de observar y el objeto observado se disuelve en una sola realidad unificada.",
-  "pasos": [
-   "Experimenta el instante en que la separación entre el sujeto que observa, el acto de observar y el objeto observado se disuelve en una sola realidad unificada.",
-   "Uno que mira, uno mirado.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "pasos": [
+    "Elige algo y míralo con calma total.",
+    "Siente al mirador, el mirar y lo mirado.",
+    "Deja que los tres se disuelvan en uno.",
+    "Quédate en la realidad única, sin volver a separar."
+   ],
   "integracion": "Mira algo hasta que mirar, mirador y mirado sean uno.",
   "reflexion": "¿Se disolvió la separación final?",
   "efecto": "Acceso a la experiencia no dual de la existencia (Advaita).",
@@ -2820,13 +2877,13 @@ window.MEDITACIONES = [
   "momento": "Cualquier momento",
   "postura": "Sentado comodo",
   "intencion": "Silencio y expansion",
-  "esencial": "Descansa en el estado definitivo de vacuidad y plenitud donde la pequeña identidad del ego desaparece y prevalece la presencia suprema.",
-  "pasos": [
-   "Descansa en el estado definitivo de vacuidad y plenitud donde la pequeña identidad del ego desaparece y prevalece la presencia suprema.",
-   "Descansa en la vacuidad dichosa.",
-   "Sostén la atención ahí, volviendo con suavidad cada vez que te distraigas.",
-   "Termina quedandote quieto un minuto, sin hacer nada."
-  ],
+   "esencial": "Descansa en el estado definitivo de vacuidad y plenitud donde la pequeña identidad del ego desaparece y prevalece la presencia suprema.",
+   "pasos": [
+    "Siéntate cómodo, sin buscar nada: ni experiencia ni meta.",
+    "Suelta el cuerpo, la respiración y los pensamientos, uno por uno.",
+    "Descansa en lo que queda: presencia plena sin ego.",
+    "Si vuelve el buscador, míralo y suéltalo también."
+   ],
   "integracion": "Descansa diez minutos sin buscar nada: ni ego ni meta, solo presencia plena.",
   "reflexion": "¿Plenitud y vacío eran lo mismo?",
   "efecto": "Culminación del proceso tántrico de autorrealización y transformación.",

@@ -169,6 +169,7 @@ details.faq p{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.55}
   <div class="practice" style="margin-top:12px">
     <div style="font-size:13px;opacity:.8" id="praNum">Puerta 1</div>
     <h2 id="praTit" style="font-weight:400;margin:6px 0">-</h2>
+    <div id="praVarRow" style="display:none;gap:8px;justify-content:center;margin-bottom:8px;flex-wrap:wrap"></div>
     <div class="breath"><span class="timer" id="timer">05:00</span></div>
     <p class="poet" id="praGuia" style="min-height:48px">Vuelve suavemente, una y otra vez.</p>
     <div style="display:flex;gap:8px;justify-content:center;margin-bottom:8px;flex-wrap:wrap">
@@ -343,7 +344,7 @@ document.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go)
 const CATN = {respiracion:"Respiracion",cuerpo:"Cuerpo",mente:"Mente",mirada:"Mirada",sonido:"Sonido",corazon:"Corazon",vacio:"Vacio",cotidiano:"Cotidiano",centramiento:"Centro"};
 const NEEDS = [["calma","&#129496;","Calma"],["claridad","&#128161;","Claridad"],["energia","&#9889;","Energia"],["dormir","&#128564;","Dormir"],["ansiedad","&#127758;","Ansiedad"],["amor","&#10084;","Amor"]];
 const NEEDMAP = {calma:["respiracion","vacio","sonido"],claridad:["mente","mirada"],energia:["cuerpo","centramiento"],dormir:["respiracion","vacio"],ansiedad:["respiracion","mente"],amor:["corazon","cotidiano"]};
-let cur = null, curNeed = null, hablando = false;
+let cur = null, curNeed = null, hablando = false, curVar = -1;
 // Puerta del dia
 function dayIdx(){ const n=new Date(); const s=new Date(n.getFullYear(),0,0); return Math.floor((n-s)/864e5); }
 const hoy = M[dayIdx()%M.length];
@@ -363,7 +364,7 @@ function sug(hablar){
   const boost=new Set();
   (NEEDMAP[curNeed]||[]).forEach(c=>boost.add(c));
   words.forEach(w=>{ Object.keys(SIN).forEach(k=>{ if(w.includes(k)||k.includes(w)) SIN[k].forEach(c=>boost.add(c)); }); });
-  const scored=M.map(m=>{ const t=(m.titulo+" "+m.esencial+" "+m.efecto+" "+m.intencion).toLowerCase(); let s=0; words.forEach(w=>{ if(t.includes(w)) s+=2; }); if(boost.has(m.categoria)) s+=3; return {m,s}; });
+  const scored=M.map(m=>{ const t=(m.titulo+" "+m.esencial+" "+m.efecto+" "+m.intencion+" "+(m.variantes?m.variantes.map(v=>v.titulo+" "+v.pasos.join(" ")).join(" "):"")).toLowerCase(); let s=0; words.forEach(w=>{ if(t.includes(w)) s+=2; }); if(boost.has(m.categoria)) s+=3; return {m,s}; });
   const topMax=Math.max(...scored.map(x=>x.s));
   const dn=doneNums();
   const wantBed=/dormir|sueño|insomnio|noche|dormirse/.test(q)||curNeed==="dormir";
@@ -389,7 +390,7 @@ function sug(hablar){
 const SIN={dormir:["vacio","respiracion"],sueño:["vacio","respiracion"],insomnio:["vacio","respiracion"],noche:["vacio","respiracion"],ansiedad:["respiracion","mente"],ansioso:["respiracion","mente"],angustia:["respiracion","mente"],nervios:["respiracion","mente"],preocupa:["respiracion","mente"],calma:["respiracion","vacio"],tranquil:["respiracion","vacio"],amor:["corazon","cotidiano"],corazón:["corazon"],corazon:["corazon"],triste:["corazon","vacio"],tristeza:["corazon","vacio"],soledad:["corazon","vacio"],miedo:["respiracion","cuerpo"],temor:["respiracion","cuerpo"],ira:["cuerpo","mente"],enojo:["cuerpo","mente"],rabia:["cuerpo","mente"],dolor:["cuerpo","mente"],cuerpo:["cuerpo"],tenso:["cuerpo"],mente:["mente"],pensamientos:["mente"],cabeza:["mente"],claridad:["mente","mirada"],decidir:["mente"],trabajo:["cotidiano","mente"],reunión:["cotidiano","mente"],comer:["cotidiano"],comida:["cotidiano"],caminar:["cotidiano"],camino:["cotidiano"],pareja:["corazon","cotidiano"],deseo:["cotidiano","cuerpo"],ruido:["sonido"],escuchar:["sonido"],sonido:["sonido"],música:["sonido"],mirar:["mirada"],ojos:["mirada"],ver:["mirada"],respirar:["respiracion"],aire:["respiracion"],aliento:["respiracion"],crear:["mirada","vacio"],arte:["mirada","vacio"],mañana:["respiracion","cotidiano"],despertar:["respiracion","cotidiano"],energía:["cuerpo","centramiento"],energia:["cuerpo","centramiento"],cansancio:["cuerpo","vacio"],silencio:["vacio","sonido"],vacío:["vacio"],vacio:["vacio"],presencia:["respiracion","mente"],aquí:["respiracion","mente"],ahora:["respiracion","mente"]};
 document.getElementById("pregGo").onclick=()=>sug(true);
 // Explorar: perfiles, familias de Osho, categorias y filtros
-const PERFILES=[["noc","&#127769;","Al dormirse"],["dia","&#128694;","Vida diaria"],["fav","&#10084;","Favoritas"]];
+const PERFILES=[["noc","&#128716;","Acostado"],["dia","&#128694;","Vida diaria"],["fav","&#10084;","Favoritas"]];
 let fcat="todas", fmon="todas", fblock=null, favOnly=false, ffam=null, fperf=null;
 const R=(a,b)=>Array.from({length:b-a+1},(_,i)=>a+i);
 const FAM=[
@@ -416,10 +417,15 @@ function showList(){ document.getElementById("expBlocks").classList.add("hidden"
 document.getElementById("backBlocks").onclick=showBlocks;
 function enterPerfil(p){
  fblock=null; ffam=null; fcat="todas"; fmon="todas"; favOnly=false; fperf=null;
- if(p==="noc"){ fmon="Al dormirse"; fperf="Al dormirse"; }
+ if(p==="noc"){ fmon="$ACOSTADO"; fperf="Acostado"; }
  if(p==="dia"){ fmon="Vida diaria"; fperf="Vida diaria"; }
  if(p==="fav"){ favOnly=true; fperf="Tus favoritas"; }
  showList();
+}
+function matchMom(m){
+ if(fmon==="todas") return true;
+ if(fmon==="$ACOSTADO") return m.momento==="Al dormirse"||/acostado/i.test(m.postura||"")||(m.variantes||[]).some(v=>/acostado/i.test(v.postura||"")||v.momento==="Al dormirse");
+ return m.momento===fmon;
 }
 function buildChips(){
  const cats=["todas",...new Set(M.map(m=>m.categoria))];
@@ -435,8 +441,8 @@ function render(){
   else if(fperf) title=fperf+(fcat!=="todas"?" · "+CATN[fcat]:"");
  else if(fcat!=="todas") title="Categoría: "+CATN[fcat];
  document.getElementById("listTitle").textContent=title;
- const L=M.filter(m=>(!fblock||(m.num>=fblock.a&&m.num<=fblock.b))&&(!ffam||ffam.nums.includes(m.num))&&(fcat==="todas"||m.categoria===fcat)&&(fmon==="todas"||m.momento===fmon)&&(!favOnly||store.favs.includes(m.num))&&(!q||(m.titulo+m.esencial+m.efecto).toLowerCase().includes(q)));
-   document.getElementById("lista").innerHTML=L.map(m=>{const e=estDe(m.num);return '<div class="tcard" data-open="'+m.num+'"><div class="tnum">'+m.num+' · '+CATN[m.categoria]+(e.estado!=="nueva"?'<span class="esttag '+ESTL[e.estado][1]+'">'+ESTL[e.estado][0]+'</span>':"")+'</div><div class="tt">'+m.titulo+'</div><div><span class="tag">'+m.momento+'</span></div><div class="rowbits"><button class="mini '+(store.favs.includes(m.num)?"fav-on":"")+'" data-f="'+m.num+'">'+(store.favs.includes(m.num)?"&#10084;":"&#9825;")+'</button><button class="mini" data-p="'+m.num+'">&#9654;</button></div></div>';}).join("")||'<p class="sub">Sin resultados. Prueba con otra palabra o quita filtros.</p>';
+  const L=M.filter(m=>(!fblock||(m.num>=fblock.a&&m.num<=fblock.b))&&(!ffam||ffam.nums.includes(m.num))&&(fcat==="todas"||m.categoria===fcat)&&matchMom(m)&&(!favOnly||store.favs.includes(m.num))&&(!q||(m.titulo+m.esencial+m.efecto+(m.variantes?m.variantes.map(v=>v.titulo+v.pasos.join("")).join(""):"")).toLowerCase().includes(q)));
+       document.getElementById("lista").innerHTML=L.map(m=>{const e=estDe(m.num);return '<div class="tcard" data-open="'+m.num+'"><div class="tnum">'+m.num+' · '+CATN[m.categoria]+(e.estado!=="nueva"?'<span class="esttag '+ESTL[e.estado][1]+'">'+ESTL[e.estado][0]+'</span>':"")+'</div><div class="tt">'+m.titulo+'</div>'+(m.variantes?'<div class="sub" style="margin:2px 0;font-size:12px">'+m.variantes.map(v=>{const s=estDe(m.num+v.letra);return m.num+v.letra+': '+ESTL[s.estado][0]+(s.estado==="probando"?" "+s.dias+"/3":"");}).join(" · ")+'</div>':"")+'<div><span class="tag">'+m.momento+'</span></div><div class="rowbits"><button class="mini '+(store.favs.includes(m.num)?"fav-on":"")+'" data-f="'+m.num+'">'+(store.favs.includes(m.num)?"&#10084;":"&#9825;")+'</button><button class="mini" data-p="'+m.num+'">&#9654;</button></div></div>';}).join("")||'<p class="sub">Sin resultados. Prueba con otra palabra o quita filtros.</p>';
  document.querySelectorAll("#lista .tcard").forEach(c=>c.onclick=()=>openDet(M[+c.dataset.open-1]));
  document.querySelectorAll("[data-f]").forEach(b=>b.onclick=e=>{e.stopPropagation();const n=+b.dataset.f;const i=store.favs.indexOf(n);i>=0?store.favs.splice(i,1):store.favs.push(n);save();render();});
  document.querySelectorAll("[data-p]").forEach(b=>b.onclick=e=>{e.stopPropagation();openDet(M[+b.dataset.p-1]);});
@@ -444,10 +450,15 @@ function render(){
 renderBlocks();
 // Detalle (vuelve a la pantalla de origen)
 let backTo="s-hoy";
+function varBlock(m){
+  if(!m.variantes||!m.variantes.length) return "";
+  return '<div class="sect">Tres vías en esta puerta (elige una por sesión)</div>'+
+    m.variantes.map((v,i)=>{const es=estDe(m.num+v.letra);return '<div class="tcard" style="margin-top:8px;cursor:default"><div class="tnum">PUERTA '+m.num+v.letra+' · '+v.titulo.toUpperCase()+'<span class="esttag '+ESTL[es.estado][1]+'">'+ESTL[es.estado][0]+(es.estado==="probando"?" "+es.dias+"/3":"")+'</span></div><div class="tt">'+v.titulo+'</div><div><span class="tag">'+v.momento+'</span><span class="tag">'+v.postura+'</span></div><ol class="pasos">'+v.pasos.map(p=>"<li>"+p+"</li>").join("")+'</ol><p class="poet sub">Guía: '+v.guia+'</p><p class="sub">En el día: '+v.integracion+'</p>'+(v.cuidado?'<div class="note">&#9888; '+v.cuidado+'</div>':"")+'<div class="rowbits">'+Object.keys(ESTL).map(k=>'<button class="mini" data-esv="'+i+':'+k+'" style="'+(es.estado===k?"border-color:var(--menta);font-weight:700":"")+'">'+ESTL[k][0]+'</button>').join("")+'</div><button class="mini" data-var="'+i+'">&#9654; Practicar '+m.num+v.letra+'</button></div>';}).join("");
+}
 function openDet(m){
   const here=(document.querySelector(".screen.on")||{}).id;
   if(here&&here!=="s-det"&&here!=="s-pra") backTo=here;
-  cur = m;
+  cur = m; curVar = -1;
   const fav = store.favs.includes(m.num);
   const es = estDe(m.num);
   document.getElementById("detalle").innerHTML =
@@ -458,7 +469,8 @@ function openDet(m){
     (m.sutra?'<div class="sect">Sutra</div><p class="poet">“'+m.sutra+'”</p>':"")+
     (m.clave?'<div class="sect">Clave práctica</div><p>'+m.clave+'</p>':"")+
     (m.senial?'<div class="sect">Señal de afinidad</div><p class="poet">'+m.senial+'</p>':"")+
-    '<div class="sect">Paso a paso</div><ol class="pasos">'+m.pasos.map(p=>"<li>"+p+"</li>").join("")+'</ol>'+
+    varBlock(m)+
+    '<div class="sect">Paso a paso (resumen)</div><ol class="pasos">'+m.pasos.map(p=>"<li>"+p+"</li>").join("")+'</ol>'+
     '<div class="sect">Frase guia</div><p class="poet">'+m.guia+'</p>'+
     '<div class="sect">Integracion cotidiana</div><p>'+m.integracion+'</p>'+
     '<div class="sect">Efecto observado</div><p>'+m.efecto+'</p>'+
@@ -471,6 +483,8 @@ function openDet(m){
     '<button class="btn btn-p" id="detGo">&#9654; Practicar esta puerta</button>'+
     '<button class="btn btn-s" id="detFav">'+(fav?"&#10084; Quitar de favoritas":"&#9825; Guardar favorita")+'</button>';
   document.getElementById("detGo").onclick = ()=>openPra(m);
+  document.querySelectorAll("[data-var]").forEach(b=>b.onclick=e=>{e.stopPropagation();openPra(m,+b.dataset.var);});
+  document.querySelectorAll("[data-esv]").forEach(b=>b.onclick=e=>{e.stopPropagation();const parts=b.dataset.esv.split(":");setEstado(m.num+m.variantes[+parts[0]].letra,parts[1]);openDet(m);render();});
   document.querySelectorAll("[data-es]").forEach(b=>b.onclick=()=>{setEstado(m.num,b.dataset.es);openDet(m);render();});
   document.getElementById("detFav").onclick = ()=>{const i=store.favs.indexOf(m.num);i>=0?store.favs.splice(i,1):store.favs.push(m.num);save();openDet(m);render();};
   go("s-det");
@@ -481,12 +495,20 @@ let tLeft=300, tTotal=300, tInt=null, audioCtx=null;
 function updT(){ const s=fmt(Math.max(tLeft,0)); document.getElementById("timer").textContent=s; document.getElementById("dimTimer").textContent=s; }
 function bell(f, t){ try{ audioCtx = audioCtx||new (window.AudioContext||window.webkitAudioContext)(); const o=audioCtx.createOscillator(), g=audioCtx.createGain(); o.type="sine"; o.frequency.value=f||528; g.gain.setValueAtTime(.001,audioCtx.currentTime); g.gain.exponentialRampToValueAtTime(.4,audioCtx.currentTime+.05); g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+(t||2)); o.connect(g); g.connect(audioCtx.destination); o.start(); o.stop(audioCtx.currentTime+(t||2)); }catch(e){} }
 function fmt(s){ return String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0"); }
-function openPra(m){
+function openPra(m, varIdx){
   cur = m||cur||hoy;
-  document.getElementById("praNum").textContent = "Puerta "+cur.num+" - "+CATN[cur.categoria];
-  document.getElementById("praTit").textContent = cur.titulo;
-  document.getElementById("praGuia").textContent = cur.guia;
-  document.getElementById("dimGuia").textContent = cur.guia;
+  curVar = (typeof varIdx==="number"&&cur.variantes&&cur.variantes[varIdx])?varIdx:-1;
+  const v = curVar>=0?cur.variantes[curVar]:null;
+  document.getElementById("praNum").textContent = "Puerta "+cur.num+(v?v.letra:"")+" - "+CATN[cur.categoria];
+  document.getElementById("praTit").textContent = v?cur.num+v.letra+" · "+v.titulo:cur.titulo;
+  document.getElementById("praGuia").textContent = v?v.guia:cur.guia;
+  document.getElementById("dimGuia").textContent = v?v.guia:cur.guia;
+  const vr=document.getElementById("praVarRow");
+  if(cur.variantes&&cur.variantes.length){
+    vr.style.display="flex";
+    vr.innerHTML='<button class="mini" data-vr="-1" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid #ffffff44">General</button>'+cur.variantes.map((x,i)=>'<button class="mini" data-vr="'+i+'" style="flex:0 0 auto;background:#ffffff14;color:#fff;border:1px solid '+(i===curVar?"#27AE60":"#ffffff44")+';font-weight:'+(i===curVar?"700":"400")+'">9'+x.letra+'</button>').join("");
+    vr.querySelectorAll("[data-vr]").forEach(b=>b.onclick=()=>openPra(cur,+b.dataset.vr));
+  } else { vr.style.display="none"; vr.innerHTML=""; }
   tLeft = +document.getElementById("dur").value; tTotal=tLeft; updT();
   stopT(); go("s-pra"); bell(528,2);
 }
@@ -521,7 +543,8 @@ document.getElementById("natBtn").onclick = ()=>{ try{ if(audioCtx&&audioCtx.sta
 document.getElementById("vozBtn").onclick = ()=>{
   try{
     if(hablando){ speechSynthesis.cancel(); hablando=false; document.getElementById("vozBtn").innerHTML="&#128483; Guia por voz"; return; }
-    const frases=[...cur.pasos].map(t=>(t||"").trim()).filter(Boolean);
+    const vv=(cur&&curVar>=0&&cur.variantes&&cur.variantes[curVar])?cur.variantes[curVar]:null;
+    const frases=[...(vv?vv.pasos:cur.pasos)].map(t=>(t||"").trim()).filter(Boolean);
     speechSynthesis.cancel();
     hablando=true; document.getElementById("vozBtn").innerHTML="&#9724; Detener voz";
     let i=0;
@@ -538,7 +561,9 @@ document.getElementById("vozBtn").onclick = ()=>{
 document.getElementById("pausa").onclick = ()=>{ openPra(hoy); tLeft=30; tTotal=30; updT(); };
 function endPra(){
   const k = new Date().toISOString().slice(0,10);
-  store.done[k+"#"+cur.num]=true; regPractica(cur.num); save(); prog();
+  store.done[k+"#"+cur.num]=true; regPractica(cur.num);
+  if(cur&&curVar>=0&&cur.variantes&&cur.variantes[curVar]) regPractica(cur.num+cur.variantes[curVar].letra);
+  save(); prog();
   go("s-dia");
   document.getElementById("antesBtns").innerHTML = ["+ Calma","+ Claridad","+ Energia","+ Sueno","+ Gratitud","Igual"].map(x=>'<button class="chip" data-a="'+x+'">'+x+'</button>').join("");
   document.querySelectorAll("[data-a]").forEach(b=>b.onclick=()=>b.classList.toggle("on"));
@@ -553,14 +578,14 @@ document.getElementById("guardarDia").onclick = ()=>{
 document.getElementById("omitir").onclick = ()=>{ go("s-hoy"); };
 function diasDe(n){ const s=new Set(); Object.keys(store.done||{}).forEach(k=>{ const p=k.split("#"); if(+p[1]===n) s.add(p[0]); }); return s.size; }
 function ultimoRes(n){ const e=(store.diario||[]).find(e=>e.puerta===n&&(e.calma||e.claridad||e.energia)); if(!e) return ""; const r=[]; if(e.calma) r.push("calma "+e.calma+"/10"); if(e.claridad) r.push("claridad "+e.claridad+"/10"); if(e.energia) r.push("energía "+e.energia+"/10"); return r.join(" · "); }
-function olvidarPuerta(n){ Object.keys(store.done||{}).forEach(k=>{ if(+k.split("#")[1]===n) delete store.done[k]; }); if(store.estados) delete store.estados[n]; save(); diary(); prog(); }
+function olvidarPuerta(n){ Object.keys(store.done||{}).forEach(k=>{ if(+k.split("#")[1]===n) delete store.done[k]; }); if(store.estados) Object.keys(store.estados).forEach(k=>{ if(k===String(n)||(k.indexOf(String(n))===0&&/[a-z]$/i.test(k))) delete store.estados[k]; }); save(); diary(); prog(); }
 function borrarEntrada(i){ store.diario.splice(i,1); save(); diary(); }
 function exportarDatos(){ try{ const blob=new Blob([JSON.stringify({app:"puertas112",fecha:new Date().toISOString(),favs:store.favs,diario:store.diario,done:store.done,estados:store.estados,perfil:store.perfil},null,1)],{type:"application/json"}); const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="puertas112-mis-datos.json"; document.body.appendChild(a); a.click(); setTimeout(()=>{ try{URL.revokeObjectURL(a.href);}catch(e){} a.remove(); },800); }catch(e){ alert("No se pudo exportar."); } }
 function borrarTodo(){ if(!confirm("Borrar todo tu historial (prácticas, diario, favoritas y estados)?")) return; if(!confirm("Seguro? No se puede deshacer.")) return; localStorage.removeItem("puertas112"); location.reload(); }
 function diary(){
  const d=store.diario;
  const nums=[...new Set([...Object.keys(store.done||{}).map(k=>+k.split("#")[1]), ...Object.keys(store.estados||{}).map(Number)])].filter(n=>n>=1&&n<=112).sort((a,b)=>a-b);
- const rec=nums.length?'<div class="sect">Tu recorrido</div>'+nums.map(n=>{ const m=M[n-1], e=estDe(n), u=ultimoRes(n); return '<div class="diary-e"><small>Puerta '+n+' · '+m.titulo+' · '+diasDe(n)+' día(s) · '+ESTL[e.estado][0]+(u?' · último: '+u:'')+'</small><div><button class="mini" data-ol="'+n+'">Olvidar esta puerta</button></div></div>'; }).join(""):'<p class="sub">Aún sin prácticas registradas.</p>';
+  const rec=nums.length?'<div class="sect">Tu recorrido</div>'+nums.map(n=>{ const m=M[n-1], e=estDe(n), u=ultimoRes(n); const vv=m.variantes?' · '+m.variantes.map(v=>{const s=estDe(m.num+v.letra);return m.num+v.letra+' '+ESTL[s.estado][0];}).join(', '):''; return '<div class="diary-e"><small>Puerta '+n+' · '+m.titulo+' · '+diasDe(n)+' día(s) · '+ESTL[e.estado][0]+vv+(u?' · último: '+u:'')+'</small><div><button class="mini" data-ol="'+n+'">Olvidar esta puerta</button></div></div>'; }).join(""):'<p class="sub">Aún sin prácticas registradas.</p>';
  document.getElementById("entradas").innerHTML = rec+'<div class="sect">Notas</div>'+(d.length? d.slice(0,20).map((e,i)=>'<div class="diary-e"><small>'+e.f+(e.puerta?" - Puerta "+e.puerta:"")+(e.calma?" · calma "+e.calma+"/10":"")+'</small><div>'+((e.tags||[]).join(" ")||"")+'</div><div>'+(e.nota||"")+'</div><div><button class="mini" data-be="'+i+'">Borrar nota</button></div></div>').join("") : '<p class="sub">Aun no hay palabras. A veces la practica mas importante es no tener que explicarla.</p>')+'<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-s" id="expDatos">Exportar mis datos</button><button class="btn btn-s" id="borrarTodo">Borrar todo el historial</button></div>';
  document.querySelectorAll("[data-ol]").forEach(b=>b.onclick=()=>{ if(confirm("Olvidar la puerta "+b.dataset.ol+" (días y estado)? Tus notas se conservan.")) olvidarPuerta(+b.dataset.ol); });
  document.querySelectorAll("[data-be]").forEach(b=>b.onclick=()=>{ if(confirm("Borrar esta nota?")) borrarEntrada(+b.dataset.be); });
